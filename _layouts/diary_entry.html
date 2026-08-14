@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% if page.status == "published" or site.preview_drafts %}
+  <article class="journal-entry" id="entrada-inici">
+    <header class="entry-heading">
+      <div class="entry-heading-meta">
+        <p class="section-kicker">{% if page.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ page.order }}{% endif %}</p>
+        {% if page.status == "draft" %}<span class="draft-chip">Previsualització · Esborrany</span>{% endif %}
+      </div>
+      <h1>{{ page.title | remove: "Pròleg — " }}</h1>
+      {% if page.summary %}<p class="entry-lead">{{ page.summary }}</p>{% endif %}
+      <div class="ornamental-rule" aria-hidden="true"><span></span></div>
+    </header>
+
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    <footer class="entry-footer">
+      <p>Fi de l’entrada</p>
+      <a href="{{ '/diary/' | relative_url }}">Torna a l’índex del diari</a>
+    </footer>
+  </article>
+
+  <nav class="floating-nav" aria-label="Navegació de l’entrada">
+    <a class="floating-nav-button" href="{{ '/diary/' | relative_url }}" aria-label="Torna al diari" title="Torna al diari">←</a>
+    <a class="floating-nav-button" href="#entrada-inici" aria-label="Torna a dalt" title="Torna a dalt">↑</a>
+  </nav>
+{% else %}
+  <article class="unavailable-entry">
+    <p class="section-kicker">Arxiu personal</p>
+    <h1>Entrada no publicada</h1>
+    <p>Aquesta pàgina encara no forma part del diari públic.</p>
+    <a class="button-primary" href="{{ '/diary/' | relative_url }}">Torna al diari</a>
+  </article>
+{% endif %}

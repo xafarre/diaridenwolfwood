@@ -1,0 +1,9 @@
+.DS_Store
+_site/
+.jekyll-cache/
+.bundle/
+tmp/
+
+# Local source documents may be private, licensed, or too large for git.
+.local/*
+!.local/README.md

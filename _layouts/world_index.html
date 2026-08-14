@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+{% if page.item_type %}
+  {% assign entries = site.pages | where: "type", page.item_type | sort: "order" %}
+  {% if entries.size > 0 %}
+    <ul class="card-grid">
+      {% for entry in entries %}
+        <li>
+          <a href="{{ entry.url | relative_url }}">
+            <strong>{{ entry.title }}</strong>
+            {% if entry.summary %}<span>{{ entry.summary }}</span>{% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endif %}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'ca' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#202429">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.summary | default: site.description | strip_html | normalize_whitespace | escape }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body class="layout-{{ page.layout | default: 'default' }}">
+    <a class="skip-link" href="#contingut">Ves al contingut</a>
+
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — portada">
+          <span class="brand-medallion" aria-hidden="true">W</span>
+          <span class="brand-copy">
+            <small>Diari d’en</small>
+            <strong>Wolfwood</strong>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navegació principal">
+          <a{% if page.url contains '/diary/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/diary/' | relative_url }}">Diari</a>
+          <a{% if page.url contains '/world/characters/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/world/characters/' | relative_url }}">Personatges</a>
+          <a{% if page.url == '/world/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/world/' | relative_url }}">Món</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main" id="contingut">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <span class="footer-rule" aria-hidden="true"></span>
+        <p>Arxiu de campanya · Cròniques de Nicholas D. Wolfwood</p>
+      </div>
+    </footer>
+  </body>
+</html>

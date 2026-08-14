@@ -1,0 +1,22 @@
+title: "Diari d'en Wolfwood"
+description: "Role-playing campaign diary and world reference."
+lang: ca
+baseurl: "/diaridenwolfwood"
+url: ""
+preview_drafts: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - AGENTS.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _config.local.yml
+  - notes
+  - diary/chapters/README.md
+  - world/factions/README.md
+  - world/items/README.md
+  - world/places/README.md

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% assign entries = site.pages | where: "type", "diary-entry" | sort: "order" %}
+
+<header class="archive-heading">
+  <p class="section-kicker">Arxiu personal</p>
+  <h1>{{ page.title }}</h1>
+  <p>Relats de Nicholas D. Wolfwood, sacerdot i viatger d’un món industrial.</p>
+</header>
+
+<section class="entry-grid entry-grid-archive" aria-label="Entrades del diari">
+  {% for entry in entries %}
+    {% if entry.status == "published" or site.preview_drafts %}
+      <article class="entry-card">
+        <a href="{{ entry.url | relative_url }}">
+          {% if entry.illustrations.first.path %}
+            <img src="{{ entry.illustrations.first.path | relative_url }}" alt="" loading="lazy">
+          {% endif %}
+          <div class="entry-card-body">
+            <div class="entry-card-meta">
+              <p class="entry-number">{% if entry.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ entry.order }}{% endif %}</p>
+              {% if entry.status == "draft" %}<span class="draft-chip">Esborrany</span>{% endif %}
+            </div>
+            <h2>{{ entry.title | remove: "Pròleg — " }}</h2>
+            {% if entry.summary %}<p>{{ entry.summary }}</p>{% endif %}
+            <span class="text-link">Obre el quadern <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+      </article>
+    {% endif %}
+  {% else %}
+    <p class="empty-state">Encara no hi ha cap entrada publicada.</p>
+  {% endfor %}
+</section>

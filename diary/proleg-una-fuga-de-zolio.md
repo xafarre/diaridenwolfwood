@@ -10,7 +10,7 @@ chapter: proleg
 order: 0
 narrator_public_identity: nicholas-d-wolfwood
 session_ids: [session-001]
-status: draft
+status: published
 language: ca
 illustrations:
   - id: casino-presentation-hall-entry-v8

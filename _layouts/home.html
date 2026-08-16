@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% assign diary_entries = site.pages | where: "type", "diary-entry" | sort: "order" | reverse %}
+{% assign diary_pages = site.pages | where: "type", "diary-entry" %}
+{% assign acts = site.pages | where: "type", "act" %}
+{% assign diary_entries = diary_pages | concat: acts | sort: "order" | reverse %}
 {% assign featured_entry = nil %}
 {% for entry in diary_entries %}
   {% if featured_entry == nil and entry.status == "published" or featured_entry == nil and site.preview_drafts %}
@@ -18,7 +20,7 @@ layout: default
     <h1 id="landing-title">Diari d’en<br><strong>Wolfwood</strong></h1>
     <p class="landing-deck">El progrés té un preu. Algú sempre acaba pagant-lo.</p>
     {% if featured_entry %}
-      <a class="button-primary" href="{{ featured_entry.url | relative_url }}">Comença pel pròleg</a>
+      <a class="button-primary" href="{{ featured_entry.url | relative_url }}">Llegeix l’última entrada</a>
     {% endif %}
   </div>
 </section>
@@ -36,9 +38,11 @@ layout: default
           <a href="{{ entry.url | relative_url }}">
             {% if entry.illustrations.first.path %}
               <img src="{{ entry.illustrations.first.path | relative_url }}" alt="" loading="lazy">
+            {% elsif entry.images.first.path %}
+              <img src="{{ entry.images.first.path | relative_url }}" alt="" loading="lazy">
             {% endif %}
             <div class="entry-card-body">
-              <p class="entry-number">{% if entry.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ entry.order }}{% endif %}</p>
+              <p class="entry-number">{% if entry.type == 'act' %}{{ entry.label | default: "Acte" }}{% elsif entry.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ entry.order }}{% endif %}</p>
               <h3>{{ entry.title | remove: "Pròleg — " }}</h3>
               {% if entry.summary %}<p>{{ entry.summary }}</p>{% endif %}
               <span class="text-link">Llegir l’entrada <span aria-hidden="true">→</span></span>

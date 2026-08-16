@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% assign entries = site.pages | where: "type", "diary-entry" | sort: "order" %}
+{% assign diary_entries = site.pages | where: "type", "diary-entry" %}
+{% assign acts = site.pages | where: "type", "act" %}
+{% assign entries = diary_entries | concat: acts | sort: "order" %}
 
 <header class="archive-heading">
   <p class="section-kicker">Arxiu personal</p>
@@ -17,10 +19,12 @@ layout: default
         <a href="{{ entry.url | relative_url }}">
           {% if entry.illustrations.first.path %}
             <img src="{{ entry.illustrations.first.path | relative_url }}" alt="" loading="lazy">
+          {% elsif entry.images.first.path %}
+            <img src="{{ entry.images.first.path | relative_url }}" alt="" loading="lazy">
           {% endif %}
           <div class="entry-card-body">
             <div class="entry-card-meta">
-              <p class="entry-number">{% if entry.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ entry.order }}{% endif %}</p>
+              <p class="entry-number">{% if entry.type == 'act' %}{{ entry.label | default: "Acte" }}{% elsif entry.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ entry.order }}{% endif %}</p>
               {% if entry.status == "draft" %}<span class="draft-chip">Esborrany</span>{% endif %}
             </div>
             <h2>{{ entry.title | remove: "Pròleg — " }}</h2>

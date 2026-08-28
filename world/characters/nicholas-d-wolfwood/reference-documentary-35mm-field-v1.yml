@@ -1,0 +1,18 @@
+---
+schema: image-sidecar/v1
+id: nicholas-d-wolfwood-documentary-field-v1
+image_path: world/characters/nicholas-d-wolfwood/reference-documentary-35mm-field-v1.png
+created: '2026-08-15'
+mode: unknown
+tool: canonical-asset-copy
+prompt_status: not_archived
+image_status: canonical-reference
+references: []
+supersedes: []
+alt_text: >-
+  Nicholas D. Wolfwood, un sacerdot prim d'uns quaranta anys amb roba fosca i
+  expressió cansada, dret en un carrer industrial.
+notes: >-
+  Byte-identical publication copy of the accepted internal canonical documentary
+  field reference. The spoiler-safe path prevents the character's unrevealed
+  real name from appearing in public URLs, sidecars or front matter.

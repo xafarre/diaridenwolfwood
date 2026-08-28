@@ -1,0 +1,18 @@
+---
+schema: image-sidecar/v1
+id: gebedayah-brass-reference-v1
+image_path: world/characters/gebedayah-brass/reference-v1.jpg
+created: '2026-08-15'
+mode: unknown
+tool: external-player-imagegen
+prompt_status: not_archived
+image_status: visual-source-of-truth
+references: []
+supersedes: []
+alt_text: >-
+  Gebedayah Brass, un obrer gegantí de pell castigada, posa amb una maça dins
+  d'una metal·lúrgica en funcionament.
+notes: >-
+  The exact original generation prompt is unavailable. The user explicitly
+  accepted this player-created image as Gebedayah's primary visual source of
+  truth on 2026-08-15; do not reconstruct or claim an exact original prompt.

@@ -6,7 +6,7 @@ layout: default
   <article class="journal-entry" id="entrada-inici">
     <header class="entry-heading">
       <div class="entry-heading-meta">
-        <p class="section-kicker">{% if page.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ page.order }}{% endif %}</p>
+        <p class="section-kicker">{% if page.label %}{{ page.label }}{% elsif page.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ page.order }}{% endif %}</p>
         {% if page.status == "draft" %}<span class="draft-chip">Previsualització · Esborrany</span>{% endif %}
       </div>
       <h1>{{ page.title | remove: "Pròleg — " }}</h1>

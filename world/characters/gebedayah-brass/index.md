@@ -11,11 +11,14 @@ order: 30
 memory_record_id: gebedayah-brass
 ---
 
-En Gebedayah Brass fa més de dos metres i té un cos que sembla construït per
-resistir allò que faria enrere qualsevol altre home: espatlles enormes, músculs
-prominents, faccions dures i una pell rugosa, castigada com cuir vell. Els anys
-de soroll també li han deixat l’oïda tocada.
+Gebedayah Brass fa més de dos metres i converteix qualsevol habitació en un
+espai més petit. Les espatlles enormes, els músculs prominents i la pell rugosa,
+castigada com cuir vell, fan pensar en un cos construït per resistir allò que
+obligaria qualsevol altre home a buscar una màquina. Els anys de fàbrica també
+li han deixat l’oïda tocada.
 
-Treballa en una metal·lúrgica. Està acostumat als forns, a moure càrregues i a
-fer anar martells i vehicles industrials. Parla poc i aguanta molt; a la presó
-va preferir Cotard, però va acceptar sense escarafalls la decisió del grup.
+És un OG-207 de segona generació i treballa en una metal·lúrgica, entre forns,
+càrregues, martells i vehicles industrials. No malgasta paraules i suporta cada
+nou contratemps amb la paciència de qui ha viscut sempre sota una sirena de
+fàbrica. A la presó preferia Cotard, però va mantenir la paraula i va acceptar
+Suellex quan el grup va prendre la decisió.

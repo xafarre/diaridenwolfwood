@@ -11,12 +11,14 @@ order: 20
 memory_record_id: khor-yugoroto
 ---
 
-En Khor Yugoroto és un jove humanoide amb forma de pantera negra, d’uns vint
-anys i prop d’un metre noranta. Camina dret, té els ulls grocs, una cicatriu que
-li travessa un ull i urpes que pot amagar. Tot el cos és cobert de pelatge negre
-i no té cua.
+Khor Yugoroto és un jove mutant amb forma de pantera negra, d’uns vint anys i
+prop d’un metre noranta. Camina dret, té els ulls grocs, una cicatriu que li
+travessa un ull i urpes retràctils. El pelatge negre li cobreix tot el cos, però
+no té cua.
 
-Vesteix com algú que vol semblar noble. De lluny pot colar; de prop, els
-materials i els acabats el delaten. No m’ha dit a què es dedica. Per la manera
-com observa les sortides i pel seu interès immediat en Suellex, em fa l’efecte
-d’un buscavides amb objectius molt clars.
+Va arribar a la presó vestit com un noble: de lluny, la silueta i el posat
+convencien; de prop, els materials i els acabats delataven la imitació. Va
+suportar sense perdre el temple la cauterització d’una ferida i va defensar una
+petita figureta quan els agents van recollir les pertinences per incinerar-les.
+Després va ser el primer a decantar-se per Suellex. Encara no explica què hi
+busca, però no sembla moure’s sense un objectiu.

@@ -11,10 +11,12 @@ order: 10
 memory_record_id: nicholas-d-wolfwood
 ---
 
-Em dic Nicholas D. Wolfwood. Soc un home prim d’uns quaranta anys, de faccions
-japoneses, cabells foscos i una cara que probablement sembla més cansada del que
-voldria. Vesteixo amb la discreció d’un sacerdot: roba fosca, senzilla i sense
-cap luxe que convidi a mirar-me dues vegades.
+Nicholas D. Wolfwood és un sacerdot prim d’uns quaranta anys, de faccions
+japoneses, cabells foscos i una mirada cansada que la roba austera no acaba
+d’amagar. Vesteix de fosc, sense cap luxe que convidi a mirar-lo dues vegades,
+i es mou amb la discreció de qui prefereix no semblar una amenaça.
 
-Em presento com a sacerdot i sanador. A la presó vaig demostrar que podia curar
-una ferida; de moment, això ha estat suficient perquè deixessin de fer preguntes.
+Es presenta com a sacerdot i sanador. A la presó ho va demostrar quan els
+guàrdies li van exigir que tractés la ferida de Khor: la mà esquerra modificada
+va cauteritzar-la entre arcs elèctrics i olor de carn cremada. La prova va
+respondre la pregunta més immediata; les altres continuen obertes.

@@ -1,9 +1,36 @@
+# Operating-system metadata.
 .DS_Store
+
+# Jekyll build output and caches.
 _site/
 .jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local Ruby/Bundler state.
 .bundle/
+vendor/bundle/
+
+# Disposable working files.
 tmp/
+
+# Generated deliverables. Their editable sources belong under documents/.
+output/
 
 # Local source documents may be private, licensed, or too large for git.
 .local/*
 !.local/README.md
+
+# Public-main boundary. These paths are versioned on local/workbench and must
+# not be added directly from the publishing worktree. Files already tracked on
+# main remain tracked; new public assets arrive through reviewed cherry-picks.
+.agents/
+AGENTS.md
+notes/
+documents/
+assets/images/
+world/**/*.png
+world/**/*.jpg
+world/**/*.jpeg
+world/**/*.webp
+world/**/*.yml

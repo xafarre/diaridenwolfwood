@@ -1,0 +1,17 @@
+#!/bin/sh
+
+remote_name=$1
+
+if [ "$remote_name" != "origin" ]; then
+  exit 0
+fi
+
+while read -r local_ref local_oid remote_ref remote_oid; do
+  if [ "$local_ref" != "refs/heads/main" ] || [ "$remote_ref" != "refs/heads/main" ]; then
+    echo "Push blocked: origin accepts only refs/heads/main -> refs/heads/main." >&2
+    echo "Publish reviewed public commits from the dedicated main worktree." >&2
+    exit 1
+  fi
+done
+
+exit 0

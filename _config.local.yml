@@ -1,0 +1,3 @@
+# Local editorial preview. This never changes an entry's publication status.
+baseurl: ""
+preview_drafts: true

@@ -16,7 +16,16 @@ exclude:
   - Gemfile.lock
   - _config.local.yml
   - notes
+  - documents
+  - output
+  - assets/images/**/*.yml
+  - world/characters/**/*.yml
   - diary/chapters/README.md
   - world/factions/README.md
   - world/items/README.md
   - world/places/README.md
+  - world/characters/kenzo-mori
+  - world/characters/hideo-shima-concept-v1.png
+  - world/characters/hideo-shima-concept-v1.yml
+  - world/characters/hideo-shima-concept-v2.png
+  - world/characters/hideo-shima-concept-v2.yml

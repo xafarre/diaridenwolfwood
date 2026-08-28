@@ -8,12 +8,19 @@ layout: default
 {% if page.item_type %}
   {% assign entries = site.pages | where: "type", page.item_type | sort: "order" %}
   {% if entries.size > 0 %}
-    <ul class="card-grid">
+    <ul class="card-grid{% if page.item_type == 'character' %} card-grid--characters{% endif %}">
       {% for entry in entries %}
         <li>
           <a href="{{ entry.url | relative_url }}">
-            <strong>{{ entry.title }}</strong>
-            {% if entry.summary %}<span>{{ entry.summary }}</span>{% endif %}
+            {% if page.item_type == 'character' and entry.image %}
+              <span class="character-card-portrait">
+                <img src="{{ entry.image | relative_url }}" alt="{{ entry.image_alt | default: entry.title | escape }}">
+              </span>
+            {% endif %}
+            <span class="card-grid-copy">
+              <strong>{{ entry.title }}</strong>
+              {% if entry.summary %}<span>{{ entry.summary }}</span>{% endif %}
+            </span>
           </a>
         </li>
       {% endfor %}

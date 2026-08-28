@@ -2,10 +2,43 @@
 layout: default
 ---
 
-<article class="prose world-entry">
-  <p class="eyebrow">{{ page.type | default: "World entry" }}</p>
-  <h1>{{ page.title }}</h1>
-  {% if page.image %}<img class="hero" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">{% endif %}
-  {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
-  {{ content }}
+{% if page.type == "character" %}
+  {% assign entry_label = "Personatge" %}
+  {% assign parent_url = "/world/characters/" %}
+  {% assign parent_label = "Torna a personatges" %}
+  {% assign footer_label = "Fitxa de personatge" %}
+{% else %}
+  {% assign entry_label = page.label | default: "Món" %}
+  {% assign parent_url = "/world/" %}
+  {% assign parent_label = "Torna al món" %}
+  {% assign footer_label = "Fitxa del món" %}
+{% endif %}
+
+<article class="journal-entry" id="fitxa-inici">
+  <header class="entry-heading">
+    <div class="entry-heading-meta">
+      <p class="section-kicker">{{ entry_label }}</p>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <div class="ornamental-rule" aria-hidden="true"><span></span></div>
+  </header>
+
+  <div class="prose">
+    {% if page.image %}
+      <figure class="diary-illustration diary-illustration--portrait">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">
+      </figure>
+    {% endif %}
+    {{ content }}
+  </div>
+
+  <footer class="entry-footer">
+    <p>{{ footer_label }}</p>
+    <a href="{{ parent_url | relative_url }}">{{ parent_label }}</a>
+  </footer>
 </article>
+
+<nav class="floating-nav" aria-label="Navegació de la fitxa">
+  <a class="floating-nav-button" href="{{ parent_url | relative_url }}" aria-label="{{ parent_label }}" title="{{ parent_label }}">←</a>
+  <a class="floating-nav-button" href="#fitxa-inici" aria-label="Torna a dalt" title="Torna a dalt">↑</a>
+</nav>

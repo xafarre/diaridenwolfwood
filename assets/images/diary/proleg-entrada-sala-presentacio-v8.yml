@@ -1,0 +1,66 @@
+---
+schema: image-sidecar/v1
+id: proleg-entrada-sala-presentacio-v8
+image_path: assets/images/diary/proleg-entrada-sala-presentacio-v8.png
+created: '2026-08-13'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/proleg-placa-del-coure-v8.png
+    role: accepted-rendering-style-reference-only
+  - path: assets/images/diary/proleg-entrada-sala-presentacio-v7.png
+    role: venue-geometry-and-narrative-content-reference-only
+  - path: world/characters/kenzo-mori/reference-electra-mitsudomoe-regenerated-v5.png
+    role: identity-and-initial-costume-reference-only
+supersedes:
+  - assets/images/diary/proleg-entrada-sala-presentacio-v7.png
+prompt: |-
+  Use case: photorealistic-natural
+  Asset type: entirely fresh documentary photograph for the prologue “Una fuga de Zolio”
+
+  Create a new image from scratch, not an edit or repaint of any input.
+
+  INPUT ROLES
+  Image 1 is the accepted project rendering-style reference only: match its authentic full-color documentary photography on fine-grain 35 mm negative film, restrained warm-neutral palette, available-light realism, gentle highlight roll-off, slight optical softness, modest dynamic range and clean organic grain. Do not copy its plaza, people, police, machines, camera or exterior lighting.
+  Image 2 is venue-geometry and narrative-content reference only: retain the open standing cocktail hall, modest far stage, rounded riveted-steel proscenium, closed burgundy curtain, four compact private boxes and the spatial relationship of two pole and two trapeze performers. Do not copy its painterly rendering.
+  Image 3 is identity and initial-costume reference only for Kenzo Mori. Preserve his Japanese face, apparent age around forty, lean build, dark tousled hair, light moustache and short goatee, long charcoal priest coat, restrained burgundy layer, pale piping and small Raijin mitsudomoe pendant. Do not copy its portrait pose, background, lighting or painterly medium.
+
+  PHOTOGRAPHIC PREMISE
+  An unstaged social-documentary color photograph taken on fine-grain 35 mm film by a discreet press or society photographer standing just inside the entrance to a private performance-and-presentation room in a dystopian steampunk casino. The moment feels observed rather than designed: people converse, watch and move naturally without posing. It must read as a real analog photograph from inside this world, not an illustration, concept painting, movie still, glamour shoot or promotional casino image.
+
+  ROOM
+  A spacious but plausible open cocktail hall, not an auditorium. Reddish industrial brick walls, grey riveted-steel beams, exposed pipes, valves and ducts, aged copper fixtures and modest practical machinery. A small raised theatre stage stands at the far end beneath one rounded steel proscenium and a fully closed dark burgundy curtain. Exactly two compact private balcony boxes on each side wall, four total, contain a few wealthy adult patrons. No rows of chairs and no main-floor tables; visible circulation space remains among approximately forty to fifty formally dressed adult guests standing in loose conversational groups.
+
+  CAMERA
+  Landscape 3:2 frame from just inside the main doorway, camera at roughly chest height with a mildly low upward angle sufficient to include both aerial trapezes and the room. Natural 35 mm reportage lens around 35 mm equivalent, not ultra-wide and no fisheye. Kenzo and one wealthy adult bourgeois companion are partial back-view foreground figures near the lower edges, framing the route without blocking the room. Kenzo remains recognisable through profile glimpse, hair, coat piping and pendant but is not posing.
+
+  PERFORMERS
+  Exactly four clearly adult professional women, athletic, confident and focused on their apparatus, wearing practical burgundy-and-brass sleeveless circus costumes with fitted knee-length shorts, gloves and tall performance boots.
+
+  Exactly two vertical poles stand on separate small circular platforms in the middle zone, one left and one right of the central route. Left performer uses a secure leg-clamp layback: both bent legs grip the pole, hips close, torso arched naturally away. Right performer performs a controlled side climb with one hand high, the other lower, inside knee hooked and outside leg extended diagonally. Their poses are distinct and anatomically credible.
+
+  Exactly two separate trapezes hang nearer the entrance, therefore appearing somewhat larger in perspective. Each has one straight bar and exactly two taut ropes attached at its ends. One performer sits sideways with one knee hooked; the other hangs below her bar with both hands and a controlled diagonal line. All ropes, grips and load-bearing contacts are coherent.
+
+  DOCUMENTARY LIGHT AND FILM
+  Warm available amber casino lamps mixed with sparse cool electrical-blue practical light in ceiling machinery. Exposure protects lamp highlights while retaining readable brick, steel, faces and burgundy. Fine low-amplitude irregular grain, gentle film color, mild optical softness and slight natural motion softness only on moving hands or hems. No cinematic color grade, dramatic spotlighting, digital HDR or hyper-sharpening.
+
+  SOCIAL MOOD
+  Elegant entertainment inside an unequal industrial society. Adult performers have presence and professional agency; wealthy guests watch or talk casually. The dystopia is conveyed through exposed infrastructure, hierarchy and the transactional room, not through extreme darkness.
+
+  HARD CONSTRAINTS
+  Fresh generation; authentic documentary 35 mm color photography; same venue geometry as Image 2 but new photographic realization; approximately forty to fifty standing adult guests; exactly four adult women performers; exactly two poles; exactly two correctly rigged trapezes; exactly four compact boxes; modest far stage; closed curtain; no presentation machine yet; Kenzo and companion entering; no police, robots, protest, gas, weapons, creatures, readable text, logo or watermark.
+
+  AVOID
+  Painterly brushwork, cinematic painterly realism, illustration, concept art, glamour photography, posed performers looking at camera, erotic explicitness, impossible pole contact, one-rope trapezes, oversized performers, giant auditorium, opera house, hundreds of guests, seated rows, banquet tables, extra performers, extra boxes, open curtain, visible machine, modern nightclub neon, HDR, orange-teal grading, coarse grain, dust, scratches, light leaks, sepia, heavy vignette, fisheye, warped anatomy, extra limbs, text or watermark.
+alt_text: >-
+  Fotografia documental en color de Kenzo entrant en una sala industrial de
+  còctel, amb convidats dempeus, dues trapezistes, dues artistes de barra i el
+  petit escenari encara tancat per una cortina.
+notes: >-
+  Fresh 35 mm documentary-style image. Reviewed for exactly four adult
+  performers, two two-rope trapezes, two poles, standing cocktail layout,
+  closed stage curtain and non-glamour observational treatment. One of the four
+  side boxes is partly obscured by framing and the crowd. Accepted by the user
+  on 2026-08-13 for the prologue placement.

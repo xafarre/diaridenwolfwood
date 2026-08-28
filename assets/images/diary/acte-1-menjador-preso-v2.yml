@@ -1,0 +1,34 @@
+schema: image-sidecar/v1
+id: acte-1-menjador-preso-v2
+image_path: assets/images/diary/acte-1-menjador-preso-v2.png
+created: '2026-08-16'
+mode: precise-object-edit
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - {path: assets/images/diary/acte-1-menjador-preso-v1.png, role: edit-target}
+supersedes:
+  - assets/images/diary/acte-1-menjador-preso-v1.png
+prompt: |-
+  Use case: precise-object-edit
+  Asset type: corrected Act I prison dining-hall diary illustration
+
+  Input image:
+  Image 1 is the exact edit target. Preserve the image in every respect except for the protagonists' gaze directions and the smallest natural head/upper-body adjustments needed to make their quiet conversation readable.
+
+  Primary correction:
+  Make Nicholas, Khor and Gebedayah visibly engaged with one another in a subdued conversation at their table instead of staring separately into the distance.
+  - Nicholas turns his gaze and face slightly toward Khor and Gebedayah, as if speaking quietly.
+  - Khor looks directly toward Nicholas with attentive yellow eyes and a slight conversational head turn.
+  - Gebedayah turns his head and eyes toward Nicholas and Khor, stoically listening and participating rather than staring down or away.
+  Their expressions remain tired, restrained and natural for prisoners during quarantine. Use a believable triangular exchange of eyelines across the table; they must not all stare at the same off-screen point or directly at the camera.
+
+  Strict invariants:
+  Preserve the exact high-angle composition, 3:2 crop, camera and perspective; every table, bench, column, window, pipe, lamp, bowl, cup and background inmate; the sparse occupancy; the protagonists' exact identities, body scale, positions, white prison gowns and lack of possessions; the fine-grain 35 mm documentary rendering, exposure, colour and depth. Gebedayah remains enormous, Khor remains a lean black-panther humanoid with no tail, and Nicholas remains lean and human. Do not add, remove or relocate anyone. Do not expose Nicholas's modified hand.
+
+  Hard constraints:
+  Only adjust the three protagonists' gazes plus minimal natural head and shoulder turns; all three visibly converse with each other; no one looks into the distance; no one looks at camera; no figurine, street clothes, pendant, cap, hammer, weapon, readable text, logo, caption or watermark.
+
+  Avoid:
+  Changing the room, tables, food, population, lighting, faces or costumes; adding gestures with malformed hands; smiles or laughter; theatrical argument; heroic posing; duplicated people; identity drift; reframe; new objects; any other edit.

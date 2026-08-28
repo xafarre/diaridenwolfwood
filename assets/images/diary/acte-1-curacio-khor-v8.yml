@@ -1,0 +1,40 @@
+schema: image-sidecar/v1
+id: acte-1-curacio-khor-v8
+image_path: assets/images/diary/acte-1-curacio-khor-v8.png
+created: '2026-08-16'
+mode: precise-object-edit
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - {path: assets/images/diary/acte-1-curacio-khor-v7.png, role: edit-target}
+  - {path: world/characters/kenzo-mori/left-hand-txc0001-cautery-test-v10.png, role: canonical-mechanical-reference}
+supersedes:
+  - assets/images/diary/acte-1-curacio-khor-v7.png
+prompt: |-
+  Use case: precise-object-edit
+  Asset type: corrected extreme-detail TXC-0001 treatment illustration
+
+  Input images:
+  Image 1 is the exact scene and edit target.
+  Image 2 fixes the canonical one-to-one geometry between the four non-thumb fingers and the four circular dorsal knuckle apertures.
+
+  Primary correction:
+  Image 1 has exactly four posts, but their spacing makes the little finger appear to have no coherent knuckle port. Rebuild ONLY the transverse knuckle-port row so there is an unmistakable one-to-one alignment:
+  1. one circular collar and short terminal centered directly at the root of the human LITTLE finger, far left;
+  2. one centered directly at the root of the human RING finger;
+  3. one centered directly at the root of the human MIDDLE finger;
+  4. one centered directly at the root of the fully MECHANICAL INDEX finger beside the thumb, far right.
+  Exactly four fingers in the non-thumb row and exactly four collars/posts beneath them. Each finger must visibly continue beyond its own collar. Use even anatomically plausible spacing that follows the actual finger roots; no port may sit between fingers, overlap a neighboring finger, disappear into the little finger, or float away from its metacarpal.
+
+  Activation:
+  Keep exactly four short equal rod terminals protruding approximately one centimetre, one from each of the four collars. Preserve restrained violet-white arcs linking the four terminals. Do not add a fifth collar or terminal.
+
+  Strict invariants:
+  Preserve the exact crop, left-hand orientation, wrist, fully visible ordinary thumb on screen right, all four long fingers pointing upward, fully mechanical index beside the thumb, human middle/ring/little fingers, palm pressed to Khor's black-furred flank, lifted clothing, smoke, lighting, colour, texture and every other scene detail. Do not change the hand to a right hand. Do not change Khor's fur or clothing. The wound stays invisible under the palm.
+
+  Hard constraints:
+  Exactly five intact digits; exactly four non-thumb fingers; exactly four collars; exactly four 1 cm terminals; clear one-port-per-finger alignment including the little finger; no extra or missing port; no visible wound, blood or penetration; no text or watermark.
+
+  Avoid:
+  A fifth port, little finger without a port, port hidden inside the little finger, ports between fingers, merged collars, rods replacing fingers, changed laterality, altered digit count, long rods, visible injury, reframing, new objects or any other edit.

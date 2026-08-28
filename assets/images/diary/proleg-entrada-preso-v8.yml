@@ -1,0 +1,85 @@
+---
+schema: image-sidecar/v1
+id: proleg-entrada-preso-v8
+image_path: assets/images/diary/proleg-entrada-preso-v8.png
+created: '2026-08-13'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/proleg-placa-del-coure-v8.png
+    role: accepted-rendering-style-reference-only
+  - path: assets/images/diary/proleg-entrada-preso-v7.png
+    role: composition-and-institutional-geometry-reference-only
+  - path: world/characters/kenzo-mori/reference-initial-costume-turnaround-v1.png
+    role: canonical-dorsal-costume-reference
+  - path: assets/images/world/civil-order-police-automaton-turnaround-v1.png
+    role: canonical-technology-reference
+supersedes:
+  - assets/images/diary/proleg-entrada-preso-v7.png
+prompt: |-
+  Use case: photorealistic-natural
+  Asset type: entirely fresh documentary photograph for the prison-arrival scene in the prologue “Una fuga de Zolio”
+
+  Create a new image from scratch, not an edit or repaint.
+
+  INPUT ROLES
+  Image 1 is the accepted project rendering-style reference only: match its authentic full-color documentary photography on fine-grain 35 mm negative film, restrained warm-neutral palette, overcast available light, modest dynamic range, gentle highlight roll-off, slight optical softness and clean organic grain. Do not copy its plaza, camera or crowd.
+  Image 2 is composition and institutional-geometry reference only: preserve the strong low dorsal viewpoint, one monumental prison entrance, inbound and outbound prisoner flows separated by a divider and oppressive brick-and-steel scale. Do not copy its painterly medium or incidental errors.
+  Image 3 is the strict canonical dorsal costume reference for Kenzo Mori. Preserve his back-facing silhouette and clothing.
+  Image 4 is the strict canonical design and human-scale reference for the civil-order police automata.
+
+  PHOTOGRAPHIC PREMISE
+  An unstaged documentary color photograph taken on fine-grain 35 mm film by an official or press photographer crouched near ground level behind the incoming detainees at an industrial prison. The photograph witnesses coercive institutional movement rather than staging an epic entrance. It must look physically photographed in pale overcast daylight, not illustrated, cinematic or promotional.
+
+  EXACT MOMENT AND FLOWS
+  Kenzo and a column of newly detained adults from the casino walk away from camera into the prison through the right lane of exactly one broad gate. Existing adult prisoners who were already incarcerated walk outward toward camera through the separated left lane, then pass laterally. The streams never intersect. Kenzo surrendered and walks voluntarily under guard: no struggle, dragging, raised restraints or violence.
+
+  CAMERA
+  Portrait-oriented 2:3 frame, very low dorsal camera at ankle-to-knee height behind the inbound column, using a natural 35 mm documentary lens and looking moderately upward. Kenzo fills the lower-center foreground from behind, full or three-quarter body, while the single gate and severe facade rise above. The floor and central divider create strong converging documentary lines. Existing prisoners occupy the left stream. Two automata flank only the inbound right lane at middle-ground depth beside adults.
+
+  KENZO
+  Lean Japanese man around forty, dark slightly tousled hair. From Image 3: long charcoal layered false-priest coat, narrow pale silver-grey piping on high collar, coat edges, cuffs, hem and rear seam; restrained burgundy inner layers visible naturally; dark practical trousers and worn ankle boots. No visible weapon. Relaxed surrendered hands and natural walking posture.
+
+  PEOPLE
+  Incoming detainees are adults in dishevelled formal casino clothing or ordinary industrial-period clothing, primarily seen from behind. Existing outgoing prisoners are adults in plain worn prison garments. Nobody in either stream shows blue lips, blue eye staining, cyan skin, rash, medical lesions or quarantine markings. Faces and bodies remain natural.
+
+  CANONICAL AUTOMATA
+  Exactly two identical civil-order automata accompany only the inbound right lane. Each matches Image 4:
+  - approximately 1.50 metres to the smaller spherical head, reaching nearby adults’ shoulder or upper chest;
+  - exactly two stacked spheres, large body plus smaller head;
+  - no legs, feet, wheels or tracks;
+  - weathered brass/copper panels and dark equatorial steel harness;
+  - two short articulated arms;
+  - one dark police baton in one hand;
+  - one broad crescent-jawed pincer in the other; chain retracted;
+  - warm ivory eyes and a fixed friendly smile;
+  - telescopic dorsal mast behind the head with compact horizontal four-blade propeller;
+  - hover only a few centimetres over the paving.
+  They must be substantial human-scale machines, not balls or toys. Keep their design readable in side/back three-quarter views while remaining naturally embedded in the column.
+
+  PRISON
+  Exactly one monumental rectangular gate in a severe reddish-brick and grey riveted-steel facade. One raised overhead portcullis-like grille defines the sole threshold. A waist-high riveted central divider begins in the foreground and continues through the gate, separating inbound right from outbound left. Beyond it is one continuous dim processing yard, not another doorway or inner gate. Tall walls, steel buttresses, barred windows, exposed pipes, gauges, valves, ducts and catwalks establish mechanical institutional scale.
+
+  GROUND
+  Wet reddish-brown industrial brick and worn threshold slabs with coherent perspective, dark mortar, chipped edges, drainage channels, embedded narrow rails, functional grates, dirty damp patches and a few shallow muddy puddles with soft grey reflections. The surface is tactile but photographic rather than hyper-detailed. No melted or repetitive AI paving.
+
+  35 MM AVAILABLE LIGHT
+  Pale overcast daylight, readable midtones, warm brick, neutral steel, weathered copper and pale steam. Fine irregular low-amplitude grain, slight analog optical softness, gentle highlight roll-off and restrained saturation. Very slight motion softness on a few walking feet or coat hems; Kenzo and gate remain clear. No dramatic rim light, cinematic grade, HDR or hyper-sharpening.
+
+  HARD CONSTRAINTS
+  Fresh authentic documentary 35 mm photograph; portrait 2:3; strong low dorsal camera; one prison gate and one divided threshold; inbound right, outbound left; Kenzo from behind; exactly two canonical human-scale automata in inbound lane; no visible Zolio symptoms on anyone; wet dirty coherent paving; no second gate, Gatling units, tanks, tracked vehicles, humanoid robots, modern riot gear, cages, executions, fighting, readable text, logo or watermark.
+
+  AVOID
+  Painterly brushwork, illustration, concept art, cinematic lighting, movie-poster composition, heroic staging, tiny robots, one-sphere robots, robot legs, head-mounted propellers, visible chains, blue lips, cyan facial marks, sick outgoing prisoners, duplicated gates, two entrances, gothic dungeon, cathedral, intersecting flows, ambiguous movement, smooth empty floor, mirror puddles, extreme darkness, HDR, orange-teal grading, coarse grain, dust, scratches, light leaks, sepia, heavy vignette, fisheye, warped anatomy, text or watermark.
+alt_text: >-
+  Fotografia documental en color, des d'un pla baix dorsal, de Kenzo i els
+  detinguts entrant per la dreta d'una única porta industrial mentre els presos
+  antics surten per l'esquerra i dos autòmats escorten el grup entrant.
+notes: >-
+  Fresh 35 mm documentary-style image. Reviewed for one gate, low dorsal
+  camera, non-intersecting inbound and outbound streams, canonical dorsal Kenzo
+  costume, two substantial canonical automata, wet coherent paving and absence
+  of visible Zolio symptoms. Accepted by the user on 2026-08-13 for the
+  prologue placement.

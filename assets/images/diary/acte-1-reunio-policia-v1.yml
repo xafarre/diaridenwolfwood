@@ -1,0 +1,47 @@
+schema: image-sidecar/v1
+id: acte-1-reunio-policia-v1
+image_path: assets/images/diary/acte-1-reunio-policia-v1.png
+created: '2026-08-16'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - {path: assets/images/diary/proleg-placa-del-coure-v8.png, role: style-reference-only}
+  - {path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png, role: identity-reference}
+  - {path: world/characters/khor-yugoroto/concept-v1.png, role: identity-reference}
+  - {path: world/characters/gebedayah-brass/reference-v1.jpg, role: identity-and-proportion-reference}
+supersedes: []
+prompt: |-
+  Use case: photorealistic-natural
+  Asset type: fresh landscape diary illustration for Act I, bureaucratic prison interview
+
+  Primary request:
+  Create an unstaged documentary photograph of Nicholas D. Wolfwood, Khor Yugoroto and Gebedayah Brass meeting the prison police bureaucrat who explains their two destinations. They sit on the prisoner side of a thick glass partition; the single officer works at a desk on the office side.
+
+  Input images:
+  Image 1 is only the accepted fine-grain 35 mm documentary rendering reference; do not copy its plaza, aerial camera, crowd, vehicles or architecture.
+  Image 2 fixes Nicholas's face, lean build, apparent age around forty, dark tousled hair, light moustache and short goatee. Do not copy his street clothes; he wears a plain institutional white prison gown.
+  Image 3 fixes Khor's identity: lean young adult humanoid black panther, short black fur, yellow eyes, diagonal scar across one eye, feline ears and no tail. Do not copy his aristocratic clothes; he wears a plain white prison gown.
+  Image 4 fixes Gebedayah's identity and proportions: more than two metres tall, extraordinarily massive shoulders and muscles, huge square head, weathered scarred leather-like skin and dark stubble. Do not copy his factory, cap, hammer or worker clothes; he wears a plain white prison gown.
+
+  Exact cast:
+  EXACTLY FOUR people in the entire image: exactly one human police bureaucrat and exactly the three protagonists Nicholas, Khor and Gebedayah. No guards, clerks, other prisoners, silhouettes, portraits or reflected extra people.
+
+  Scene:
+  A small late nineteenth-century industrial prison administrative interview room. A heavy steel-framed glass partition crosses the room and clearly separates the officer's compact office from the prisoner seating area. The glass has a small circular perforated speaking grille and a narrow document pass-through at desk height. On the office side are an old wooden desk, paper forms, ledger, fountain pen, ink pad, date stamp and restrained brass-and-iron filing mechanisms. On the prisoner side are exactly three simple bolted chairs. Aged red brick, matte riveted steel, exposed pipes and wired glass establish the steampunk institution. No noble, company representative or subordinate attends: only the police bureaucrat gives the explanation.
+
+  Composition:
+  Landscape 3:2, natural oblique medium-wide reportage view from slightly behind and to one side of the seated officer, around a 40 mm lens. The officer appears in restrained three-quarter back/profile in the near foreground, writing or indicating two separate paper forms. The steel-framed glass partition is unmistakable across the middle of the frame. Beyond it, the three protagonists sit side by side facing the officer and camera at a slight angle, all faces readable. Nicholas sits centrally attentive and calculating; Khor leans slightly forward with alert interest; Gebedayah sits stoically, his massive body cramped by the ordinary chair. Their arrangement should feel like a real bureaucratic conversation, not a posed lineup. Reflections in the glass are weak and must not create duplicate people.
+
+  Temporary state:
+  The protagonists have already been decontaminated and wear simple coarse plain white or off-white prison gowns. No one has street clothes or possessions. Nicholas's modified left hand is not demonstrated and remains discreetly below desk height or inside the gown sleeve. Khor has no figurine visible. Gebedayah has no cap, hammer or tools. The officer wears a matte dark navy industrial police uniform and simple cap without readable insignia.
+
+  Lighting and medium:
+  Unstaged full-colour documentary photography captured directly on fine-grain 35 mm negative film. Cool diffuse daylight from a high side window mixed with one restrained warm desk lamp, natural exposure, modest dynamic range, gentle highlight roll-off, rich uncrushed blacks, slight optical softness, restrained warm-neutral colour and clean low-amplitude grain. Tactile paper, old wood, coarse white cloth, brick, fur, scarred skin and matte metal. Clear midtones, no movie-still dramatization.
+
+  Hard constraints:
+  Fresh generation; exactly four people total; one police bureaucrat on office side; only Nicholas, Khor and Gebedayah on prisoner side; thick glass partition visibly separates them; exactly three prisoner chairs; all protagonists in plain white gowns; no noble or company representative; no street clothing, pendant, cap, hammer, figurine or weapons; no visible mechanical treatment action; Khor has no tail; no readable writing, text, labels, logos, captions or watermark.
+
+  Avoid:
+  Extra clerk, extra guard, extra prisoner, reflected duplicate person, open room without glass, modern bank counter, modern fluorescent interview booth, medieval dungeon, noble visitor, company emissary, standing heroic lineup, interrogation violence, handcuffs, duplicated protagonists, generic werewolf Khor, Khor with a tail, normal-sized Gebedayah, visible mechanical hand as focal point, glossy sci-fi surfaces, painterly concept art, cinematic teal-orange grading, harsh spotlight, decorative bokeh, HDR, coarse grain, dust, scratches, sepia, heavy vignette, legible text or watermark.

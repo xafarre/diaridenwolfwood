@@ -1,0 +1,84 @@
+---
+schema: image-sidecar/v1
+id: proleg-placa-del-coure-v8
+image_path: assets/images/diary/proleg-placa-del-coure-v8.png
+created: '2026-08-13'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/world/civil-order-police-automaton-turnaround-v1.png
+    role: canonical-technology-reference
+supersedes:
+  - assets/images/diary/proleg-placa-del-coure-v3.png
+  - assets/images/diary/proleg-placa-del-coure-v5.png
+  - assets/images/diary/proleg-placa-del-coure-v6.png
+  - assets/images/diary/proleg-placa-del-coure-v7.png
+prompt: |-
+  Use case: photorealistic-natural
+  Asset type: entirely fresh documentary photograph for the prologue “Una fuga de Zolio”
+
+  Create a new image from scratch. Do not use or imitate any previous Plaça del Coure image. The supplied image is only the strict technical reference for the police automata; do not inherit its model-sheet medium, studio lighting, background, layout or scale silhouette.
+
+  NON-NEGOTIABLE CAMERA
+  A true near-vertical aerial photograph from a rooftop observation platform, camera pitched downward between 82 and 86 degrees from horizontal: almost straight down, only 4 to 8 degrees away from a pure 90-degree zenith. The circular plaza must read almost as a circle, not as a steep ellipse. Building roofs and canopies are visible much more than facades. Human figures are primarily seen from above, with heads and shoulders visible and only minimal frontal body surfaces. No window frame, balcony rail, ledge or foreground architecture intrudes into the image. Do not lower the camera into a high-oblique street view.
+
+  The image is an authentic unstaged full-color press photograph captured on fine-grain 35 mm negative film by a documentary photographer during a civic disturbance in a fictional dystopian steampunk city. Natural available-light reportage, not an illustration, painting, concept image, movie still or promotional composition.
+
+  PLAZA GEOMETRY
+  Show enough urban area to make the Plaça del Coure a complete broad circular civic square with exactly four radial access streets clearly visible at roughly top, right, bottom and left. A large casino occupies part of the upper rim, seen mostly as its roof canopy and threshold; its entrance is unmistakable through large card-suit, dice and roulette motifs built into the canopy and paving, with no readable text. No trees, gardens, statues or ornamental fountain.
+
+  The square uses reddish industrial brick paving crossed by concentric grey steel drainage bands and practical grilles. Surrounding roofs and streets are aged red brick, dark painted steel, exposed pipes and ducts. Weathered copper appears selectively in functional street lamps, advertising frames and small drinking-water fountains. A few vents release pale steam.
+
+  WET, DIRTY SURFACE
+  A recent shower has left the neglected plaza irregularly wet and dirty: broad dark damp patches, ingrained soot, muddy footprints near the crowd and police, shallow truck wheel marks, and six to ten broad shallow puddles of brown opaque mud gathered beside drains and in worn depressions. Puddles have uneven dirty edges and soft diffuse grey-sky reflections only. Preserve substantial stained or merely damp brick between puddles. No uniform flooding or glossy mirror surface.
+
+  EVENT GEOMETRY
+  About five hundred adult casino patrons, employees and protesters are compressed against the casino entrance along the upper rim. About one hundred human police officers in matte dark navy industrial uniforms form one single continuous shoulder-to-shoulder semicircle whose ends nearly meet the casino, sealing the crowd against it. From this near-vertical angle, the crowd mass and the police arc must be immediately readable.
+
+  Exactly four compact boxy steam-era police personnel trucks stand near the four outer access routes. They are practical transports, not tanks.
+
+  CANONICAL CIVIL-ORDER AUTOMATA
+  Show eight clearly visible automata in the open half of the square, distributed beside isolated adult police officers on the same depth plane. Reproduce the supplied canonical design faithfully:
+  - 1.50 metres high, reaching an adult’s shoulder or upper chest;
+  - exactly two stacked spheres: a large 0.95-metre body and a clearly smaller separate head;
+  - no legs, feet, wheels or tracks;
+  - weathered brass/copper panels and dark riveted-steel equatorial harness;
+  - two short articulated arms;
+  - one visible dark police baton in one hand;
+  - one broad crescent-jawed restraint pincer as the other hand; chain retracted;
+  - two warm ivory eyes and one fixed friendly smile;
+  - a telescopic mast rises from the rear upper body behind the head, carrying a compact horizontal four-blade propeller;
+  - hover only a few centimetres above the paving.
+
+  ZENITH LEGIBILITY SOLUTION
+  Because the camera is almost vertical, the two-sphere construction must be shown through visible circular separation, offset shadows and slight body/head offset caused by the remaining 4–8 degree obliqueness. The dorsal rotor and two lateral arms must create unmistakable silhouettes around each unit. Place the eight automata in the middle and lower open plaza, not directly below the camera and not lost in the crowd. Each must be comparable in footprint and shadow to nearby adult officers and must never resemble a football, bollard or single brass ball.
+
+  COMPOSITION
+  Landscape 3:2 frame. The entire circular plaza and all four access streets dominate the image. Casino on the upper rim, crowd immediately beneath it, continuous police semicircle across the upper-middle, large open wet circular paving below, four trucks near separate approaches, canonical automata clearly spaced through the open half. Documentary asymmetry is welcome, but the full civic geometry must remain visible. Do not crop away the lower or side access streets.
+
+  35 MM DOCUMENTARY CHARACTER
+  Fine-grain color negative film, natural warm-neutral restrained color, gentle highlight roll-off, rich uncrushed blacks, slight analog optical softness and fine low-amplitude irregular grain. Bright grey overcast daylight. Social-documentary seriousness and an observational, historically consequential feeling. No cinematic color grade.
+
+  REFLECTION CONTROL
+  Wet areas and muddy puddles produce only broad soft low-contrast reflections. No sparkling cobbles, pinprick highlights, glittering droplets, reflected bulb constellations, bokeh, sun glints or polished-metal glare.
+
+  HARD CONSTRAINTS
+  Fresh generation; authentic documentary photograph on 35 mm film; 82–86-degree downward camera angle; entire circular plaza visible; all four radial accesses visible; one semicircular police cordon; approximately five hundred contained adults; exactly four trucks; eight recognizable canonical automata at human scale; dirty damp paving and muddy puddles; no heavy Gatling units; no trees; no decorative fountain; no readable text, logo, caption or watermark.
+
+  AVOID
+  High-oblique 45-degree view, eye-level view, low camera, window framing, visible foreground ledge, cropped plaza, missing access streets, facade-dominant composition, painterly brushwork, illustration, concept art, cinematic grading, movie-poster composition, perfect decorative symmetry, 3D-render sheen, HDR, tiny robots, single-sphere robots, humanoid robots, robot legs, wheels or tracks, missing smiles or tools, head-mounted propeller, Gatling weapons, tanks, modern vehicles, clean dry paving, uniform flooding, mirror-like puddles, active rainfall, glitter, micro-specular highlights, coarse grain, white dust specks, scratches, light leaks, sepia, monochrome, heavy vignette, strong blur, duplicated people, warped anatomy, text or watermark.
+alt_text: >-
+  Fotografia documental gairebé zenital de la Plaça del Coure: el cercle de
+  maó humit i enfangat, els quatre accessos, la multitud continguda davant del
+  casino, el semicercle policial, quatre camions i vuit autòmats.
+notes: >-
+  Fresh candidate restoring the required near-zenith geometry after v7 lost it.
+  Review: the plaza reads almost circular, the casino and containment arc are
+  clear, and muddy puddles remain broad and low-reflection. The near-vertical
+  view necessarily reduces facial and two-sphere readability on the automata;
+  their rotors, arms, footprint and nearby officers preserve category and scale.
+  Accepted by the user on 2026-08-13 for prologue placement and as the project
+  rendering-style reference for documentary color photography on fine-grain
+  35 mm film.

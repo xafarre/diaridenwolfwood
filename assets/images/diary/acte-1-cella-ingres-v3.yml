@@ -1,0 +1,30 @@
+schema: image-sidecar/v1
+id: acte-1-cella-ingres-v3
+image_path: assets/images/diary/acte-1-cella-ingres-v3.png
+created: '2026-08-16'
+mode: precise-object-edit
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - {path: assets/images/diary/acte-1-cella-ingres-v1.png, role: edit-target}
+supersedes:
+  - assets/images/diary/acte-1-cella-ingres-v1.png
+prompt: |-
+  Use case: precise-object-edit
+  Asset type: corrected Act I prison-intake diary illustration
+
+  Input image:
+  Image 1 is the exact edit target and must remain the same image in every respect except for the single correction below.
+
+  Primary request:
+  Remove only the small figurine currently visible in Khor Yugoroto's hand. Replace it with Khor's naturally empty black-furred hand in the same position, with relaxed anatomically coherent fingers. The figurine is stored out of sight at this moment and must not be visible anywhere in the frame.
+
+  Strict invariants:
+  Preserve the exact composition, crop, camera, two police officers seen from behind, every detainee, all faces and identities, body proportions, poses, gazes, clothing, pendant, room architecture, lighting, color, 35 mm documentary texture, depth of field and every other object. Khor remains the same lean black-panther humanoid with the same scar, yellow eyes, outfit and stance. Do not add, remove, move or redesign any person. Do not change Nicholas, Gebedayah, the officers or the secondary prisoners. Do not change the people count. Do not reveal Nicholas's modified hand.
+
+  Correction only:
+  The small object in Khor's visible hand disappears; that hand becomes empty and natural. No object bulge, chain, pouch, weapon or replacement accessory.
+
+  Avoid:
+  Any other alteration, reframing, identity drift, changed expression, changed clothing, changed fingers elsewhere, extra or missing people, visible figurine elsewhere, visible mechanical hand, text, logo, caption or watermark.

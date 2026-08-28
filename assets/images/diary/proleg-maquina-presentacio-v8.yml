@@ -1,0 +1,48 @@
+---
+schema: image-sidecar/v1
+id: proleg-maquina-presentacio-v8
+image_path: assets/images/diary/proleg-maquina-presentacio-v8.png
+created: '2026-08-13'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/proleg-placa-del-coure-v8.png
+    role: accepted-rendering-style-reference-only
+  - path: assets/images/diary/proleg-entrada-sala-presentacio-v8.png
+    role: current-photographic-venue-reference
+  - path: assets/images/diary/proleg-maquina-presentacio-v6.png
+    role: machine-presenter-and-stage-content-reference-only
+supersedes:
+  - assets/images/diary/proleg-maquina-presentacio-v6.png
+prompt: |-
+  Use case: photorealistic-natural
+  Asset type: entirely fresh documentary photograph of the Zolio-machine presentation
+
+  Create a new image from scratch. Image 1 controls only the accepted fine-grain 35 mm documentary photographic response. Image 2 controls only the casino room architecture. Image 3 controls only the machine design, presenter-to-machine scale and the presenter's mechanical-jaw concept. Do not copy any painterly rendering.
+
+  A discreet society photographer captures an unstaged full-color 35 mm negative-film photograph from the front-left compact private box during the formal unveiling in the same open cocktail hall as Image 2: reddish brick, exposed dark steel, pipes, rounded proscenium, open burgundy curtain, modest stage and four compact side boxes. Forty to fifty adults stand naturally on the chairless floor and in the boxes. No performers or circus apparatus remain. No protest, weapon, police, robot, gas leak or panic.
+
+  The substantial Zolio machine fills roughly three quarters of the modest stage and is about four times an adult man's height. It has a reinforced glass cylindrical chamber holding a small amount of sealed vivid blue crystalline Zolio and controlled pale-blue vapor, surrounded by large gears, valves, pressure gauges, handling arms, insulated conduits and transfer fittings. It is one major component of a wider urban process, not an entire factory, and nothing leaks.
+
+  The sole presenter is a corpulent impeccably dressed adult man of normal human height at the stage's front-right. Frame him substantially closer than in Image 3: he occupies about one fifth of the image height, while the machine still towers behind and above him. Show his head in a clear left-facing three-quarter profile under mixed warm and blue light. His lower face is clean-shaven: absolutely no beard, moustache, stubble or dark facial hair.
+
+  His artificial mutation is unmistakably an EXTERNAL MECHANICAL MANDIBLE replacing the entire biological lower jaw. From below the lower lip to the chin and back to both jaw joints, show exposed articulated gunmetal plates, a segmented steel chin, two circular hinge mechanisms at the sides below the ears, and thin visible copper actuator rods continuing into a reinforced collar at the upper neck. The metal jaw has hard manufactured edges, small bolts, moving seams and blue highlights. Skin ends cleanly at the upper boundary of the mechanism. It cannot be mistaken for facial hair, a painted jawline, a respirator, a mask or a wound. His mouth opening and upper lip remain human above the apparatus. He gestures toward the machine and is presented as a speaker, not necessarily its inventor.
+
+  Composition: landscape 3:2, moderately high oblique documentary view from the left box, but tighter and less wide than the prior attempt. Machine occupies the left-center and upper frame; presenter occupies the right-center on the same stage, large enough for jaw mechanics to be obvious at full-image view. Audience heads and shoulders occupy the lower foreground without hiding his face. Include part of the opposite boxes, proscenium, open curtain and stage steps for continuity. Avoid perfect symmetry.
+
+  Available-light reportage: warm amber wall and footlights plus the chamber's pale blue glow. Protect highlights, retain natural skin and brick midtones. Fine irregular low-amplitude 35 mm grain, gentle highlight roll-off, mild optical softness, restrained warm-neutral film color, slight hand-motion softness only. No cinematic grade, product-advertising polish, HDR or digital hyper-sharpening.
+
+  Hard constraints: fresh authentic 35 mm documentary photograph; same room as Image 2; standing guests, no chairs; exactly one normal-height corpulent presenter; machine about four times his height; jaw must visibly be external articulated metal with hinges and actuator rods; presenter's lower face clean-shaven; sealed blue Zolio; no performers, protest, weapons, police, automata, leak, readable text, logo or watermark.
+
+  Avoid: beard, moustache, goatee, stubble, dark facial hair, ordinary human lower jaw, subtle jaw implant, jaw hidden by distance, respirator, face mask, muzzle, monster mouth, giant presenter, tiny presenter, miniature machine, factory replacing stage, illustration, painterly brushwork, concept art, cinematic color grading, movie-poster lighting, advertising photo, opera house, seated audience, modern screens, perfect frontal symmetry, HDR, coarse grain, dust, scratches, light leaks, sepia, fisheye, warped anatomy, text or watermark.
+alt_text: >-
+  Fotografia documental en color d'una gran màquina de Zolio blau sobre el
+  petit escenari del casino, presentada per un home corpulent amb una mandíbula
+  mecànica exterior davant dels convidats dempeus.
+notes: >-
+  Fresh 35 mm documentary-style image. Reviewed for venue continuity,
+  ordinary presenter height, dominant machine scale, sealed Zolio and an
+  unmistakable articulated external mechanical mandible rather than facial
+  hair. Accepted by the user on 2026-08-13 for the prologue placement.

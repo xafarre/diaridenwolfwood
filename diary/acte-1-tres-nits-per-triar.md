@@ -58,6 +58,14 @@ images:
     alt: >-
       Vista picada del menjador industrial de la presó, amb llargues taules
       mig buides i els tres protagonistes conversant durant un àpat de quarantena.
+  - id: acte-1-reflexio-cella-v2
+    path: /assets/images/diary/acte-1-reflexio-cella-v2.png
+    prompt_path: /assets/images/diary/acte-1-reflexio-cella-v2.yml
+    status: camera-ready
+    visual_canon: false
+    alt: >-
+      Contrapicat nocturn de Nicholas assegut al caire d’un llit de ferro de
+      la cel·la, amb la bata blanca i la mirada baixa mentre reflexiona.
 ---
 
 A la presó no ens tracten com a criminals, però tampoc ens demanen permís.
@@ -119,6 +127,10 @@ Jo entenc l’atractiu de Contart. El tractament és allà, dins d’un hospital
 La promesa de Suelex és molt més fràgil, però les seves mancances deixen rastre. El tractament no pot aparèixer al poble per voluntat del noble: algú l’ha de fabricar, transportar i conservar abans que unes altres mans ens l’administrin. Cada pas pot revelar un nom, una ruta o un lloc. A Contart, l’hospital ens mostraria només la darrera baula; a Suelex, on encara intenten construir l’explotació que ha de sostenir el poble, potser podrem veure la cadena. Si aconsegueixo remuntar-la, podria acostar-me als qui controlen el tractament i, amb ells, a la cura total.
 
 La idea em porta a pensar encara més lluny. Un carregament robat podria comprar informació o diners. Un zepelí carregat de Zolio, en mans disposades a convertir-lo en una amenaça, potser obligaria els qui controlen la cura a negociar. No és un pla. Encara no sé qui transporta el Zolio, qui el protegeix ni a qui posaria en perill qualsevol moviment. Però a Contart ni tan sols tindria l’oportunitat d’aprendre-ho.
+
+<figure class="diary-illustration">
+  <img src="{{ '/assets/images/diary/acte-1-reflexio-cella-v2.png' | relative_url }}" alt="Contrapicat nocturn de Nicholas assegut al caire d’un llit de ferro de la cel·la, amb la bata blanca i la mirada baixa mentre reflexiona." loading="lazy">
+</figure>
 
 Durant la tercera nit ho parlem per última vegada. Khor no es mou de Suelex. Gebedayah tampoc no canvia el que pensa, però manté la paraula que ha donat. Jo ja no comparo un lloc segur amb un de perillós, sinó una dependència sense sortida amb un risc que pot ensenyar-me com trencar-la. Necessito una cura total, no una pròrroga diària, i estic disposat a anar-la a buscar. Trio Suelex.
 

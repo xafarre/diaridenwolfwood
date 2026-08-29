@@ -1,0 +1,18 @@
+---
+schema: image-sidecar/v1
+id: acte-1-reflexio-cella-v2
+image_path: assets/images/diary/acte-1-reflexio-cella-v2.png
+created: '2026-08-30'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: not_archived
+image_status: camera-ready
+references: []
+supersedes: []
+alt_text: >-
+  Contrapicat nocturn de Nicholas assegut al caire d’un llit de ferro de la
+  cel·la, amb la bata blanca i la mirada baixa mentre reflexiona.
+notes: >-
+  Public spoiler-safe sidecar for the user-accepted Act I illustration. The
+  exact prompt and rejected predecessor remain archived only on the local
+  workbench because they contain non-public character metadata.

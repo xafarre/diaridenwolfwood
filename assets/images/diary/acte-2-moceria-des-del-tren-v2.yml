@@ -1,0 +1,31 @@
+schema: image-sidecar/v1
+id: acte-2-moceria-des-del-tren-v2
+image_path: assets/images/diary/acte-2-moceria-des-del-tren-v2.png
+created: '2026-08-31'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-2-interior-vago-passatgers-v1.png
+    role: passenger-car-window-height-width-frame-curtain-and-material-reference-only
+  - path: assets/images/diary/proleg-placa-del-coure-v8.png
+    role: rendering-language-reference-only-for-documentary-35mm-response-materials-and-restrained-colour
+supersedes:
+  - assets/images/diary/acte-2-moceria-des-del-tren-v1.png
+prompt: |-
+  Use case: historical-scene. Fresh generation for a project-bound diary illustration, landscape 3:2. Image 1 fixes only the passenger carriage's window construction: tall narrow rectangular glazing, dark varnished wood and riveted iron frames, deep sill, tied heavy brown curtains and restrained amber interior. Do not copy its characters, table, door, seating, number of windows, pose, camera or background. Image 2 fixes only the project's unstaged documentary 35 mm photographic response, tactile industrial materials, restrained colour and natural exposure. Build a completely new view of Moceria from inside the moving train.
+
+  Narrative moment: shortly after departure, the Suelex-bound train crosses an elevated riveted-steel railway bridge and the travellers first grasp the magnitude of Moceria, an arid industrial city of roughly five hundred thousand people.
+
+  Camera and window geometry: camera at a seated passenger's eye height, very close to the carriage wall, looking almost horizontally outward with only a gentle 10-to-12-degree downward angle. This is not a bird's-eye view. Show exactly two adjacent tall narrow windows, each about 2.2 times taller than wide, separated by one thick dark wooden-and-iron wall mullion. Their inner edges remain vertical and straight; each has a deep lower sill and tied curtain at its outer side. The two windows together occupy most of the landscape frame, with only a narrow band of the dark wood-panelled carriage wall and sill around them. No single wide panoramic pane. Use only faint natural glass reflection and preserve a clear exterior view.
+
+  Exterior composition and depth: the bridge is elevated but only moderately high above the nearest roofs—approximately forty to sixty metres, not hundreds. A small blurred segment of riveted bridge truss crosses the very bottom edge outside the windows to communicate motion and height without blocking the city. The nearest lower half of the exterior view is dominated by a vast heavy-industrial belt: large red-brick foundries, steelworks, boiler houses, sawtooth factory roofs, rail sidings, freight yards, pipe bridges, cooling structures and many tall working chimneys. These facilities feel large and close enough to understand their scale, not miniatures far below.
+
+  Beyond the industrial belt, dense urban neighbourhoods of red and brown brick continue for kilometres through a broad valley and climb the lower slopes of pronounced dry ridges and irregular foothills. Use overlapping relief to compress and densify the distant city: foreground factories, middle-distance workers' districts and warehouses, far neighbourhoods stepping across ochre slopes, then pale rocky ridgelines. The city fills almost the entire visible basin and must read as a polluted metropolis rather than a small town on a flat plain. No single invented monument dominates.
+
+  Industry and pollution: dozens of chimneys operate across all depth planes. In the near industrial belt, several stacks release broad opaque charcoal and black smoke while boiler vents and cooling pipes release large white steam plumes. In middle and far distance, many smaller grey and brown emissions merge into a low polluted haze that softens the ridges. Smoke density should make the industrial character unmistakable while leaving factories, neighbourhood layers and terrain readable. Use white, light-grey, dark-grey and black emissions rather than uniform decorative steam.
+
+  Light, palette and rendering: dry late-morning daylight filtered through industrial haze; ochre soil, dusty reddish brick, charcoal roofs, grey riveted steel, soot-darkened masonry and restrained weathered copper. The sky occupies no more than the upper quarter of the exterior view. Preserve strong atmospheric depth without washing out the foreground. Unstaged full-colour documentary photography captured directly on fine-grain 35 mm negative film, coherent available light, believable architecture, modest dynamic range, gentle highlight roll-off, slight optical softness, restrained colour and clean low-amplitude grain.
+
+  Critical exclusions: no high aerial or bird's-eye city view, no extreme bridge height, no tiny model-like factories, no flat horizon, no sparse town, no clean-air city, no weak or purely white smoke, no lush green landscape, no modern skyscrapers, no modern power station, no cooling towers of contemporary nuclear-plant design, no cyberpunk neon, no fantasy skyline, no ocean, no wet streets, no sunset spectacle, no single wide window, no broad modern train glazing, no more than two windows, no person looking outside, no carriage table or seats, no heavy reflection obscuring the city, no tilted window frames, no fisheye, no miniature tilt-shift effect, no painterly rendering, no HDR, no micro-specular glitter, no decorative bokeh, no coarse grain, no text and no watermark.

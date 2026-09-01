@@ -1,0 +1,55 @@
+schema: image-sidecar/v1
+id: acte-2-alessa-porta-modul-v4
+image_path: assets/images/diary/acte-2-alessa-porta-modul-v4.png
+created: '2026-09-01'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: world/characters/alessa/reference-identity-turnaround-v3.png
+    role: canonical-identity-apparent-age-body-hair-and-costume-reference
+supersedes:
+  - assets/images/diary/acte-2-alessa-porta-modul-v3.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: completely fresh project-bound diary illustration for Act II, landscape 3:2.
+
+  INPUT IMAGE:
+  Image 1 is Alessa's accepted canonical IDENTITY, APPARENT AGE, BODY PROPORTIONS, HAIR AND COSTUME reference. Preserve her original fictional adult face, approximately twenty-five-year-old appearance, short slim build, fair skin, blonde twin ponytails, red lips, ornate ivory blouse, structured black corseted waist, short layered black skirt, opaque dark stockings and practical black ankle boots. Preserve identity and mature attractiveness without copying the studio poses or studio background.
+
+  CORRECTION FROM THE REJECTED SCENE:
+  Create an entirely new scene. Alessa must not look comic, playful, smug, coquettish or theatrical. No broad smile, mischievous grin, raised eyebrow performance, wide-legged power pose, lunging stance, pointing, sweeping arm or exaggerated command gesture. Her authority comes from stillness, eye contact, economy of movement and the way the crowd responds to her.
+
+  NARRATIVE MOMENT:
+  The industrial prison module has just been ordered emptied. Adult recruits in plain off-white prison gowns emerge through a massive open riveted-steel doorway into the yard. Alessa is immediately outside, taking charge of the Suelex-bound group. Her assistant Kotor is absent.
+
+  A recruit near the threshold hesitates and looks to her for direction. Alessa has just turned toward him while continuing to walk slowly alongside the flow. Her torso remains upright and compact, shoulders relaxed, feet in a natural narrow walking stance. She carries a slim dark leather folio tucked firmly beneath one forearm. Her other hand stays low beside her waist with the palm slightly angled toward the route—an economical, almost dismissive indication of where to go. The gesture should be subtle enough that it could be missed in a still photograph.
+
+  FACE, GAZE AND PRESENCE:
+  Alessa's face matches Image 1 but her expression is controlled and serious: lips closed and neutral, no smile; bright focused eyes fixed on the hesitant recruit; brows naturally engaged but not arched theatrically; jaw relaxed but decisive. She is exceptionally attractive in a mature, magnetic way. Her explosive quality is latent—the sense that she can become cutting without raising her voice—not visible as comic volatility. She reads as an important, experienced young woman accustomed to immediate obedience.
+
+  CLOTHING:
+  Her expensive maid-inspired clothing is personal high-status fashion, not servant costume or cosplay: fitted ivory high-collared blouse with refined lace and ruffle detail at collar and cuffs, restrained dark piping, structured black corseted waist, short tailored layered black skirt ending above the knee, opaque dark stockings and sturdy polished ankle boots. No apron, maid headband, cleavage, jewelry or insignia.
+
+  CAMERA AND COMPOSITION:
+  Authentic unstaged documentary photograph from inside the yard, camera about 1.35 metres high with a natural 50 mm lens. Medium-wide landscape composition with restrained perspective. Place Alessa slightly right of centre, full body visible and separated cleanly from the doorway. Photograph her at a subtle three-quarter angle rather than square-on. The heavy open door and stone jamb rise behind her, giving architectural weight without turning the image into a portrait setup.
+
+  The hesitant recruit is in the near middle ground at left, shown mostly from the back and side, head turned toward Alessa. He remains a compositional counterweight rather than blocking her. Behind them, five to eight adult recruits emerge from the dark doorway in an irregular but coherent single flow, looking where they are walking. One recruit has already passed into the yard at far left. Avoid a symmetrical crowd or a wall of faces. No one looks at the camera.
+
+  The visual tension comes from the diagonal flow of pale gowns against Alessa's still dark silhouette. Keep generous breathing room around her body. Avoid foreground limbs crossing the frame and avoid cropped feet in the immediate foreground.
+
+  ENVIRONMENT:
+  Austere post-industrial prison complex in Moceria: aged red brick, worn grey stone, huge matte riveted-steel door leaves, functional iron pipes with a small amount of pale steam, dry worn cobbles and an enclosed institutional yard. No readable signs, modern technology, vehicles or generic science-fiction surfaces.
+
+  LIGHT, COLOUR AND MOOD:
+  Cool pale morning light across the yard, with the doorway behind the recruits remaining deep but detailed. A restrained shaft of side light defines Alessa's face and ivory blouse naturally, without glamour spotlighting. Reddish brick, charcoal steel, grey stone, ivory cloth and black tailoring. Dry air, subdued colour, readable midtones. Mood: institutional release immediately replaced by another hierarchy; quiet tension, not comedy.
+
+  RENDERING:
+  Authentic unstaged full-colour documentary photography captured directly on clean fine-grain 35 mm negative film. Believable adult anatomy, natural serious face and hands, tactile fabric, worn masonry and matte metal; coherent available light, modest dynamic range, gentle highlight roll-off, slight optical softness, restrained colour and clean low-amplitude organic grain. Observed reality, not a fashion shoot, comedy still or movie poster.
+
+  CONTINUITY AND ANATOMY CHECK:
+  Alessa unmistakably matches Image 1 and reads around twenty-five. Preserve exact hairstyle, facial identity, proportions and garment construction. Both boots contact the ground naturally. Her low gesturing hand has five relaxed fingers and a plausible wrist. Every recruit is an adult, distinct, grounded and moving through a readable route.
+
+  CRITICAL EXCLUSIONS:
+  no comic tone, no smile, no grin, no smirk, no playful expression, no exaggerated eyebrow, no wide stance, no power pose, no pointing, no extended arm, no sweeping gesture, no contrapposto fashion pose, no exact celebrity likeness, no teenage face, no childlike proportions, no anime, no manga eyes, no doll face, no cosplay, no servant demeanor, no apron, no maid headband, no cleavage, no schoolgirl cues, no high heels, no Kotor, no weapon, no person looking at camera, no foreground limb crossing, no cropped foreground foot, no symmetrical crowd, no duplicated person, no fused body, no malformed hand, no extra finger, no floating foot, no modern object, no generic sci-fi, no wet reflective ground, no HDR, no bokeh, no text, no signage and no watermark.

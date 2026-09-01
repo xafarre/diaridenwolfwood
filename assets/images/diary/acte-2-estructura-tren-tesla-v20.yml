@@ -1,0 +1,56 @@
+schema: image-sidecar/v1
+id: acte-2-estructura-tren-tesla-v20
+image_path: assets/images/diary/acte-2-estructura-tren-tesla-v20.png
+created: '2026-09-01'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references: []
+supersedes:
+  - assets/images/diary/acte-2-estructura-tren-tesla-v16.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: completely fresh project-bound diary illustration, landscape 3:2.
+
+  PRIMARY CONCEPT:
+  A candid, slightly badly framed documentary photograph taken by a seated passenger from inside a moving historical steam carriage. The exterior Tesla-train construction site is ONE single uninterrupted coherent view filling almost the entire photograph. There are no two separate panes and no central window divider. Only a partial fragment of the carriage window frame intrudes accidentally along ONE edge of the photograph, making the image feel spontaneous rather than architecturally composed.
+
+  LAYER 1 — BUILD THE COMPLETE EXTERIOR FIRST:
+  Imagine and render one full continuous arid landscape before adding any carriage foreground. Camera at seated eye height, approximately 50 mm lens, looking obliquely forward and sideways from the moving train. The view has strong natural depth and parallax: a colossal near U-shaped Tesla support dominates the right half at an oblique three-quarter angle, extremely close to the passing train; a second complete U-shaped support stands much farther away in the left-middle distance. Exactly two U supports total. Both belong to one perfectly straight levitation corridor and share one route axis and vanishing point.
+
+  The near U may be cropped slightly by the top and right image boundaries because of proximity. The far U remains complete and small enough to establish scale. Do not centre either structure symmetrically. The composition should resemble a hurried passenger photograph caught at the right instant, with subtle handheld imperfection and a slightly off-centre horizon, while all structural perspective remains physically coherent.
+
+  TESLA MEGASTRUCTURES:
+  Each support is an upright open-top capital-U silhouette approximately sixty metres tall: two straight parallel vertical legs joined by one broad semicircular lower trough. Massive matte grey riveted-steel box construction on heavy stone foundations, selected weathered-copper induction elements, unfinished outer portions covered by immense timber-and-black-iron scaffolding. The future train levitates through the completely open central air volume. No rail, track, sleeper, guideway, centre beam, roadbed or contact surface beneath either opening.
+
+  ONE CONTINUOUS STRAIGHT CONDUIT:
+  A single protected dark riveted-steel cylindrical electrical conduit runs along the ground parallel to the levitation corridor at a fixed lateral offset on the viewer-visible LEFT side of BOTH U supports. It is one uninterrupted rigid straight pipe in three-dimensional space with one vanishing point. It enters the bottom foreground slightly right of centre, recedes diagonally toward the left-middle distance, passes beside the outer-left foundation of the near U, continues visibly across the open terrain, and reaches beside the outer-left foundation of the far U at the exact same proportional offset.
+
+  The whole conduit is visible within this one continuous exterior scene, so its geometry is obvious: every collar centre lies on one ruler-straight projected axis and the diameter tapers smoothly with distance. No obstruction divides it into separately composed pieces. No kink, curve, bend, elbow, branch, lateral shift or second pipe. It never enters either U opening, never crosses the levitation centreline and never points toward the centre of the far U.
+
+  POWER AND ARCS:
+  Beside the outer-left stone foundation of the near U, directly adjacent to the straight conduit, place one compact period transformer station: riveted-steel cabinet on stone plinth, two weathered-copper induction coils behind a simple iron cage, four cream ceramic bushings, one analogue gauge and one valve. No exposed overhead power cable.
+
+  All blue-white electromagnetic arcs are free-space discharges contained strictly inside the recessed central opening of their own U. Four large irregular branching arcs inside the near U and two smaller arcs inside the far U. Show only floating middle sections; both endpoints disappear behind inward-facing inner lips. No visible endpoint, node or glow on frontal plates, outer faces, scaffolding, terrain, transformer or conduit. Every blue pixel remains within its U opening.
+
+  ACTIVE CONSTRUCTION AND SCALE:
+  Both U supports remain under construction. Use thick timber poles, squared wooden beams, black iron cross-braces, bolted joints, rope lashings, ladders, plank decks, block-and-tackle hoists, chain falls, manual capstans and timber lifting frames. No modern crane, excavator or contemporary machinery. Suspend one large riveted-steel section just above a timber cradle outside the levitation opening.
+
+  Approximately twenty-four tiny active period workers around the near foundation, conduit, transformer, hoist and scaffolding, each about one thirty-fifth of the near U height. Approximately eight minute workers at the far U. They tighten conduit collars, inspect gauges and ceramic parts, guide the suspended steel with ropes, operate hoists, move low handcarts and sort materials. Natural task-directed poses, visible spacing, dusty shirts, work jackets, braces, trousers, boots, caps and gloves. No posed figures, modern hard hats or high-visibility clothing.
+
+  LANDSCAPE AND MOTION:
+  Dry ochre rocky plain, sparse scrub, dusty construction ground and pale layered ridges under a clear pale afternoon sky. Structures, workers, conduit, transformer and middle-distance terrain are sharply legible with natural atmospheric depth.
+
+  Only the very nearest narrow band of ground along the bottom edge shows restrained lateral motion softness caused by the passing train: small rocks and dry scrub stretch gently in the direction of travel. This blur affects no worker, pipe, foundation, transformer, scaffold or U structure. It is a coherent foreground-speed cue across the uninterrupted view, not different blur treatments for separate panes.
+
+  LAYER 2 — ADD ONLY A PARTIAL CARRIAGE FRAME ON TOP:
+  After the complete exterior has been composed, overlay only a narrow accidental fragment of the carriage interior along the extreme LEFT edge of the final photograph: one cropped vertical window jamb of matte black riveted steel nested in dark varnished wood, occupying roughly eight to twelve percent of the image width. Add only a short sliver of the deep wooden sill entering the bottom-left corner. The jamb may be slightly oblique because of the handheld camera.
+
+  The frame is a foreground occluder placed on top of the already coherent exterior, not a complete window surrounding the view. It must not divide the exterior into panes, must not create a second opening, and must not repeat on the right, top or centre. No central mullion. No visible full rectangular window. No broad carriage wall. The exterior remains an uninterrupted single photograph across roughly ninety percent of the frame.
+
+  CLEAN PHOTOGRAPHIC RENDERING:
+  Authentic unstaged full-colour documentary photography captured directly on clean fine-grain 35 mm negative film. Pale exterior daylight, restrained warm bounce on the partial wood-and-steel frame, tactile matte steel, stone, timber, dust and cloth, modest dynamic range, gentle highlight roll-off, slight optical softness, restrained colour and clean low-amplitude organic grain. Broad coherent material fields, no dense decorative microdetail, no HDR local contrast, no crunchy sharpening, no painterly smearing and no accumulated-edit noise.
+
+  CRITICAL EXCLUSIONS:
+  no two windows, no separate panes, no central divider, no central carriage pier, no complete rectangular window surrounding the image, no frame on both sides, no frame across the centre, no split exterior view, no misaligned U supports, no third U, no bent conduit, no conduit with multiple vanishing points, no conduit entering a U opening, no second conduit, no rail, no track, no centre beam, no exposed cable, no modern crane, no enlarged workers, no motion blur on workers or machinery, no arc outside an inner U opening, no visible arc endpoint, no main-cast character, no text, no signage and no watermark.

@@ -1,0 +1,51 @@
+schema: image-sidecar/v1
+id: acte-2-cartigo-finestra-v2
+image_path: assets/images/diary/acte-2-cartigo-finestra-v2.png
+created: '2026-09-01'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references: []
+supersedes:
+  - assets/images/diary/acte-2-cartigo-finestra-v1.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: fresh project-bound diary illustration for Act II, landscape 3:2.
+
+  NARRATIVE MOMENT:
+  Seen from a moving steam train, Cártigo—the old capital—appears in the distance. The observer does not see a recognizable city, but an immense dark, strange, shifting grey territory associated in local stories with the void and abominations. Show only what can be observed from the train; do not prove the legends and do not reveal any creature.
+
+  PRIMARY COMPOSITION:
+  A broad, nearly frontal landscape photograph across a large arid valley, captured at seated eye height from a train running along one side of the valley. The exterior is ONE continuous uninterrupted view filling approximately ninety-two percent of the image. No passenger and no human silhouette.
+
+  Normal arid land occupies the foreground and middle ground: a narrow strip of pale rocky ground at the bottom, then ochre slopes and layered eroded ridges on both sides forming a deep, broad valley that funnels the gaze toward the distance. Use strong orography to give the scene scale: overlapping escarpments, dry gullies, terraces and long ridgelines. The camera is not high aerial; it looks horizontally across and down the valley from a modest rail embankment.
+
+  At the far end of the valley, clearly visible and unmistakably enormous, lies Cártigo: a vast irregular territory of charcoal, graphite, lead and ash grey spreading laterally across the basin and climbing partly into the distant relief. It must read as dark land and altered atmosphere rooted to the valley floor, not merely a cloud or storm in the sky. The boundary between ordinary ochre land and Cártigo is broad, uneven and difficult to fix with the eye.
+
+  CÁRTIGO'S UNCERTAIN FORM:
+  Within the distant dark territory, show layered grey relief whose contours seem subtly unstable: two or three overlapping ridge silhouettes that fail to coincide perfectly, low dust veils moving in different directions, wavering refraction near the ground, and a few immense indistinct vertical or rectilinear traces that could be geological formations or remnants of architecture but never resolve into buildings. Suggest slow change through ambiguous double contours and partially erased edges, not through supernatural spectacle.
+
+  There is no recognizable skyline, street grid, intact building, castle, tower or modern city. Cártigo should feel much larger than a ruin: a whole region where the landscape has lost familiar form. Its darkest values remain deep grey with readable internal depth; do not make a flat black silhouette or blank hole. The pale sky above remains visible, but daylight becomes muted and colourless over the territory, as though the land absorbs contrast.
+
+  The visual focal hierarchy is: first the immense dark territory filling the distant valley, second the enclosing arid relief that reveals its scale, third the passing foreground that establishes the train. The image should be impressive, ominous and difficult to interpret without becoming a fantasy-horror reveal.
+
+  TRAIN MOTION:
+  Only the nearest narrow band of stones and dry scrub along the bottom edge has restrained lateral motion blur from the train. The middle-ground slopes, distant valley and Cártigo remain sharply legible. The motion blur is natural photographic panning softness, not a digital streak effect.
+
+  PARTIAL CARRIAGE FRAME OVERLAY:
+  After composing the complete exterior landscape, overlay a single accidental fragment of the passenger-carriage window along the extreme RIGHT edge only: a cropped vertical jamb of matte black riveted steel nested in dark varnished wood, occupying eight to ten percent of the width, plus a short sliver of deep wooden sill entering the bottom-right corner. The camera faces the exterior almost frontally, so this jamb is close to vertical with only a slight handheld tilt.
+
+  The frame is a foreground occluder laid on top of one coherent exterior. It is not a complete window and must not surround or divide the landscape. No frame at the left, no top bar, no central mullion, no second pane, no broad interior wall and no seat. The single fragment simply proves that the photograph was taken from inside the train.
+
+  LIGHT AND PALETTE:
+  Pale late-afternoon daylight over the ordinary valley, with restrained ochre, sand, dry umber and weathered stone. Cártigo introduces desaturated charcoal, graphite, pewter and cold ash grey, creating a clear large-scale tonal contrast without artificial glow. The sky is pale and relatively calm rather than a dramatic storm. Subtle atmospheric perspective, enough midtones to read the valley and internal layers of the dark territory.
+
+  RENDERING:
+  Authentic unstaged full-colour documentary photography captured directly on clean fine-grain 35 mm negative film. Natural exposure, modest dynamic range, gentle highlight roll-off, slight optical softness, restrained colour, tactile rock and dust, and clean low-amplitude organic grain. The unsettling effect comes from landscape geometry and atmospheric ambiguity, not cinematic grading or visual effects.
+
+  EPISTEMIC BOUNDARY:
+  This is Nicholas's uncertain observation from the train. Depict no objective proof of the void, curse or abominations. Shapes may invite interpretation but must remain plausibly terrain, haze or lost structures.
+
+  CRITICAL EXCLUSIONS:
+  no passenger, no person looking through the window, no creature, no monster, no abomination, no eyes in the darkness, no portal, no black hole, no vortex, no glowing magic, no lightning, no storm wall, no mushroom cloud, no volcanic eruption, no fantasy castle, no Gothic ruins, no recognizable city skyline, no intact buildings, no modern structures, no pure black blank area, no flat featureless darkness, no high aerial view, no full window, no two windows, no central divider, no frame on both sides, no excessive fog hiding the valley, no teal-orange grading, no HDR, no glitter, no coarse grain, no text, no signage and no watermark.

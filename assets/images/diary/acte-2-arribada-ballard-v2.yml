@@ -1,0 +1,73 @@
+schema: image-sidecar/v1
+id: acte-2-arribada-ballard-v2
+image_path: assets/images/diary/acte-2-arribada-ballard-v2.png
+created: '2026-09-01'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: world/characters/obaric/reference-identity-turnaround-v20.png
+    role: canonical-identity-body-mutation-security-uniform-custom-boot-and-staff-reference
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: facial-identity-age-lean-build-and-documentary-rendering-reference-only
+  - path: world/characters/khor-yugoroto/reference-identity-turnaround-v1.png
+    role: canonical-facial-identity-and-mutation-reference
+  - path: world/characters/gebedayah-brass/reference-identity-turnaround-v1.png
+    role: canonical-facial-identity-massive-body-and-weathered-skin-reference
+supersedes:
+  - assets/images/diary/acte-2-arribada-ballard-v1.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: fresh project-bound diary illustration for the final scene of Act II, landscape 3:2.
+
+  INPUT IMAGES AND ROLES:
+  Image 1 is Obaric's canonical IDENTITY, BODY, MUTATION, SECURITY UNIFORM, CUSTOM BOOT AND STAFF reference. Preserve his stern face, powerful athletic build, organic chitinous plaques, altered lower-leg anatomy, broad military footwear, dark uniform and long wooden staff. Do not copy the studio pose or background.
+  Image 2 is Nicholas D. Wolfwood's FACIAL IDENTITY, AGE, LEAN BUILD AND DOCUMENTARY-PHOTOGRAPHY reference only. For this scene replace his priestly coat with the issued recruit outfit described below. Keep his modified left hand completely unexposed and give no mutation cue.
+  Image 3 is Khor's canonical FACIAL IDENTITY reference: young upright black-panther humanoid, short black fur, yellow eyes, diagonal scar crossing one eye, feline ears, tapered muzzle and no tail. Replace the reference's aristocratic clothing with the issued recruit outfit.
+  Image 4 is Gebedayah's canonical FACIAL IDENTITY, MASSIVE BODY AND WEATHERED SKIN reference: 2.10 metres tall, 140 kilograms, enormous shoulders, thick neck, huge square head, battered features and scarred leather-hard skin. Replace the worker clothes and cap with the issued recruit outfit.
+  Generate a completely fresh scene. References fix only the traits assigned above.
+
+  NARRATIVE MOMENT:
+  The long steam train has stopped at Ballard, an arid military camp. The armoured passenger-carriage door has opened for the first time since the intermediate stop. Obaric stands outside beside the door and orders the Suelex-bound recruits down. Gebedayah, Khor and Nicholas are already in the natural process of leaving the carriage. This is the final image of the act: arrival, command and uncertainty rather than combat.
+
+  CAMERA AND COMPOSITION:
+  Authentic unstaged documentary photograph from outside the train, camera approximately 1.15 metres above the ground with a natural 35 mm lens, positioned several metres away at a three-quarter angle to the carriage side. Landscape frame. The dark riveted-steel and varnished-wood passenger carriage occupies the left third and recedes into depth; its body clearly continues beyond both edges of the visible doorway, so this is a door in the middle of a very long train, not the end carriage.
+
+  Place the open armoured door slightly left of centre. A physically coherent exterior stair of exactly three broad metal-and-wood steps descends from the threshold to packed earth. The steps have rigid supports attached beneath the carriage, level treads, consistent perspective and a simple handrail. Every descending foot must visibly bear weight on a tread or on the ground. No character floats, overlaps the stair geometry or clips through the carriage.
+
+  The visual triangle is: the three protagonists moving from the doorway and steps at left-centre; Obaric standing immediately to the RIGHT of the open door on the ground; the military camp stretching behind them into the arid distance. Leave a clear path from the bottom step into the camp. No one looks at the camera.
+
+  EXACT EXIT ACTION AND FOOT CONTACT:
+  Gebedayah has already completed the descent and stands on packed earth just left-forward of the stair, both heavy boots fully planted with compressed dust and a contact shadow beneath each sole. He remains slightly stooped after clearing a doorway small for his 2.10-metre frame and turns his head toward the camp. His immense shoulders and mass must be clear, but he does not block the steps.
+
+  Khor is completing the final step: his rear boot is flat on the lowest tread, his forward boot has just planted fully on the packed earth, knee naturally flexed and hips balanced between the two support points. One hand lightly touches the handrail. His black-furred panther head turns toward Obaric's command. No tail.
+
+  Nicholas remains one level higher and behind Khor: one ordinary right boot is securely flat on the middle tread, the other is still on the top tread, and his visible right hand grips the handrail. His body leans forward naturally for descent. His left forearm and hand remain entirely concealed inside or beneath the closed side of his recruit jacket, with no visible mechanical or mutated detail. He watches the ground ahead rather than posing.
+
+  OBARIC'S POSITION AND ACTION:
+  Obaric stands on the packed earth immediately to the RIGHT of the stair and outside the flow of descending recruits. Both custom military boots are fully grounded, with thick front soles visibly contacting the dirt and coherent short contact shadows. His altered legs retain the accepted powerful, subtle ostrich-like morphology: shortened shins, one elevated anatomical rear hock per leg, forward-sloping feet, broad hard-toed custom boots whose uppers rise to the first hock, no conventional rear heel and no cartoon animal legs.
+
+  His face and exposed neck show matte ORGANIC insect-like chitin plaques layered around both temples, outer jawline, behind the ears and down the neck. They are grown skin, not metal implants. The centre of the face remains human and readable.
+
+  He wears the accepted dark asymmetric security outfit with functional compact metal shoulder guards, articulated forearm guards, broad belt and visible buckle, but no shin guards; his metal protection is at the instep. His mask hangs from the outfit at his hip and has several dark round glass LENSES, no lamps and no emitted light. He holds the long wooden staff vertically in one hand, with its lower tip firmly touching the ground and casting a connected shadow. His free arm extends in a terse downward-and-outward command toward the open path into camp. His head and gaze address the descending trio. He is cynical and authoritative, not friendly, enraged or theatrical.
+
+  PROTAGONIST CLOTHING:
+  Nicholas, Khor and Gebedayah wear variations of the same practical Suelex recruit issue received at the intermediate stop: dusty off-white collarless shirts, sturdy dark trousers, suspenders, heavy work boots and simple charcoal-brown zippered jackets. Khor's and Gebedayah's garments are properly tailored to their nonstandard bodies. No prison gowns, no noble coat, no priestly long coat, no waistcoat and no worker flat cap. Their clothes are travel-worn after four more days aboard the train.
+
+  BALLARD MILITARY CAMP:
+  Hard-packed dusty ground in an arid region. Behind the group, show an organized but temporary military camp with rows of pale canvas tents, low corrugated-iron barracks, timber utility poles, stacked crates, water tanks, one modest watch platform and several period steam lorries or tractors with riveted boilers and broad wheels. A few uniformed camp personnel and other recruits move with specific tasks—directing arrivals, carrying crates, checking a steam vehicle—without forming a crowd around the protagonists.
+
+  No modern truck, jeep, tank, helicopter, asphalt, concrete runway, contemporary weapon or twentieth-century camouflage. Military organization is communicated through layout, supply activity and command presence, not battle action. The long steam train continues into the background along the left side, releasing pale steam and a restrained column of darker smoke.
+
+  LIGHT AND ATMOSPHERE:
+  Hard pale late-afternoon desert light entering from the camp side, making the opened doorway behind Nicholas comparatively dark. Dry suspended dust catches the light near the ground. Warm ochre earth, faded canvas, charcoal train, grey steel and restrained copper details. Preserve readable midtones in dark clothing and chitin. The emotional temperature is abrupt institutional arrival: exposed after the enclosed journey, ordered into an unknown camp.
+
+  RENDERING:
+  Authentic unstaged full-colour documentary photography captured directly on clean fine-grain 35 mm negative film. Believable anatomy, natural faces, tactile cloth, organic chitin, wood, dust and matte riveted steel; coherent available light, modest dynamic range, gentle highlight roll-off, slight optical softness, restrained colour and clean low-amplitude organic grain. Natural action rather than a posed ensemble or movie poster.
+
+  GEOMETRY AND ANATOMY CHECK:
+  Exactly four named foreground characters: Obaric, Nicholas, Khor and Gebedayah. Exactly three stair treads. Confirm each visible foot has a physical support plane and a contact shadow. Preserve correct body-height hierarchy: Gebedayah tallest and vastly broadest at 2.10 m; Khor about 1.87 m and lean; Nicholas about 1.82 m and lean; Obaric powerful but ordinary adult scale. Do not merge limbs, duplicate characters, add tails, expose Nicholas's left-hand mutation or give Obaric ordinary human boots.
+
+  CRITICAL EXCLUSIONS:
+  no floating person, no hovering foot, no unsupported heel, no foot below or beside a tread, no stair passing through a leg, no fused bodies, no extra protagonist, no duplicate Obaric, no tail on Khor, no human face on Khor, no small Gebedayah, no priest coat on Nicholas, no exposed modified left hand, no metallic facial implants on Obaric, no mask lights, no ordinary heeled boot on Obaric, no shin guards on Obaric, no cartoon bird leg, no hoof, no clawed foot, no person looking at camera, no battle, no gunfire, no modern vehicle, no tank, no end-of-train composition, no text, no signage and no watermark.

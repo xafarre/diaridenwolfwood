@@ -1,0 +1,89 @@
+schema: image-sidecar/v1
+id: acte-2-interior-vago-passatgers-v7
+image_path: assets/images/diary/acte-2-interior-vago-passatgers-v7.png
+created: '2026-09-01'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/proleg-placa-del-coure-v8.png
+    role: project-documentary-35mm-rendering-language-reference-only
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: Nicholas-facial-identity-apparent-age-and-build-reference-only
+  - path: world/characters/khor-yugoroto/concept-v1.png
+    role: Khor-identity-anatomy-eyes-scar-and-fur-reference-only
+  - path: world/characters/gebedayah-brass/reference-v1.jpg
+    role: Gebedayah-identity-scale-and-body-proportion-reference-only
+  - path: world/characters/obaric/reference-identity-turnaround-v20.png
+    role: Obaric-canonical-identity-chitin-anatomy-costume-mask-and-staff-reference
+supersedes:
+  - assets/images/diary/acte-2-interior-vago-passatgers-v6.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: project-bound diary illustration, landscape 3:2.
+  Primary request: CLEAN-ROOM FRESH GENERATION of a realistic passenger carriage interior during the early journey from Moceria toward Suelex. No previous carriage image is supplied or authoritative. Build the architecture, furniture, camera and poses from the written floor plan below so no earlier spatial error can carry over.
+
+  Input images and narrow roles only:
+  Image 1 fixes only the project's authentic unstaged full-colour documentary photography on fine-grain 35 mm negative film: restrained colour, natural exposure, tactile industrial materials, modest dynamic range and slight optical softness. Do not copy its plaza, camera or content.
+  Image 2 fixes only Nicholas's facial identity, Japanese/East Asian appearance, apparent age around forty and lean build. Replace every referenced garment.
+  Image 3 fixes only Khor's identity: young upright black-panther humanoid, short black fur, amber eyes, diagonal facial scar and no tail. Replace every referenced garment.
+  Image 4 fixes only Gebedayah's identity and proportions: colossal 2.10-metre, 140-kilogram industrial mutant, huge scarred square face, immense shoulders and arms, weathered skin and short dark hair. Replace every referenced garment; no cap and no hammer.
+  Image 5 fixes only Obaric's canonical identity and outfit: powerful athletic man, matte organic chitin growing around temples, jaw, ears, neck and hands; charcoal asymmetric security uniform; compact metal shoulder guards; broad belt; forearm guards; mutated lower legs; wide custom military boots; hanging mask with plain unlit lenses; long wooden staff. Chitin is living skin, never metal.
+
+  EXACT CAST AND TEMPORARY STATE:
+  Exactly four visible people in the whole photograph: Nicholas, Khor, Gebedayah and Obaric. No background passengers, silhouettes, partial bodies or human reflections. Nicholas, Khor and Gebedayah wear loose plain ankle-length white institutional prison gowns and simple issued boots. Obaric wears his canonical dark security uniform. Nobody poses or looks into the camera.
+
+  CARRIAGE DIMENSIONS:
+  A plausible historical railway carriage about 3.0 metres wide internally and long enough to contain two booth bays plus a separate rear vestibule. Dark varnished wood, black riveted steel, worn dark leather, dry plank floor and restrained brass. One straight central aisle remains open from foreground to the end door. The carriage must read narrow and elongated, never like a room or saloon.
+
+  EXACT LEFT-TO-RIGHT WIDTH PLAN AT THE FAR END:
+  The blind riveted-steel end door is slightly LEFT of the carriage centreline. The door opening is approximately 80 centimetres wide.
+  Immediately to the RIGHT of the door is a separate 65-centimetre-wide seating niche built into the end wall for Obaric.
+  The central aisle approaches the door from the foreground without any obstruction.
+  No booth, table, bench, body or staff occupies the door opening, threshold or approach.
+
+  EXACT FRONT-TO-BACK LENGTH PLAN ALONG THE LEFT WALL:
+  ZONE A, foreground: first tall narrow window and the protagonists' occupied four-person booth.
+  ZONE B, middle distance: second tall narrow window and one empty four-person booth.
+  ZONE C, rear vestibule: after the empty booth, at least 1.5 metres of completely empty floor and plain solid left wall with NO window, NO table, NO bench and NO luggage.
+  ZONE D, far end: the end wall, the fully visible door slightly left of centre, and Obaric's separate chair niche to the door's right.
+  The empty booth in Zone B must finish before Zone C begins. Its closest wooden edge is at least 1.5 metres in front of the end wall and at least 1 metre away from every part of the door frame. In the final two-dimensional image there must be clear visible floor and clear visible wall separating the booth silhouette from the door silhouette. No tangent, overlap, contact, merger or apparent collision is allowed.
+
+  BOOTH GEOMETRY:
+  Both booth tables sit directly below their own left-wall window. The short end of each rectangular table is visibly bolted to the left wall beneath the sill; the long axis projects at exactly 90 degrees from the wall toward the aisle.
+  Two fixed double benches flank each table. Their long axes also project at 90 degrees from the left wall toward the aisle, parallel to the table. The benches face one another across the tabletop.
+  Every bench has its wooden backrest on the outer side farthest from the table; its leather seat opens inward toward the table. No bench back faces a tabletop. No furniture is parallel to the left wall.
+
+  OCCUPIED FOREGROUND BOOTH:
+  Gebedayah occupies the entire near double bench alone. He sits fully centred with hips supported, spine square to the table, knees under the tabletop and both feet on the floor. Show him mainly from behind in three-quarter rear view, his immense shoulders establishing scale.
+  Nicholas and Khor sit side by side on the opposing double bench, squarely facing Gebedayah. Nicholas makes a restrained conversational gesture with his ordinary right hand; his left hand remains completely hidden beneath table and gown, with no pendant and no mechanical cue. Khor listens with one black-furred hand beside a plain metal cup. Natural conversational gazes and anatomically coherent seating.
+
+  EMPTY MIDDLE BOOTH:
+  The second booth beneath the second window is entirely empty. Its correct opposed benches and table are clearly readable. It ends before the large blank vestibule gap. No passengers, bags or props.
+
+  OBARIC — NON-NEGOTIABLE POSITION:
+  Obaric sits in exactly one individual fixed chair in the niche IMMEDIATELY TO THE RIGHT OF THE END DOOR.
+  His chair back is physically mounted against the FAR END WALL.
+  His body's fore-aft axis is PARALLEL to the carriage, parallel to the aisle and perpendicular to the end wall.
+  He faces from the end wall toward the foreground, looking straight down the length of the carriage toward the protagonists.
+  His chest, knees, boots and toes all point along the train toward the camera/foreground, not sideways toward either side wall.
+  He is seen mostly frontally or in a slight three-quarter frontal angle.
+  The chair is not against the right side wall. He is not seated crosswise. He is not beside the booth.
+  His whole body, chair and feet remain to the right of the door jamb and never block the door or aisle.
+  He turns his eyes slightly toward the protagonists rather than into the lens while unwrapping a small sweet. His staff is secured vertically in the extreme right corner. His hanging mask has plain dark lenses and no lights.
+
+  CAMERA DESIGNED TO VERIFY THE FLOOR PLAN:
+  Camera in the foreground central aisle at approximately 1.65 metres height, looking lengthwise toward the end wall with only a slight diagonal bias toward the occupied left booth. Natural 32–35 mm lens, gentle 15-degree downward angle, straight verticals and one coherent vanishing point. The frame must show:
+  1. the occupied booth in foreground;
+  2. the separate empty booth in middle distance;
+  3. the full 1.5-metre empty vestibule gap;
+  4. the complete unobstructed outline of the end door;
+  5. Obaric seated front-facing in his distinct niche to the right of the door.
+  Do not crop the door, Obaric's chair or the blank gap. Keep enough depth that the rear booth and door cannot visually touch.
+
+  LIGHT AND MEDIUM:
+  Restrained amber wall lamps balanced with cool dry daylight through exactly two tall narrow left windows. Unstaged photorealistic full-colour documentary photograph captured directly on fine-grain 35 mm negative film. Natural skin, fur and fabric; tactile wood, leather and riveted steel; modest dynamic range; gentle highlight roll-off; slight optical softness; restrained warm-neutral colour; clean low-amplitude organic grain.
+
+  CRITICAL EXCLUSIONS:
+  No earlier carriage composition; no rear bench touching, overlapping or appearing tangent to the door; no furniture in the 1.5-metre vestibule; no window in the vestibule; no blocked threshold; no cropped door; no Obaric against the right side wall; no sideways Obaric; no Obaric facing across the carriage; no chair in front of door; no chair left of door; no overwide saloon; no background passengers; exactly four people; no reversed bench; no backrest facing tabletop; no longitudinal booth furniture parallel to wall; no detached table; no loose chairs at booths; no three protagonists on one bench; no Gebedayah perched or sideways; no more than two windows; no original reference clothing; no visible pendant; no visible or mechanical left hand for Nicholas; no Khor tail; no Gebedayah cap or hammer; no metallic chitin; no glowing mask; no malformed hands, paws, legs, furniture or contact; no blank gazes; no text, logo, watermark, HDR, glitter, decorative bokeh, coarse grain or painterly rendering.

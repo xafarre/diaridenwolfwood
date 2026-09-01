@@ -1,0 +1,32 @@
+schema: image-sidecar/v1
+id: acte-2-parada-intermitja-v2
+image_path: assets/images/diary/acte-2-parada-intermitja-v2.png
+created: '2026-09-01'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references: []
+supersedes:
+  - assets/images/diary/acte-2-parada-intermitja-v1.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: fresh project-bound diary illustration, landscape 3:2.
+
+  Primary request: Create a completely new realistic documentary photograph of the intermediate stop where the extremely long Suelex-bound steam train is being provisioned. Do not reproduce any previous illustration or its composition.
+
+  Narrative moment: About ten days after leaving Moceria, the train has stopped for two hours at a small open-air station in an arid settlement. The whole town's activity seems concentrated on loading supplies into the train.
+
+  Core scale statement: The train has roughly fifty carriages. The photograph must show only a middle section of this enormous consist. Neither the locomotive nor the final carriage is visible. The continuous train enters the frame from the extreme left edge and leaves through the extreme right edge, with both cropped ends clearly continuing beyond the photograph. Show at least eight distinct full or partial connected carriages across the frame: dark refined passenger coaches mixed with practical riveted freight and service cars. The train must be impossible to read as a short three-car train.
+
+  Railway and platform geometry: Exactly two perfectly straight, parallel railway tracks at constant gauge, each track made of exactly two continuous rails. No switches, junctions, crossings, extra rails, curves or kinks. The long train occupies the farther track. The nearer track is empty and clearly visible. Exactly one simple low rectangular platform lies beside the occupied track, with straight parallel edges and level dusty paving. The platform is much shorter than the train: the consist visibly continues far beyond both ends of the platform and beyond both edges of the image. No rail passes through the platform, nobody stands on ballast or rails, and every wheel aligns with its track.
+
+  Composition and camera: Wide elevated oblique establishing photograph from approximately twelve metres above ground on the roof of a modest station building, camera angled downward about twenty degrees, using a natural 50 mm documentary perspective with no fisheye or barrel distortion. Look diagonally along the train so its repeated carriage rhythm creates strong depth without hiding its length. The train and tracks form rigorously straight converging lines toward one distant vanishing point. Place the small station and active loading zone in the middle third, while the uninterrupted consist dominates the full horizontal span. Preserve readable foreground, middle ground and distant arid terrain.
+
+  Station and loading action: A genuinely small rural-industrial stop under open sky: one modest dusty red-brick station office, one short open-sided iron-and-wood shade canopy, one water crane and a sparse bench. No grand terminal and no train shed. Four period steam-powered cargo lorries have backed up along a dirt service road beside the platform; their practical boxy bodies, exposed boilers and iron wheels belong to this fictional post-industrial steampunk world, not the twentieth or twenty-first century. Adult workers naturally cooperate in teams, unloading wooden crates, canvas-wrapped bundles, sacks and metal drums onto handcarts and through open freight-car doors. Show convincing hand contact, weight, ramps and cargo transfer. Other workers move supplies farther along the platform so labour reads distributed along the train rather than clustered around one wagon. A few adult passengers stretch their legs at the safe inner side of the platform, subordinate to the loading action. Nobody poses or looks at the camera.
+
+  Environment and technology: Dry ochre earth, sparse scrub, low pale rocky hills, dusty service road, reddish brick, grey riveted steel, black iron, worn dark wood, canvas and restrained weathered copper. Mechanically grounded steam technology with exposed pipes, pistons, valves and broad low-contrast steam emissions. No electrical Tesla structures in this scene.
+
+  Lighting and rendering: Hard but believable pale afternoon daylight softened by airborne dust, with legible midtones and modest contrast. Authentic unstaged full-colour reportage captured directly on fine-grain 35 mm negative film: natural exposure, tactile materials, believable adults and machinery, gentle highlight roll-off, slight optical softness, restrained colour and clean low-amplitude organic grain. This is a real observational photograph, not concept art, a painting, a movie still or a promotional tableau.
+
+  Critical exclusions: no visible locomotive, no visible rear end of the train, no short train, no three-car composition, no separated or uncoupled consist, no curved or wavy rails, no bent carriages, no malformed wheels, no extra track, no second platform, no platform overlap, no workers on rails, no modern truck, no modern forklift, no military camp, no city skyline, no monumental station, no covered terminal, no lush vegetation, no wet ground, no generic science fiction, no ornate fantasy machinery, no micro-specular glitter, no HDR, no decorative bokeh, no coarse grain, no legible signs, no text and no watermark.

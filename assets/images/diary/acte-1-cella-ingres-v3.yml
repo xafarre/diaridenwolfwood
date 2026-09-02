@@ -5,7 +5,7 @@ created: '2026-08-16'
 mode: precise-object-edit
 tool: built-in-imagegen
 prompt_status: exact
-image_status: camera-ready
+image_status: superseded
 references:
   - {path: assets/images/diary/acte-1-cella-ingres-v1.png, role: edit-target}
 supersedes:

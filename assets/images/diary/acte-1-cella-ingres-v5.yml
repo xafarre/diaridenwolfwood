@@ -1,0 +1,40 @@
+schema: image-sidecar/v1
+id: acte-1-cella-ingres-v5
+image_path: assets/images/diary/acte-1-cella-ingres-v5.png
+created: '2026-09-02'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-1-cella-ingres-v3.png
+    role: broad-composition-architecture-lighting-and-arrangement-reference-only
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: nicholas-identity-and-photographic-rendering-reference
+  - path: world/characters/khor-yugoroto/concept-v1.png
+    role: khor-identity-and-costume-reference
+  - path: world/characters/gebedayah-brass/reference-body-scale-v1.png
+    role: canonical-height-ratio-and-full-body-proportion-reference
+  - path: world/characters/gebedayah-brass/reference-identity-turnaround-v1.png
+    role: canonical-facial-identity-reference
+supersedes:
+  - assets/images/diary/acte-1-cella-ingres-v3.png
+alt_text: >-
+  Dos policies d'esquena encaren Nicholas, Khor, Gebedayah —de dos metres
+  seixanta— i tres detinguts més a la sala d'ingrés.
+prompt: |-
+  FRESH GENERATION FROM SCRATCH, not an edit, repaint, or iterative modification of the first reference. Create a clean new photorealistic historical-scene illustration in landscape 3:2. The first reference is ONLY a guide for the broad composition, architecture, warm-and-cool lighting balance, camera height, and arrangement; do not inherit its pixels, darkness, texture noise, artifacts, or exact faces. The remaining references define the characters and Gebedayah's canonical scale.
+
+  Scene: an austere post-industrial steampunk police intake cell before the detainees have been stripped or issued prison gowns. Strict frontal group composition, documentary 35mm realism, camera around the shoulder height of the two police officers in the foreground, natural 40–50mm perspective. EXACTLY TWO uniformed police officers are visible in the foreground, both seen from behind. Beyond them stand EXACTLY SIX detainees facing the officers: the three protagonists and exactly three ordinary frightened adult men. No seventh detainee, no cropped or partial people at any edge.
+
+  Architecture and light: aged plaster and dark metal, a high barred window giving soft cool daylight, one amber wall lamp, believable worn surfaces. Keep the image naturally exposed with clear midtones, readable faces and clothing, gentle shadows, and the same broadly balanced brightness as the first reference. It must not look darkened, muddy, overprocessed, painterly, cinematic-HDR, or like an accumulated edit.
+
+  Characters:
+  - Nicholas / Kenzo: 1.82 m, lean Japanese/East Asian adult man, dark tousled hair, moustache and short goatee, initial dark priest-like street clothes and pendant. His left mechanical hand remains fully concealed by clothing and pose.
+  - Khor: 1.87 m, lean upright anthropomorphic black panther, natural black fur, yellow eyes, facial scar, no tail visible, wearing refined black and burgundy street clothes that imitate nobility.
+  - Gebedayah Brass: EXACTLY 2.60 m tall, standing on the SAME ground plane and at comparable depth as Nicholas and Khor, not enlarged by foreground placement or lens distortion. His true anatomical height is about 1.43 times Nicholas. Nicholas's and Khor's heads should reach only around Gebedayah's upper chest, clearly below the top of his shoulders. Gebedayah has a massive, powerful, coherent full skeleton and body—longer legs, longer torso, broad shoulders, huge hands—not merely a wider normal-height man. Preserve his canonical rugged face, worker cap, and dirty practical factory-worker street clothes. No hammer.
+  - The other three detainees are ordinary-sized, frightened adult men in varied modest street clothes.
+
+  Gebedayah must fit naturally in the room with his head near but not touching or cropping against the upper frame. All eight people must have correct anatomy, grounded feet, natural gaze and interaction with the officers, and convincing spatial separation.
+
+  Hard constraints: exactly 8 people total; no prison gowns; no visible figurine; no extra police; no extra detainees; no cropped edge figures; no tail on Khor; no visible mechanical hand for Nicholas; no hammer; do not reduce Gebedayah to 2.10 m or normal height; do not fake his scale through perspective; no fantasy glow, text, labels, borders, or watermark. Clean fresh render with subtle analog photographic grain only.

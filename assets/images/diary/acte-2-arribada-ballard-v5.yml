@@ -1,0 +1,82 @@
+---
+schema: image-sidecar/v1
+id: acte-2-arribada-ballard-v5
+image_path: assets/images/diary/acte-2-arribada-ballard-v5.png
+created: '2026-09-02'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-2-arribada-ballard-v4.png
+    role: successful-camera-long-train-door-three-step-four-character-staging-ground-contact-gebedayah-scale-obaric-position-and-camp-depth-blueprint-only-no-pixels-or-textures
+  - path: world/characters/obaric/reference-identity-turnaround-v20.png
+    role: obaric-canonical-identity-chitin-anatomy-security-uniform-custom-boots-mask-and-staff-reference
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: nicholas-facial-identity-apparent-age-build-and-ordinary-height-reference
+  - path: world/characters/khor-yugoroto/reference-identity-turnaround-v1.png
+    role: khor-canonical-identity-fur-eyes-scar-and-no-tail-reference
+  - path: world/characters/gebedayah-brass/reference-body-scale-v1.png
+    role: authoritative-gebedayah-2.60-metre-height-ratio-colossal-body-proportions-and-rugged-identity-reference
+supersedes:
+  - assets/images/diary/acte-2-arribada-ballard-v2.png
+  - assets/images/diary/acte-2-arribada-ballard-v3.png
+  - assets/images/diary/acte-2-arribada-ballard-v4.png
+alt_text: >-
+  Gebedayah, colossal a la mateixa línia de terra que Obaric, ja ha baixat del
+  tren a Ballard; Khor i Nicholas encara ocupen els tres graons mentre Obaric
+  els ordena avançar cap al campament militar àrid.
+prompt: |-
+  Use case: historical-scene.
+  Asset type: pristine clean-room final-candidate Ballard-arrival diary illustration for Act II, landscape 3:2.
+
+  FRESH GENERATION FROM SCRATCH. Image 1 is NOT an edit target. Do not retouch, repaint, trace, denoise, upscale, composite or reuse any pixels, textures, faces, cloth folds, rivets, dust or background objects from Image 1. Use Image 1 only as a spatial blueprint for the successful camera, long-train direction, open-door placement, exactly three stair treads, four-character staging, grounded foot contacts, 2.60-metre Gebedayah scale relationship, Obaric position and arid military-camp depth. Reconstruct the entire photograph cleanly and coherently in one pass. Images 2–5 independently fix the identities and anatomy of Obaric, Nicholas, Khor and Gebedayah.
+
+  SCENE AND CAMERA:
+  A very long dark riveted passenger train has stopped at Ballard, a dry temporary military camp. Exterior unstaged camera about 1.20 metres above packed earth, several metres from the carriage, natural 35 mm lens, landscape 3:2, three-quarter view along the train. The carriage occupies the left and recedes far into depth; it clearly continues beyond both sides of the open doorway, never reading as the end of the train.
+  An armoured side door slightly left of centre opens onto exactly three broad, level, structurally supported metal-and-wood steps with one coherent handrail. Keep the entire four figures, every boot and comfortable headroom in frame. Straight carriage geometry, one coherent perspective and no wide-angle body distortion.
+
+  EXACT FOUR-PERSON STAGING:
+  Exactly four named foreground people and no fifth foreground body:
+  - Gebedayah has completed the descent and stands on packed earth left of the stairs.
+  - Khor is completing the lowest step.
+  - Nicholas remains on the upper two steps.
+  - Obaric stands on packed earth right of the stairs, ordering them toward camp.
+  Nobody poses or looks at the camera. Distant workers appear only as small background activity.
+
+  MEASURED SCALE — PRESERVE THE SUCCESSFUL V4 RELATIONSHIP:
+  Gebedayah and Obaric stand on the same flat ground band and nearly the same camera-distance plane, on opposite sides of the stairs. Their boot soles align at about 90 percent of total image height.
+  Gebedayah is exactly 2.60 metres: boot-to-crown height about 82 percent of image height, soles near 90 percent and crown near 8 percent, with visible margin above his hair.
+  Obaric is ordinary adult height around 1.84 metres: boot-to-crown height about 58 percent of image height, soles near 90 percent and crown near 32 percent.
+  Gebedayah is therefore about 1.41 times Obaric's visible standing height. Obaric's crown reaches only Gebedayah's upper chest, clearly below his shoulder tops. Do not fake this with foreground placement, raised ground, steps or platform footwear.
+
+  GEBEDAYAH:
+  Match Image 5's exact rugged face and distributed colossal anatomy: very long heavy legs, huge thighs, enormous ribcage, immense shoulders, very thick neck, broad square head, long heavy arms and oversized scarred hands. He is vastly taller and broader than Obaric, not merely wide and not a giant head on an ordinary body.
+  He stands fully supported left of the stair with both large issued boots flat on dirt, compressed dust and connected contact shadows. He has just straightened after stooping through a doorway visibly too low for him, turns naturally toward camp and leaves the stair clear. Keep him completely inside frame.
+
+  STAIRS, KHOR AND NICHOLAS:
+  All three treads are level, evenly spaced and rigidly connected beneath the carriage.
+  Khor, 1.87 metres, has his rear boot flat on the lowest tread and forward boot fully planted on the earth, knee naturally flexed, hips balanced and one black-furred hand lightly touching the rail. He is a young upright black-panther humanoid with short black fur, yellow eyes, diagonal facial scar, feline ears and no tail.
+  Nicholas, 1.82 metres, has one boot flat on the middle tread and the other flat on the top tread. His ordinary right hand grips the rail and he leans naturally into the descent while watching the next tread. He is a lean Japanese/East Asian man around forty. His LEFT forearm and hand remain completely concealed behind his body and closed sleeve: no visible ordinary left forearm, ordinary left hand, metal or mutation cue.
+  Every visible boot visibly bears weight on a tread or earth, with correct shadows. No hovering, clipping, fused rail or unsupported heel.
+
+  OBARIC:
+  Match Image 2's stern recognizable human identity and powerful but ordinary-height athletic build. Matte ORGANIC insect-like chitin grows around his temples, outer jaw, behind the ears, neck and hands. It is living dark brown-charcoal integument with subtle layered edges, never metal patches, bolts, implants or prostheses.
+  He wears a clean, believable plain charcoal asymmetric security uniform in solid heavy woven cloth, with compact functional metal shoulder guards, articulated forearm guards, broad buckled belt, diagonal strap, no shin guards and dark instep protection. Avoid noisy or webbed fabric texture.
+  Preserve his accepted subtle lower-limb mutation: shortened shins, one elevated anatomical hock per leg and long forward-sloping feet. Broad custom military boots rise diagonally to the first hock, have thick front-only forefoot soles and no conventional rear heel. Both boots are firmly grounded and powerful, not cartoonish.
+  His hanging mask has several plain dark glass LENSES, no lamps and no emitted light. He holds a long wooden staff vertically with its tip physically touching the dirt. His free arm gives a restrained terse command toward the camp. Cynical authority, not rage, friendliness or theatrical hero posing.
+
+  CLOTHING OF THE THREE RECRUITS:
+  Travel-worn matching Suelex issue: dusty off-white collarless shirts, dark sturdy trousers, suspenders, heavy work boots and simple charcoal-brown zippered jackets, tailored to each anatomy. Gebedayah's garments are genuinely scaled to his 2.60-metre body and never slim him. No prison gowns, priest coat, noble coat, waistcoat, flat cap, hammer, weapon or luggage.
+
+  BALLARD CAMP:
+  Hard-packed ochre earth. Organized temporary military camp with faded pale canvas tents, low corrugated-iron barracks, timber utility poles, stacked crates, water tanks, one modest watch platform and a few period steam lorries or tractors with riveted boilers and broad wheels. Several tiny background personnel carry crates, direct arrivals and inspect machinery without crowding the protagonists. The train continues far into the background with attached pale steam and one restrained dark smoke plume. No modern vehicles, asphalt, tanks, helicopters or modern camouflage.
+
+  CLEAN ONE-PASS PHOTOGRAPHIC FINISH:
+  Hard pale late-afternoon desert light from the camp side, comparatively dark open doorway, low dry dust and clear soft-edged contact shadows. Warm ochre earth, faded canvas, charcoal train, grey steel and worn dark cloth.
+  Authentic unstaged full-colour documentary photograph captured directly on a pristine fine-grain 35 mm colour-negative frame. Natural faces and anatomy, clean coherent pores, plain woven cloth, matte organic chitin, robust leather, dry wood, dust and riveted steel. Modest dynamic range, gentle highlight roll-off, slight natural optical softness, restrained colour and uniform low-amplitude grain. Every surface belongs to the same original exposure.
+
+  FINAL AUDIT:
+  Fresh single-pass image; exactly four foreground characters and exactly three stair treads; long middle-carriage door; all feet physically supported; Gebedayah and Obaric share one ground baseline and depth, with visible height ratio about 1.41; Gebedayah fully in frame; Khor no tail; Nicholas left arm fully concealed; Obaric right of stairs, staff tip grounded and lens-mask unlit; clean cloth and quiet coherent background textures.
+
+  Avoid: edit residue, accumulated-iteration noise, smeared or crawling texture, mottled faces, crackle, web patterns, repeated rivet artifacts, copied pixels, ghosting, halos, over-sharpening, coarse grain, painterly surface, CGI plastic, 2.10-metre Gebedayah, normal-height Gebedayah, merely broad Gebedayah, fake foreground scale, cropped giant, floating person, unsupported boot, foot beside a tread, fused handrail, wrong stair count, duplicate or fifth foreground person, Khor tail, visible Nicholas left arm or mechanism, metallic Obaric chitin, glowing mask, ordinary Obaric legs or boots, cartoon bird legs, hoof, battle, gunfire, modern vehicle, end-of-train composition, person looking at camera, text, signage, logo, border or watermark.

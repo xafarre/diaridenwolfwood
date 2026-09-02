@@ -14,14 +14,15 @@ narrator_public_identity: nicholas-d-wolfwood
 session_ids: [session-002]
 source_ids:
   - user-publish-acte-2-v1
-  - user-accept-passenger-carriage-v7-v1
+  - user-gebedayah-height-2-60m-v1
+  - user-accept-passenger-carriage-v8-v1
+  - user-accept-ballard-arrival-v5-v1
   - user-accept-intermediate-stop-v2-v1
   - user-diary-dialogue-language-and-density-v1
   - user-session-002-ordered-notes-revision-2026-08-31
   - user-session-notes-dialogue-redrafting-v1
   - user-session-002-visual-location-clarifications-v1
-  - user-accept-moceria-station-v4-v1
-  - user-accept-moceria-station-v9-v1
+  - user-accept-moceria-station-v10-v1
   - user-accept-moceria-panorama-v2-v1
   - user-accept-moceria-panorama-v5-v1
   - user-alessa-visual-correction-v1
@@ -59,24 +60,24 @@ images:
     alt: >-
       Alessa dirigeix amb un gest contingut els reclutes que surten per la
       gran porta blindada del mòdul industrial de la presó.
-  - id: acte-2-estacio-moceria-v9
-    path: /assets/images/diary/acte-2-estacio-moceria-v9.png
-    prompt_path: /assets/images/diary/acte-2-estacio-moceria-v9.yml
+  - id: acte-2-estacio-moceria-v10
+    path: /assets/images/diary/acte-2-estacio-moceria-v10.png
+    prompt_path: /assets/images/diary/acte-2-estacio-moceria-v10.yml
     status: camera-ready
     visual_canon: false
     alt: >-
       Vista picada, frontal i ampla de la terminal monumental de Moceria, amb
       quatre locomotores sota dues grans voltes de ferro i vidre, abundants
       fumarades i els tres reclutes avançant cap al tren de Suelex.
-  - id: acte-2-interior-vago-passatgers-v7
-    path: /assets/images/diary/acte-2-interior-vago-passatgers-v7.png
-    prompt_path: /assets/images/diary/acte-2-interior-vago-passatgers-v7.yml
+  - id: acte-2-interior-vago-passatgers-v8
+    path: /assets/images/diary/acte-2-interior-vago-passatgers-v8.png
+    prompt_path: /assets/images/diary/acte-2-interior-vago-passatgers-v8.yml
     status: camera-ready
     visual_canon: false
     alt: >-
-      Nicholas i Khor conversen amb Gebedayah als bancs oposats del vagó; al
-      fons, un vestíbul lliure separa l’última taula de la porta, amb Obaric
-      assegut a la seva dreta.
+      Gebedayah, colossal fins i tot assegut, ocupa tot un banc davant de
+      Nicholas i Khor; al fons, un vestíbul lliure separa l’última taula de la
+      porta, amb Obaric assegut a la seva dreta.
   - id: acte-2-moceria-des-del-tren-v5
     path: /assets/images/diary/acte-2-moceria-des-del-tren-v5.png
     prompt_path: /assets/images/diary/acte-2-moceria-des-del-tren-v5.yml
@@ -112,15 +113,15 @@ images:
       Vista des del tren d’una vall àrida que desemboca en la vasta extensió
       fosca i grisa de Cártigo, amb relleus i formes distants de contorns
       ambigus sota una llum pàl·lida.
-  - id: acte-2-arribada-ballard-v2
-    path: /assets/images/diary/acte-2-arribada-ballard-v2.png
-    prompt_path: /assets/images/diary/acte-2-arribada-ballard-v2.yml
+  - id: acte-2-arribada-ballard-v5
+    path: /assets/images/diary/acte-2-arribada-ballard-v5.png
+    prompt_path: /assets/images/diary/acte-2-arribada-ballard-v5.yml
     status: camera-ready
     visual_canon: false
     alt: >-
-      Gebedayah, Khor i Nicholas baixen del llarg tren a Ballard mentre Obaric,
-      dret al costat de l’escala amb el bastó, els ordena avançar cap al
-      campament militar àrid.
+      Gebedayah, colossal a la mateixa línia de terra que Obaric, ja ha baixat
+      del llarg tren a Ballard; Khor i Nicholas encara ocupen els graons mentre
+      Obaric els ordena avançar cap al campament militar àrid.
 ---
 
 Els papers que ens han obert la porta de la presó encara deuen ser humits de tinta quan arriba l’ordre de buidar el mòdul. La gent es posa en moviment i nosaltres avancem amb les mateixes bates blanques, sense equipatge i sense cap altra prova de llibertat que el contracte que acabem de signar. A l’altra banda de la porta ens espera Alessa.
@@ -150,7 +151,7 @@ L’estació apareix abans que puguem insistir. Sota les grans arcades de ferro 
 El nostre tren destaca per uns acabats més acurats. La filera deu acostar-se als cinquanta vagons, i els operaris encara van amunt i avall preparant-la. Mentre en resseguim el costat, deixem enrere finestres i portes fins a arribar a un vagó de xapa de parets cegues, ben diferent dels altres. És aquí on ens fan pujar per rebre la primera dosi del tractament.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-2-estacio-moceria-v9.png' | relative_url }}" alt="Vista picada, frontal i ampla de la terminal monumental de Moceria, amb quatre locomotores sota dues grans voltes de ferro i vidre, abundants fumarades i els tres reclutes avançant cap al tren de Suelex." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-2-estacio-moceria-v10.png' | relative_url }}" alt="Vista picada, frontal i ampla de la terminal monumental de Moceria, amb quatre locomotores sota dues grans voltes de ferro i vidre, abundants fumarades i els tres reclutes avançant cap al tren de Suelex; Gebedayah destaca clarament per la seva alçada." loading="lazy">
 </figure>
 
 Per dins és una clínica estreta muntada sobre rodes. La persona que ens rep porta bata blanca, màscara de cuir amb dos filtres i ulleres tancades. No li veiem ni un dit de pell. Gebedayah passa primer i ha de girar les espatlles per travessar una porta que sembla haver estat calculada sense imaginar un cos com el seu.
@@ -162,7 +163,7 @@ Quan acabem, ens condueixen a un vagó molt més elegant. Les taules surten de s
 Es diu Obaric. Porta un vestit de seguretat cenyit, tancat amb una filera de botons en un costat, i una gorra d’aire policial. Proteccions metàl·liques a les espatlles, avantbraços i l’empenya completen el seu equip. La pell és una altra cosa: unes plaques dures, semblants a la quitina, li ressegueixen les temples i la mandíbula i continuen cap al coll. Té les canyelles curtes i els talons elevats; les botes, amples i fetes a mida, segueixen la forma del peu sense amagar la mutació. Té un bastó llarg de fusta a l’abast i una màscara amb lents penjada del vestit.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-2-interior-vago-passatgers-v7.png' | relative_url }}" alt="Nicholas i Khor conversen amb Gebedayah als bancs oposats del vagó; al fons, un vestíbul lliure separa l’última taula de la porta, amb Obaric assegut a la seva dreta." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-2-interior-vago-passatgers-v8.png' | relative_url }}" alt="Gebedayah, colossal fins i tot assegut, ocupa tot un banc davant de Nicholas i Khor; al fons, un vestíbul lliure separa l’última taula de la porta, amb Obaric assegut a la seva dreta." loading="lazy">
 </figure>
 
 Abans que puguem parlar amb ell, Coti, una periodista del diari *Torrevijía*, ens demana entrevistes individuals. Quan arriba el meu torn, obre la llibreta i encadena les preguntes sense donar-me temps per decidir quina mereix resposta.
@@ -312,7 +313,7 @@ Deixem enrere la taca canviant i tornem a una terra cada vegada més àrida. Qua
 Els frens xisclen. La porta blindada s’obre per primera vegada des de la parada i deixa entrar una llum dura, pols i veus de comandament. Obaric ja és a fora, al costat de l’esglaó, amb el pal a la mà i la màscara penjant del vestit. Ens mira com si els dies de tren només haguessin estat la sala d’espera.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-2-arribada-ballard-v2.png' | relative_url }}" alt="Gebedayah, Khor i Nicholas baixen del llarg tren a Ballard mentre Obaric, dret al costat de l’escala amb el bastó, els ordena avançar cap al campament militar àrid." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-2-arribada-ballard-v5.png' | relative_url }}" alt="Gebedayah, colossal a la mateixa línia de terra que Obaric, ja ha baixat del llarg tren a Ballard; Khor i Nicholas encara ocupen els graons mentre Obaric els ordena avançar cap al campament militar àrid." loading="lazy">
 </figure>
 
 —El trajecte s’ha acabat, de moment! Tothom fora del vagó!

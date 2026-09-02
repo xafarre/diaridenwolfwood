@@ -11,8 +11,9 @@ order: 30
 memory_record_id: gebedayah-brass
 ---
 
-Gebedayah Brass fa més de dos metres i converteix qualsevol habitació en un
-espai més petit. Les espatlles enormes, els músculs prominents i la pell rugosa,
+Gebedayah Brass fa dos metres i seixanta centímetres i converteix qualsevol
+habitació en un espai més petit. Les espatlles enormes, els músculs prominents
+i la pell rugosa,
 castigada com cuir vell, fan pensar en un cos construït per resistir allò que
 obligaria qualsevol altre home a buscar una màquina. Els anys de fàbrica també
 li han deixat l’oïda tocada.

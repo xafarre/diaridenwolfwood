@@ -1,0 +1,67 @@
+schema: image-sidecar/v1
+id: acte-2-estacio-moceria-v10
+image_path: assets/images/diary/acte-2-estacio-moceria-v10.png
+created: '2026-09-02'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-2-estacio-moceria-v9.png
+    role: monumental-scale-high-centred-view-five-bay-layout-four-train-layout-and-documentary-atmosphere-reference-only
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: nicholas-identity-and-height-reference
+  - path: world/characters/khor-yugoroto/reference-identity-turnaround-v1.png
+    role: khor-identity-and-height-reference
+  - path: world/characters/gebedayah-brass/reference-body-scale-v1.png
+    role: gebedayah-canonical-height-ratio-and-full-body-proportion-reference
+  - path: world/characters/gebedayah-brass/reference-identity-turnaround-v1.png
+    role: gebedayah-canonical-facial-identity-reference
+supersedes:
+  - assets/images/diary/acte-2-estacio-moceria-v9.png
+alt_text: >-
+  Vista monumental elevada de l’estació de Moceria, amb quatre llargs trens de
+  vapor sota les voltes de ferro i vidre, una gran terminal plena d’activitat
+  i els tres protagonistes minúsculs avançant per una plataforma; Gebedayah
+  destaca clarament per la seva alçada de dos metres seixanta.
+prompt: |-
+  Use case: historical-scene.
+  Asset type: clean fresh replacement for the Act II monumental Moceria railway-station diary illustration, landscape 3:2.
+
+  FRESH GENERATION FROM SCRATCH. Do not edit, repaint, trace, upscale, composite or reuse pixels from Image 1. Image 1 is only a reference for the successful monumental scale, high centred axial viewpoint, five-bay façade concept, four-train layout, extra-wide central platform, tiny human scale, dirty right service platform, reddish-brick and iron architecture, abundant locomotive smoke and natural 35 mm documentary atmosphere. Rebuild all architecture, rails, trains, smoke, people and objects cleanly. Image 2 fixes Nicholas's identity and ordinary 1.82 m scale. Image 3 fixes Khor's identity and 1.87 m scale. Images 4 and 5 fix Gebedayah's exact canonical 2.60 m body ratio and rugged identity.
+
+  Architecture and camera: a monumental original post-industrial railway terminal in arid Moceria, photographed from an internal gallery at least six storeys above platform level, looking down about 30 degrees with a natural 40 mm shift lens. Centred axial landscape 3:2 composition, one coherent vanishing point, straight verticals. Huge red-brick and pale-stone terminal with two immense adjacent iron-and-glass barrel-vaulted train sheds, mechanical clock over the central axis, substantial corner pavilions, iron service bridges and restrained weathered copper pipes. The architecture dwarfs trains; trains dwarf every person.
+
+  Non-negotiable lower façade: exactly five large openings separated by masonry piers, left to right:
+  1. left train arch A;
+  2. left train arch B;
+  3. grand central pedestrian concourse;
+  4. right train arch C;
+  5. right train arch D.
+  The central opening is a broad paved, rail-free continuation of the extra-wide central platform, with warm lamps, distant pedestrians and luggage trolleys. It contains no track, locomotive, carriage, train roof or sliced object. Only the four outer arches receive tracks and trains.
+
+  Ground plan: exactly four straight, parallel, constant-gauge tracks and four complete long train consists. Exactly three straight level platforms plus the rail-free central concourse continuation:
+  TRACK A with TRAIN A; PLATFORM 1; TRACK B with the long Suelex TRAIN B; EXTRA-WIDE CENTRAL PLATFORM and paved central concourse; TRACK C with TRAIN C; PLATFORM 3, the dirty service platform; TRACK D with TRAIN D.
+  No rail ends at masonry, no switches, dead ends, forks, curved rails, extra rails or rails through paving. All platforms have coherent straight edges and one shared perspective.
+
+  Four locomotives: all four steam locomotives are visible at approximately the same depth in the lower or middle third, facing the foreground, each coupled to a tender and a long continuous sequence of carriages extending through its correct outer arch. All four chimney stacks are visible and each produces a large dark coal-smoke plume visibly connected to the chimney mouth. Vary the plume shapes naturally: broad rolling masses, turbulent lobes and different darkness. TRAIN B has the broadest heavy plume. Add restrained attached white steam from cylinder cocks and a few platform hoses. No smoke emerges from windows, roof glass, masonry, clock or invisible points.
+
+  The three protagonists — tiny but correctly scaled: on Platform 1 beside the Suelex train, around 42 percent from the bottom, show EXACTLY THREE small pale-gowned figures walking in a compact irregular triangle behind one dark-uniformed attendant. They remain tiny middle-distance people, approximately 3–4 percent of total image height, never foreground figures and never visually competing with the station.
+  - Nicholas, 1.82 m, and Khor, 1.87 m, stand on the SAME depth plane and appear almost equal in height to nearby ordinary workers. Nicholas is lean and human. Khor has a tiny but readable black-panther head and black hands, no tail.
+  - Gebedayah stands directly beside them on the SAME platform and SAME depth plane. He is EXACTLY 2.60 m and approximately 1.43 times Nicholas's standing height, not merely 15–20 percent taller. His pale-gowned silhouette has a much higher head, long legs and torso, huge shoulders and broad build. Nicholas's and Khor's heads reach only around Gebedayah's upper chest, clearly below his shoulder tops. The ratio comes from anatomy, not foreground placement, stilts or a platform.
+  - All three wear the same loose pale prison gowns and have no possessions. Exactly three pale gowns anywhere in the entire image. No queue, prisoner line, fourth pale figure or copied protagonist.
+
+  Platform activity: many tiny dark-clothed workers tend valves, couple hoses, push luggage trolleys and service the trains; ordinary passengers wait in scattered dark groups. Keep every person off the rails and at coherent scale. Platform 3 alone contains localized oily mud, coal grit, coiled hoses, used tools, two battered crates, timber offcuts, workshop rags and one broken handcart wheel, while preserving a clear safe path. Other platforms remain comparatively orderly. No rain or station-wide wet sheen.
+
+  Environment and light: dry pale morning in an arid industrial city, dense factories and warehouses beyond the terminal with barren hills in the far distance. Keep background chimneys visually separate from station locomotive plumes. Pale daylight filters through smoke and steam in broad soft shafts. Readable midtones, restrained contrast, reddish brick, pale stone, charcoal steel, black iron, aged glass and worn wood.
+
+  Rendering: authentic unstaged full-colour documentary photograph captured directly on clean fine-grain 35 mm negative film. Tactile masonry, soot, iron, glass, localized mud, steam and cloth; believable tiny adults; modest dynamic range, gentle highlight roll-off, slight optical softness, restrained colour and clean low-amplitude grain. Historical reality, not concept art.
+
+  Final audit: exactly five façade openings with a paved rail-free central concourse; exactly four straight tracks, four complete trains, four visible locomotives and four abundant chimney-connected smoke plumes; exactly three tiny pale gowns; Gebedayah visibly 1.43 times Nicholas at the same depth; only Platform 3 dirty.
+
+  Avoid: train in central doorway, rail under clock, fifth train or track, cut train, hidden locomotive, isolated engine, smoke-free chimney, floating smoke, smoke from roof or glass, bent or converging rails, inconsistent gauge, platform deformation, oversized protagonists, foreground trio, prisoner line, fourth pale gown, 2.10 m Gebedayah, merely 15-percent height difference, normal-sized Gebedayah, dirt on every platform, debris on rails, modern trains, diesels, catenary, modern signs, generic science fiction, fantasy castle, HDR, decorative bokeh, painterly rendering, text, logo, caption, border or watermark.
+notes: >-
+  Initially rejected during technical review because the outer locomotives
+  emitted mainly white steam, but explicitly selected and accepted by the user
+  on 2026-09-02 as the definitive station illustration. User acceptance
+  supersedes that earlier technical preference.

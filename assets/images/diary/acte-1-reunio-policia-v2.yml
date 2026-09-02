@@ -1,0 +1,46 @@
+schema: image-sidecar/v1
+id: acte-1-reunio-policia-v2
+image_path: assets/images/diary/acte-1-reunio-policia-v2.png
+created: '2026-09-02'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-1-reunio-policia-v1.png
+    role: broad-composition-room-geometry-glass-partition-and-moment-reference-only
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: nicholas-identity-reference
+  - path: world/characters/khor-yugoroto/concept-v1.png
+    role: khor-identity-reference
+  - path: world/characters/gebedayah-brass/reference-body-scale-v1.png
+    role: gebedayah-canonical-height-ratio-and-full-body-proportion-reference
+  - path: world/characters/gebedayah-brass/reference-identity-turnaround-v1.png
+    role: gebedayah-canonical-facial-identity-reference
+supersedes:
+  - assets/images/diary/acte-1-reunio-policia-v1.png
+alt_text: >-
+  Nicholas, Khor i Gebedayah, amb bates de presó, escolten el policia que els
+  mostra dos formularis a l’altra banda de la mampara de vidre.
+prompt: |-
+  Use case: historical-scene.
+  Asset type: clean fresh replacement for the Act I prison police-office meeting illustration, landscape 3:2.
+
+  FRESH GENERATION FROM SCRATCH. Do not edit, repaint, inpaint or reuse pixels from Image 1. Image 1 is only a broad composition, room-geometry, glass-partition and narrative-moment reference. Rebuild every person, reflection, object and surface cleanly. Image 2 fixes Nicholas/Kenzo's identity. Image 3 fixes Khor's identity. Image 4 fixes Gebedayah's canonical 2.60-metre height and full-body proportional scale against ordinary adults. Image 5 fixes Gebedayah's facial identity without requiring his cap.
+
+  Exact moment and cast: during the first day of prison quarantine, one police bureaucrat explains the two release destinations to Nicholas, Khor and Gebedayah. EXACTLY FOUR people in the entire image: exactly one human police bureaucrat on the office side and exactly the three protagonists on the prisoner side. No guard, clerk, other prisoner, portrait, silhouette, reflected duplicate or partial edge person.
+
+  Environment: a small late-nineteenth-century post-industrial prison administrative office divided by a thick steel-framed glass partition. The partition clearly crosses the middle of the room and contains one small circular perforated speaking grille plus one narrow document pass-through at desk height. On the officer's side: a worn wooden desk, two separate blank-looking paper forms, ledger, fountain pen, ink pad, date stamp and restrained brass-and-iron filing mechanisms. On the prisoner side: exactly three separate simple bolted chairs on the same floor plane. Aged reddish brick, matte riveted steel, exposed black pipes, wired or imperfect glass, tactile paper and worn wood. No noble or company representative is present.
+
+  Composition: landscape 3:2, natural oblique medium-wide reportage view using a 40–45 mm lens from slightly behind and to one side of the seated officer. The officer occupies the near foreground in restrained three-quarter back/profile and uses his pen or open hand to indicate the two forms. The complete desk and document pass-through remain geometrically coherent. Beyond the glass, Nicholas, Khor and Gebedayah sit at comparable depth, facing the officer at a slight angle, with readable faces and natural conversational eyelines. The steel mullions must not cut through faces or fuse with bodies. Glass reflections stay faint, broad and non-figurative; they never create extra faces, limbs or people.
+
+  Temporary state and protagonists: all three have been decontaminated and wear loose, coarse, plain off-white prison gowns. No street clothes or possessions.
+  - Nicholas / Kenzo: 1.82 m, lean Japanese/East Asian man around forty, dark tousled hair, light moustache and short goatee, tired intelligent face. He watches the officer with calculating attention. His modified anatomical left hand remains fully below desk/pass-through height and concealed by sleeve and pose; no mutation cue.
+  - Khor: 1.87 m, lean young adult upright black-panther humanoid, short natural black fur, yellow eyes, diagonal scar across one eye, rounded triangular feline ears and no tail. He leans forward slightly with alert interest.
+  - Gebedayah Brass: EXACTLY 2.60 m, a truly colossal human industrial mutant with canonical rugged square face, low heavy brow, broad battered nose, blunt jaw, dark stubble and scarred weathered leather-like skin. No cap, hammer or tools. He sits on the SAME prisoner-side floor plane and at the SAME depth as Nicholas and Khor. His extraordinary height is anatomical, not perspective: a much longer torso, head and shoulders markedly higher than both companions, enormous ribcage and neck, long thick arms, huge hands and proportionately large thighs and lower legs. Seated, he should still imply a standing height about 1.43 times Nicholas. His ordinary bolted chair looks uncomfortably small beneath him, his knees sit higher and his body is cramped by the partition area, but the chair remains intact and correctly shaped. He must read as tall as well as broad, not merely a normal-height bodybuilder.
+
+  Interaction and posture: this is a bureaucratic conversation, not a posed lineup. Nicholas and Khor attend to the officer and papers; Gebedayah listens stoically, perhaps inclining his head slightly because of his hearing. No one looks at camera. All visible hands have correct anatomy, rest naturally, and do not merge with the glass, grille, desk or paper.
+
+  Lighting and medium: cool diffuse daylight from a high side window mixed with one restrained warm desk lamp. Natural exposure, clear midtones, modest dynamic range, gentle highlight roll-off, rich uncrushed blacks. Unstaged full-colour documentary photograph captured directly on fine-grain 35 mm negative film, with slight optical softness, restrained warm-neutral colour and clean low-amplitude organic grain. No cinematic dramatization.
+
+  Hard constraints: exactly four people; exactly three prisoner chairs; one officer on office side and only the three protagonists on prisoner side; clear continuous glass partition; weak non-figurative reflections; Gebedayah unmistakably 2.60 m through coherent seated anatomy; no extra or duplicate people; no normal-sized Gebedayah; no street clothes, pendant, cap, figurine, hammer, tools or weapons; no visible Nicholas mechanical hand; no Khor tail; no malformed hands, fused bodies, broken chair, floating furniture or steel mullion through a face; no modern bank counter, fluorescent booth, medieval dungeon or glossy science fiction; no painterly finish, teal-orange grading, HDR, sepia, vignette, coarse grain or excessive darkness; no readable text, labels, logos, caption, border or watermark.

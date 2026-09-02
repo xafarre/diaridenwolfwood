@@ -1,0 +1,52 @@
+schema: image-sidecar/v1
+id: acte-1-menjador-preso-v9
+image_path: assets/images/diary/acte-1-menjador-preso-v9.png
+created: '2026-09-02'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-1-menjador-preso-v8.png
+    role: conceptual-viewpoint-room-layout-character-grouping-and-left-forearm-placement-reference-only
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: nicholas-identity-reference
+  - path: world/characters/khor-yugoroto/concept-v1.png
+    role: khor-identity-reference
+  - path: world/characters/gebedayah-brass/reference-body-scale-v1.png
+    role: gebedayah-canonical-height-ratio-and-full-body-proportion-reference
+  - path: world/characters/gebedayah-brass/reference-identity-turnaround-v1.png
+    role: gebedayah-canonical-facial-identity-reference
+supersedes:
+  - assets/images/diary/acte-1-menjador-preso-v4.png
+  - assets/images/diary/acte-1-menjador-preso-v8.png
+alt_text: >-
+  Nicholas, amb un petit tram de l’avantbraç esquerre mecànic visible, conversa
+  amb Khor i el colossal Gebedayah al menjador de la presó.
+prompt: |-
+  Use case: historical-scene.
+  Asset type: clean final-style fresh generation of the Act I prison dining-hall illustration, landscape 3:2.
+
+  FRESH CLEAN GENERATION FROM SCRATCH. Do not edit, trace, repaint, upscale, denoise, composite, or reuse any pixels from Image 1. Reconstruct the whole photograph anew so it has one coherent texture, exposure, geometry and generation history. Image 1 is only a conceptual guide for the successful high oblique viewpoint, room layout, furniture arrangement, empty lower-right foreground, protagonist grouping, seated scale relationships, conversational eyelines and the subtle placement of Nicholas's single mechanical left-forearm segment. Image 2 fixes Nicholas's face. Image 3 fixes Khor. Images 4 and 5 fix Gebedayah's exact 2.60 m body scale and rugged face.
+
+  Scene: during prison quarantine, Nicholas, Khor and Gebedayah sit together eating and talking quietly in a large worn post-industrial dining hall. All wear simple loose off-white prison gowns and possess nothing. Around 10–12 ordinary adult male prisoners eat quietly at scattered tables.
+
+  Environment and clean geometry: reddish brick walls, dark riveted steel columns, exposed black pipes, tall multi-pane windows, worn dark wooden floor, complete rectangular tables and separate straight benches parallel to their table edges. Every bench and table has coherent legs and perspective. Clear walkable aisles. No body or limb intersects any table, bench, bowl, column or other person. Do not crop any person at frame edges. Keep the lower-right foreground free of people, showing only empty table, bench and floor.
+
+  Camera and medium: landscape 3:2, high oblique reportage viewpoint from a gallery or stair landing, natural 35–45 mm lens, not bird's-eye. Cool overcast daylight from the windows, restrained pendant lamps, clear natural midtones and gentle shadows. Unstaged full-colour documentary photograph captured directly on fine-grain 35 mm negative film, modest dynamic range, gentle highlight roll-off, slight optical softness, restrained colour and clean low-amplitude organic grain. No accumulated texture, oversharpening or patchwork look.
+
+  Foreground protagonists:
+  - Nicholas/Kenzo sits at VIEWER LEFT, 1.82 m, lean Japanese/East Asian man around forty, dark tousled hair, light moustache and short goatee, tired intelligent face, turned toward Khor as if speaking.
+  - Khor sits centrally, 1.87 m, lean upright black-panther humanoid with short black fur, yellow eyes, diagonal facial scar, rounded triangular ears and no tail. Both black-furred paws stay beside Khor's own bowl and do not touch Nicholas.
+  - Gebedayah sits at VIEWER RIGHT, exactly 2.60 m, colossal human mutant with rugged square battered face, heavy brow, broad nose, dark stubble and scarred weathered skin, no cap. Even seated, his longer torso, higher head and shoulders, enormous ribcage, long thick arms, huge hands and proportionate thighs clearly imply a standing height about 1.43 times Nicholas. He is tall as well as broad and listens stoically.
+
+  Nicholas arm continuity, reproduce the RELATIONSHIP but rebuild the anatomy:
+  - Both of Nicholas's hands remain completely hidden.
+  - Nicholas's anatomical RIGHT arm is on the viewer-left side of his body and drops below the table inside a long off-white sleeve. No right wrist, hand, metal or machinery is visible.
+  - Nicholas's anatomical LEFT arm is the inner arm on the viewer-right side of his body nearest Khor. The left sleeve rides up slightly and reveals only one short 8–10 cm section of the actual substituted mechanical mid-forearm. Show two dark iron radius-and-ulna structural bones joined by one or two restrained worn-brass plates and compact gears, integrated naturally into mature scarred tissue under the cloth. It is not a cuff, bracer or armour.
+  - The mechanical forearm angles toward Nicholas's own metal bowl and disappears behind that bowl. The bowl and table edge hide the entire wrist and left hand.
+  - Preserve a wide strip of bare empty tabletop between Nicholas's place setting and Khor's nearest paw. No touching, overlap, fusion or shared limb.
+
+  Exactly ONE mechanical region anywhere in the image: the small exposed section of Nicholas's anatomical left mid-forearm. No symmetric metal piece, no right-arm machinery, no visible mechanical fingers or hand, no active rods, apertures, cannon, needles, cables, glow, arcs, electricity or steam.
+
+  Natural restrained conversation, no one looks at camera. All bowls, cups, paws, human hands and furniture remain coherent. No street clothes, pendant, cap, figurine, hammer, weapon or personal object. No malformed anatomy, duplicate people, Khor tail, painterly rendering, cinematic grading, HDR, sepia, vignette, excessive darkness, glitter, readable text, logo, caption, border or watermark.

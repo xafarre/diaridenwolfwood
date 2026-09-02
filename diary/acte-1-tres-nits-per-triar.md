@@ -3,7 +3,7 @@ layout: act
 type: act
 id: acte-1-tres-nits-per-triar
 chapter: null
-title: "Tres nits per triar"
+title: "Dilema"
 summary: >-
   Durant tres nits de quarantena, Nicholas coneix Khor i Gebedayah i ha de
   triar entre quedar lligat al tractament de Contart o buscar entre els perills
@@ -12,6 +12,13 @@ label: "Acte I"
 order: 1
 narrator_public_identity: nicholas-d-wolfwood
 session_ids: [session-001]
+source_ids:
+  - user-acte-1-title-dilema-v1
+  - user-gebedayah-height-2-60m-v1
+  - user-accept-acte-1-gebedayah-scale-images-v1
+  - user-acte-1-dining-nicholas-left-forearm-correction-v1
+  - user-accept-acte-1-dining-v9-v1
+  - user-accept-acte-1-police-meeting-v2-v1
 consulted_record_ids:
   - prison-meeting-and-two-options
   - kenzo-mori
@@ -24,9 +31,9 @@ consulted_record_ids:
 status: published
 language: ca
 images:
-  - id: acte-1-cella-ingres-v3
-    path: /assets/images/diary/acte-1-cella-ingres-v3.png
-    prompt_path: /assets/images/diary/acte-1-cella-ingres-v3.yml
+  - id: acte-1-cella-ingres-v5
+    path: /assets/images/diary/acte-1-cella-ingres-v5.png
+    prompt_path: /assets/images/diary/acte-1-cella-ingres-v5.yml
     status: camera-ready
     visual_canon: false
     alt: >-
@@ -42,17 +49,17 @@ images:
       Pla detall de la mà esquerra modificada de Nicholas aplicada al flanc
       pelut de Khor, amb quatre borns curts alineats als artells, arcs elèctrics
       i fum escapant sota el palmell.
-  - id: acte-1-reunio-policia-v1
-    path: /assets/images/diary/acte-1-reunio-policia-v1.png
-    prompt_path: /assets/images/diary/acte-1-reunio-policia-v1.yml
+  - id: acte-1-reunio-policia-v2
+    path: /assets/images/diary/acte-1-reunio-policia-v2.png
+    prompt_path: /assets/images/diary/acte-1-reunio-policia-v2.yml
     status: camera-ready
     visual_canon: false
     alt: >-
       Nicholas, Khor i Gebedayah, amb bates blanques, escolten el policia
       burocràtic que omple els formularis a l’altra banda d’una mampara de vidre.
-  - id: acte-1-menjador-preso-v2
-    path: /assets/images/diary/acte-1-menjador-preso-v2.png
-    prompt_path: /assets/images/diary/acte-1-menjador-preso-v2.yml
+  - id: acte-1-menjador-preso-v9
+    path: /assets/images/diary/acte-1-menjador-preso-v9.png
+    prompt_path: /assets/images/diary/acte-1-menjador-preso-v9.yml
     status: camera-ready
     visual_canon: false
     alt: >-
@@ -74,10 +81,10 @@ Ens fan entrar en una habitació i comencen a classificar-nos segons allò que e
 
 Khor és una pantera negra dreta sobre dues cames, d’una alçada semblant a la meva. Té els ulls grocs, una cicatriu que li travessa un ull i una mirada que va dels policies a nosaltres sense revelar qui considera més perillós. No té cua. Va vestit com un noble i, a primera vista, gairebé ho sembla. Una observació més atenta, però, revela petites incoherències en la confecció i en la combinació de les peces. No sé si pretén enganyar algú o si només vesteix segons la idea que s’ha fet de l’aristocràcia.
 
-Gebedayah fa més de dos metres i converteix l’habitació en un espai més petit. Els papers l’identifiquen com a OG-207 de segona generació. Té les espatlles enormes, els músculs prominents i la pell rugosa, castigada per cicatrius i cremades. Quan respon als guàrdies que treballa en una metal·lúrgica, les marques del cos fan versemblant l’ofici: semblen el resultat d’anys entre forns i càrregues que obligarien altres homes a buscar una màquina.
+Gebedayah fa dos metres i seixanta centímetres i converteix l’habitació en un espai més petit. Els papers l’identifiquen com a OG-207 de segona generació. Té les espatlles enormes, els músculs prominents i la pell rugosa, castigada per cicatrius i cremades. Quan respon als guàrdies que treballa en una metal·lúrgica, les marques del cos fan versemblant l’ofici: semblen el resultat d’anys entre forns i càrregues que obligarien altres homes a buscar una màquina.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-1-cella-ingres-v3.png' | relative_url }}" alt="Pla frontal documental de la sala d’ingrés: dos policies d’esquena encaren Nicholas, Khor, Gebedayah i els altres detinguts encara vestits amb roba de carrer." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-1-cella-ingres-v5.png' | relative_url }}" alt="Pla frontal documental de la sala d’ingrés: dos policies d’esquena encaren Nicholas, Khor, Gebedayah i els altres detinguts encara vestits amb roba de carrer." loading="lazy">
 </figure>
 
 La meva fitxa els reté més estona. Dubten, tornen a llegir-la i, quan em fan descobrir la mà esquerra, encara els costa més acceptar que sigui sacerdot. Els dic que és una modificació destinada a fer cures, però exigeixen una demostració.
@@ -107,7 +114,7 @@ El policia s’hi atura més que amb Contart, no pas per recomanar-nos-la. Ens d
 Quan passa alguna cosa a Suelex, continua, l’Estat triga a arribar, si és que hi va. I quan finalment hi envia algú, sovint no troba res que expliqui què ha passat. El policia no sap donar-nos cap resposta millor o no vol fer-ho. En qualsevol dels dos casos, procura que entenguem que Suelex no és un destí que ell triaria.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-1-reunio-policia-v1.png' | relative_url }}" alt="Nicholas, Khor i Gebedayah, amb bates blanques, escolten el policia burocràtic que omple els formularis a l’altra banda d’una mampara de vidre." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-1-reunio-policia-v2.png' | relative_url }}" alt="Nicholas, Khor i Gebedayah, amb bates blanques, escolten el policia burocràtic que omple els formularis a l’altra banda d’una mampara de vidre." loading="lazy">
 </figure>
 
 Sense carrer, feina ni possessions, el temps queda reduït a l’arribada de les safates, al canvi dels guàrdies i a una elecció que es complica com més intentem entendre-la. Cada dia tornem al despatx per aclarir dubtes, però cada resposta obre una pregunta nova. Li preguntem qui prepara el tractament, com es conserva durant un viatge tan llarg, si arriba en tren o en nau i qui ens l’administrarà. Ell no ho sap o no ens ho vol dir.
@@ -117,7 +124,7 @@ Khor escolta com qui busca una escletxa i pregunta sobretot per Suelex. La ferme
 Jo torno una vegada i una altra al tractament. Si ha d’arribar fins a un poble gairebé abandonat, ha de sortir d’algun lloc i passar per unes mans que potser podrem identificar.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-1-menjador-preso-v2.png' | relative_url }}" alt="Vista picada del menjador industrial de la presó, amb llargues taules mig buides i els tres protagonistes conversant durant un àpat de quarantena." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-1-menjador-preso-v9.png' | relative_url }}" alt="Vista picada del menjador industrial de la presó, amb llargues taules mig buides i els tres protagonistes conversant durant un àpat de quarantena." loading="lazy">
 </figure>
 
 Quan s’acosta el final de la quarantena, Khor ja té clara la seva elecció: vol anar a Suelex. Gebedayah prefereix Contart; per a ell, l’hospital i el tractament assegurat pesen més que una mina llunyana envoltada de desaparicions. Tot i així, no intenta imposar-se. Diu que acceptarà el que decideixi el grup, com si una destinació fos un altre torn de fàbrica: potser pitjor que l’anterior, però igualment inevitable.

@@ -21,7 +21,9 @@ source_ids:
   - user-session-notes-dialogue-redrafting-v1
   - user-session-002-visual-location-clarifications-v1
   - user-accept-moceria-station-v4-v1
+  - user-accept-moceria-station-v9-v1
   - user-accept-moceria-panorama-v2-v1
+  - user-accept-moceria-panorama-v5-v1
   - user-alessa-visual-correction-v1
   - user-alessa-age-and-presence-correction-v1
   - user-accept-alessa-doorway-v4-v1
@@ -57,15 +59,15 @@ images:
     alt: >-
       Alessa dirigeix amb un gest contingut els reclutes que surten per la
       gran porta blindada del mòdul industrial de la presó.
-  - id: acte-2-estacio-moceria-v4
-    path: /assets/images/diary/acte-2-estacio-moceria-v4.png
-    prompt_path: /assets/images/diary/acte-2-estacio-moceria-v4.yml
+  - id: acte-2-estacio-moceria-v9
+    path: /assets/images/diary/acte-2-estacio-moceria-v9.png
+    prompt_path: /assets/images/diary/acte-2-estacio-moceria-v9.yml
     status: camera-ready
     visual_canon: false
     alt: >-
       Vista picada, frontal i ampla de la terminal monumental de Moceria, amb
-      dues grans voltes de ferro i vidre, vies rectes, andanes regulars i
-      reclutes que avancen cap al tren de Suelex.
+      quatre locomotores sota dues grans voltes de ferro i vidre, abundants
+      fumarades i els tres reclutes avançant cap al tren de Suelex.
   - id: acte-2-interior-vago-passatgers-v7
     path: /assets/images/diary/acte-2-interior-vago-passatgers-v7.png
     prompt_path: /assets/images/diary/acte-2-interior-vago-passatgers-v7.yml
@@ -75,14 +77,14 @@ images:
       Nicholas i Khor conversen amb Gebedayah als bancs oposats del vagó; al
       fons, un vestíbul lliure separa l’última taula de la porta, amb Obaric
       assegut a la seva dreta.
-  - id: acte-2-moceria-des-del-tren-v2
-    path: /assets/images/diary/acte-2-moceria-des-del-tren-v2.png
-    prompt_path: /assets/images/diary/acte-2-moceria-des-del-tren-v2.yml
+  - id: acte-2-moceria-des-del-tren-v5
+    path: /assets/images/diary/acte-2-moceria-des-del-tren-v5.png
+    prompt_path: /assets/images/diary/acte-2-moceria-des-del-tren-v5.yml
     status: camera-ready
     visual_canon: false
     alt: >-
-      Dues finestres altes i estretes del vagó emmarquen les fàbriques, el fum
-      i els barris densos de Moceria, estesos per una vall àrida i els vessants.
+      Des de la finestra del vagó, les fàbriques monumentals, els barris
+      esglaonats i les grans acumulacions de fum omplen la vall àrida de Moceria.
   - id: acte-2-parada-intermitja-v2
     path: /assets/images/diary/acte-2-parada-intermitja-v2.png
     prompt_path: /assets/images/diary/acte-2-parada-intermitja-v2.yml
@@ -148,7 +150,7 @@ L’estació apareix abans que puguem insistir. Sota les grans arcades de ferro 
 El nostre tren destaca per uns acabats més acurats. La filera deu acostar-se als cinquanta vagons, i els operaris encara van amunt i avall preparant-la. Mentre en resseguim el costat, deixem enrere finestres i portes fins a arribar a un vagó de xapa de parets cegues, ben diferent dels altres. És aquí on ens fan pujar per rebre la primera dosi del tractament.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-2-estacio-moceria-v4.png' | relative_url }}" alt="Vista picada, frontal i ampla de la terminal monumental de Moceria, amb dues grans voltes de ferro i vidre, vies rectes, andanes regulars i reclutes que avancen cap al tren de Suelex." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-2-estacio-moceria-v9.png' | relative_url }}" alt="Vista picada, frontal i ampla de la terminal monumental de Moceria, amb quatre locomotores sota dues grans voltes de ferro i vidre, abundants fumarades i els tres reclutes avançant cap al tren de Suelex." loading="lazy">
 </figure>
 
 Per dins és una clínica estreta muntada sobre rodes. La persona que ens rep porta bata blanca, màscara de cuir amb dos filtres i ulleres tancades. No li veiem ni un dit de pell. Gebedayah passa primer i ha de girar les espatlles per travessar una porta que sembla haver estat calculada sense imaginar un cos com el seu.
@@ -196,7 +198,7 @@ Se’n torna a anar i la porta blindada es tanca darrere seu. Poc després, el t
 La via s’enfila per un pont elevat i Moceria s’obre a l’altra banda del vidre. Primer passen les grans naus, els patis de mercaderies i les xemeneies que descarreguen fum negre entre les columnes de vapor blanc. Més enllà, els barris ocupen la vall i s’enfilen pels vessants secs fins a perdre definició en la boirina industrial. Una ciutat de mig milió d’habitants, i encara costa trobar on s’acaba. El pont ens en deixa veure la magnitud durant uns minuts; després, Moceria queda enrere.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-2-moceria-des-del-tren-v2.png' | relative_url }}" alt="Dues finestres altes i estretes del vagó emmarquen les fàbriques, el fum blanc i negre i els barris densos de Moceria, estesos per una vall àrida i els vessants." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-2-moceria-des-del-tren-v5.png' | relative_url }}" alt="Des de la finestra del vagó, les fàbriques monumentals, els barris esglaonats i les grans acumulacions de fum omplen la vall àrida de Moceria." loading="lazy">
 </figure>
 
 El menjar arriba en un carro empès per un robot, a través d’una segona portella feta exactament a la seva mida. Les portes grans continuen tancades. Algú ha previst com alimentar-nos sense haver de deixar-nos sortir, i aviat els àpats marquen una rutina que costa distingir d’un dia a l’altre. A l’altra banda del vidre, en canvi, el desert cedeix pas a camps florits i extensions verdes. Nosaltres continuem a les mateixes taules, aprenent a conviure amb els desconeguts que ens han assegut al voltant.

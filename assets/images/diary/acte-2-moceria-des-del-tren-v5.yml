@@ -1,0 +1,66 @@
+schema: image-sidecar/v1
+id: acte-2-moceria-des-del-tren-v5
+image_path: assets/images/diary/acte-2-moceria-des-del-tren-v5.png
+created: '2026-09-02'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-2-moceria-des-del-tren-v4.png
+    role: city-scale-arid-valley-organic-neighbourhoods-heavy-industry-palette-and-lower-viewpoint-reference-only
+  - path: assets/images/diary/acte-2-interior-vago-passatgers-v7.png
+    role: accepted-passenger-carriage-window-frame-materials-and-scale-reference-only
+supersedes:
+  - assets/images/diary/acte-2-moceria-des-del-tren-v4.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: completely fresh project-bound diary illustration for Act II, landscape 3:2. Generate from scratch, not an edit.
+
+  INPUT IMAGES AND NARROW ROLES:
+  Image 1 fixes only the successful overwhelming scale of Moceria, its arid rugged valley, colossal close heavy industry, organically varied neighbourhoods following slopes and transport corridors, restrained soot-brown palette, lower photographic viewpoint and abundant pollution. Do not copy its exact skyline, factories, streets, smoke plumes, bridge girder, window crop or composition. In particular, completely rebuild the smoke from physical principles; do not reproduce the repeated same-size same-direction chimney plumes.
+  Image 2 fixes only the accepted passenger carriage construction and materials: dark varnished wood, riveted black iron, deep sill, tall narrow window construction, heavy brown curtain, restrained amber interior light and believable historic carriage scale. Do not copy its people, tables, benches, door, lighting composition or camera.
+
+  NARRATIVE MOMENT AND INTENT:
+  Shortly after leaving the monumental station, the Suelex-bound steam train crosses an elevated iron bridge and the passengers grasp the immense scale of Moceria, a polluted industrial metropolis of roughly five hundred thousand inhabitants. The city must feel formidable, inhabited, historically accumulated and oppressively industrial. Preserve abundant smoke, but make it behave like one complex atmosphere shaped by heat, uneven wind, terrain and many simultaneous sources.
+
+  ONE CONTINUOUS VIEW AND PARTIAL WINDOW:
+  Compose the exterior first as one coherent wide cinematic photograph. Superimpose only an accidental fragment of the carriage window over the FAR LEFT edge: a narrow vertical strip of dark wood and riveted iron, a thin upper frame, a deep lower sill and part of one tied brown curtain. No central mullion, no second window and no separate panes. Most of the image is uninterrupted landscape, like a hurried photograph taken through the window.
+
+  LOW PHOTOGRAPHIC CAMERA:
+  Camera at seated passenger eye level on a bridge about twenty-five to forty metres above the closest yards, looking almost horizontally outward with a gentle 5-to-8-degree downward angle through a natural 45 mm lens. Horizon in the upper third. Nearby factory roofs and towers rise toward or above the camera and are partially cropped by the lower edge. A small laterally blurred fragment of riveted bridge structure may appear only at the extreme lower-right corner. Never an aerial or miniature view.
+
+  CITY AND INDUSTRIAL SCALE:
+  Across the foreground and middle ground, construct a connected colossal industrial belt of distinct red-brick steelworks, blast-furnace halls, boiler houses, broad sawtooth sheds, coal yards, pipe bridges, rail sidings, freight wagons, pressure tanks, gantries and period-appropriate iron scaffolds. Tiny workers, carts and steam locomotives provide scale. Behind it, organically accumulated neighbourhoods extend across the valley and climb dry foothills: irregular districts, curved arterial streets, retaining walls, rail corridors, ravines, small plazas, rows of workers' houses, four-to-six-storey tenements, courtyard blocks, markets, workshops, warehouses and occasional civic buildings. Vary footprints, heights, orientation and density. Streets and terraces follow terrain. Upper rocky crests retain some exposed ochre ground.
+
+  PHYSICALLY PLAUSIBLE MULTI-SOURCE SMOKE SYSTEM — PRIMARY REQUIREMENT:
+  The atmosphere contains many simultaneous emissions, but they must NOT look like parallel cloned ribbons. Establish a coherent prevailing cross-valley wind with naturally variable local turbulence, temperature and shielding from buildings and hills.
+
+  Show several different emission behaviours:
+  1. Two or three very hot coal-smoke columns rise nearly vertically and narrowly for a short distance immediately above their tall stacks, then billow, cool, widen dramatically and bend downwind at different heights.
+  2. Several medium stacks emit darker intermittent pulses: dense rounded lobes separated by thinner sections, with irregular edges, vortices and changing opacity.
+  3. Groups of nearby chimneys feed overlapping plumes that merge into two or three large accumulated charcoal-grey cloud masses. Once merged, individual sources become indistinguishable except near their chimney mouths.
+  4. Lower boiler vents release bright dirty-white steam that expands rapidly, catches around roofs and gantries, and dissipates sooner than coal smoke.
+  5. Small distant emissions contribute to a broad brown-grey pollution layer rather than remaining individually crisp.
+  6. Terrain traps a substantial low horizontal bank of soot haze over part of the valley floor and between two foothills, partially veiling several neighbourhoods.
+  7. At higher altitude, older smoke has spread into wide soft uneven sheets and broken cloud banks, with gaps, curls and variable density.
+
+  Plumes differ substantially in height, width, age, darkness, direction and visibility. Nearby tall stacks may have large sources; many other stacks have smaller or partially obscured emissions. A few visible stacks may release only faint smoke at the captured instant. Some smoke travels behind buildings, some in front, and merged clouds cast subtle diffuse shadows through the haze. The largest accumulated clouds should arise from multiple visible industrial zones, not float without sources.
+
+  WIND AND TERRAIN LOGIC:
+  Near chimney mouths, thermal buoyancy dominates and smoke initially rises. Above roof level, the prevailing wind gradually bends it across the valley. Building wakes create localized curls and one or two counter-eddies, while the foothills deflect the oldest haze upward. The overall atmosphere remains coherent, but no two plumes have identical silhouettes or angles. Do not make every plume point in exactly the same direction from its origin.
+
+  ABUNDANCE AND VISIBILITY:
+  Do not reduce the overall pollution compared with Image 1. Large merged smoke masses, layered haze and white steam occupy a substantial fraction of the sky and valley while leaving enough breaks to read the city's monumental scale. Use opaque black near fresh coal sources, charcoal and brown-grey in merging middle-aged clouds, pale diffuse grey in older elevated sheets, and bright dirty white for steam. Smoke must be materially dense, not decorative wisps.
+
+  LIGHT, PALETTE AND NATURALISM:
+  Dry late-morning daylight filtered unevenly through soot, creating broad muted shafts and patches of reduced contrast. Dusty reddish-brown brick, ochre earth, charcoal roofs, blackened iron, grey riveted steel, dirty ivory steam and restrained weathered copper. Pale desaturated sky occupies no more than the upper fifth. Mood formidable and lived-in, not supernatural or apocalyptic.
+
+  RENDERING:
+  Authentic unstaged full-colour documentary photograph captured directly on clean fine-grain 35 mm negative film. Natural scale, coherent available light, tactile brick, soot, iron, glass and atmospheric depth; believable urban construction; modest dynamic range; gentle highlight roll-off; slight optical softness; restrained colour and clean low-amplitude grain. Historical reality, not concept art. No people inside the carriage and nobody looking toward camera.
+
+  FINAL AUDIT:
+  One continuous city view with only a partial frame at far left. Low viewpoint, colossal near factories, organic terrain-aware districts and rugged arid relief. Abundant pollution behaves as a varied multi-source atmospheric system: initial vertical rise, unequal bending, intermittent pulses, merged accumulated clouds, trapped haze, high diffuse sheets and fast-dispersing white steam. No cloned smoke.
+
+  CRITICAL EXCLUSIONS:
+  no row of identical plumes, no same-size emissions, no same-angle emissions, no uniformly parallel smoke, no one isolated plume per chimney across the whole city, no floating smoke without traceable industrial zones, no reduction of total pollution, no decorative wisps, no clean-air city, no two-window layout, no central mullion, no split postcard, no symmetrical framing, no bird's-eye view, no extreme elevation, no miniature city, no uniform repeated neighbourhood texture, no perfect universal grid, no flat horizon, no sparse town, no lush vegetation, no modern skyscrapers, no contemporary cooling towers, no modern cranes, no cyberpunk neon, no fantasy skyline, no ocean, no wet streets, no sunset spectacle, no person at window, no carriage table, no seats, no heavy reflection, no fisheye, no tilt-shift, no painterly rendering, no HDR, no bokeh, no coarse grain, no text and no watermark.

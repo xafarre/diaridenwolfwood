@@ -1,0 +1,100 @@
+schema: image-sidecar/v1
+id: acte-2-estacio-moceria-v9
+image_path: assets/images/diary/acte-2-estacio-moceria-v9.png
+created: '2026-09-02'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: assets/images/diary/acte-2-estacio-moceria-v8.png
+    role: monumental-scale-high-perspective-small-human-scale-central-platform-dirty-service-area-architecture-palette-and-documentary-atmosphere-reference-only
+  - path: world/characters/kenzo-mori/reference-documentary-35mm-field-v2.png
+    role: Nicholas-adult-facial-identity-age-and-build-reference-only
+  - path: world/characters/khor-yugoroto/reference-identity-turnaround-v1.png
+    role: Khor-canonical-identity-and-mutation-reference-only
+  - path: world/characters/gebedayah-brass/reference-identity-turnaround-v1.png
+    role: Gebedayah-canonical-identity-and-relative-proportions-reference-only
+supersedes:
+  - assets/images/diary/acte-2-estacio-moceria-v8.png
+prompt: |-
+  Use case: historical-scene.
+  Asset type: completely fresh project-bound diary illustration for Act II, landscape 3:2. Generate from scratch, not an edit.
+
+  INPUT IMAGES AND NARROW ROLES:
+  Image 1 fixes only the successful monumental scale, high centered perspective, small human scale, wide central paved platform, localized dirty service area, twin iron-and-glass train sheds, post-industrial steampunk architecture, reddish-brick palette and restrained 35 mm documentary atmosphere. Rebuild the façade openings, rails, trains, locomotives, smoke and people entirely from scratch. Do NOT copy the erroneous train occupying the central doorway.
+  Image 2 fixes only Nicholas's adult identity, Japanese/East Asian appearance, age around forty and lean build. Replace his clothing with a pale institutional gown.
+  Image 3 fixes only Khor's identity: lean upright black-panther humanoid, black fur, yellow eyes, diagonal facial scar and no tail. Replace his clothing with a pale institutional gown.
+  Image 4 fixes only Gebedayah's identity and relative proportions: about 2.10 metres, 140 kilograms, huge shoulders, thick neck and battered square face. Replace his clothing with a pale institutional gown; no cap and no hammer.
+
+  NON-NEGOTIABLE FIVE-BAY FAÇADE:
+  Design the lower station façade with exactly five large openings, clearly separated by masonry piers and aligned symmetrically:
+  1. LEFT TRAIN ARCH A;
+  2. LEFT TRAIN ARCH B;
+  3. GRAND CENTRAL PEDESTRIAN CONCOURSE;
+  4. RIGHT TRAIN ARCH C;
+  5. RIGHT TRAIN ARCH D.
+
+  The GRAND CENTRAL PEDESTRIAN CONCOURSE is not railway infrastructure. It is a broad paved continuation of the extra-wide central platform, leading through the station building to an interior hall. It contains warm lamps, distant pedestrians, luggage trolleys and a visible paved floor. It contains NO rails, NO ballast, NO locomotive, NO tender, NO carriage, NO train roof and NO dark cylindrical object. The full lower edge of the central opening is visibly paved from left jamb to right jamb. Its upper interior remains architecturally open and readable. Nothing is cropped or sliced by the central portal.
+
+  Only the four OUTER arches A, B, C and D receive railway tracks and trains. Every railway arch is clearly full train size. No train passes through the central axis beneath the clock.
+
+  EXACT GROUND PLAN:
+  Left to right:
+  - TRACK A enters LEFT TRAIN ARCH A and carries TRAIN A;
+  - PLATFORM 1;
+  - TRACK B enters LEFT TRAIN ARCH B and carries the long Suelex TRAIN B;
+  - EXTRA-WIDE CENTRAL PLATFORM continues directly into the GRAND CENTRAL PEDESTRIAN CONCOURSE;
+  - TRACK C enters RIGHT TRAIN ARCH C and carries TRAIN C;
+  - PLATFORM 3, the dirty service platform;
+  - TRACK D enters RIGHT TRAIN ARCH D and carries TRAIN D.
+
+  Exactly four tracks, exactly four complete train consists, exactly three platforms and exactly one rail-free central pedestrian concourse. Every track has two straight continuous rails and aligns precisely with its own outer train arch. No rail ends at masonry. No fifth track. No fifth train. No central train.
+
+  CAMERA, ARCHITECTURE AND SCALE:
+  Very wide high-angle architectural photograph from an internal gallery at least six storeys above platform level, looking down about 30 degrees with a 40 mm shift lens. Centered axial composition, one coherent vanishing point, straight verticals and restrained perspective. Monumental original red-brick-and-pale-stone terminal with two immense adjacent barrel-vaulted iron-and-glass train sheds, a large mechanical clock directly above the central pedestrian concourse, substantial corner pavilions, iron service bridges and restrained weathered-copper pressure pipes. Architecture dwarfs trains; trains dwarf people.
+
+  TRACK AND PLATFORM GEOMETRY:
+  All four tracks perfectly straight, parallel, coplanar and constant gauge. All three platforms level, straight, parallel and constant-width. The extra-wide central platform is unmistakably paved from edge to edge and geometrically meets the central pedestrian concourse. No siding, spur, switch, crossing, fork, extra rail, rail fragment, rail through paving, dead-end rail or platform deformation.
+
+  FOUR LOCOMOTIVES — ALL VISIBLE AND ALL SMOKING:
+  Place all four steam locomotives in the visible lower or middle third, at approximately the same depth, each facing toward the foreground and each fully readable as a locomotive. Behind every locomotive is its tender, visibly coupled, followed by a continuous long sequence of carriages running back through the corresponding outer arch. No locomotive is hidden entirely inside a shed. No train begins with a carriage at the foreground. No isolated engine.
+
+  Every one of the FOUR locomotive chimney stacks is visible. Every chimney produces a major dark coal-smoke plume with a continuous visible connection from chimney mouth to expanding cloud. No locomotive is smoke-free.
+
+  Smoke requirements by train:
+  - TRAIN B, the Suelex train, produces an exceptionally broad, heavy, rolling dark-grey plume at least five times the apparent width of its chimney, billowing and mushrooming beneath the left vault;
+  - TRAIN A produces a second broad dense turbulent plume;
+  - TRAIN C produces a substantial broad dark plume clearly wider than its boiler;
+  - TRAIN D produces a substantial broad dark plume clearly wider than its boiler.
+  All four are abundant smoke columns, not tiny wisps. Vary shape and darkness naturally without making any one disappear.
+
+  Add large translucent white steam masses from visible cylinder cocks near wheels and a few connected platform hoses. Every white cloud remains attached to its mechanical source.
+
+  SMOKE ORIGIN AND ROOF:
+  The iron-and-glass roof is intact. Dark coal smoke originates ONLY at the four visible locomotive chimneys. No smoke originates from city chimneys within the station silhouette, window panes, roof glass, masonry, towers, clock, central concourse or invisible points. Smoke may drift beneath the vaults and escape through clearly designed ridge ventilators, but each train plume remains traceable back to a locomotive chimney. Preserve gaps so the platform plan and central rail-free concourse remain legible.
+
+  THE ONLY THREE PALE GOWNS:
+  On Platform 1 beside the Suelex train, in the middle distance around 42 percent from the bottom, show exactly three small pale-gowned figures in a compact irregular triangle:
+  - Nicholas and Khor have the same apparent height as dark-clothed workers at the same depth;
+  - Gebedayah is only 15–20 percent taller but much broader;
+  - Khor has a small readable black-panther head and black hands, no tail.
+  A dark-uniformed attendant walks ahead. Exactly three pale gowns anywhere in the image; no queue, formation or additional pale clothing.
+
+  ONE DIRTY PLATFORM ONLY:
+  Platform 3 alone contains localized oily mud caused by leaking hoses and tracked dust, coal grit, soot, coiled hoses, used tools, two battered crates, timber offcuts, workshop rags and one broken handcart wheel. Leave a clear safe path and keep all debris off rails. Platform 1 and the wide central platform remain comparatively swept and orderly. No rain and no station-wide wet sheen.
+
+  STATION ACTIVITY:
+  Many small dark-clothed workers tend valves, couple hoses, push luggage trolleys and work around the complete trains. Ordinary passengers wait in scattered dark-clothed groups. Scale is coherent at every depth. No person on rails or looking at camera.
+
+  ENVIRONMENT, LIGHT AND COLOUR:
+  Dry pale morning in an arid industrial city. Dense factories, warehouses and barren hills beyond the terminal, but do not let background industrial chimneys create confusing foreground plumes. Reddish brick, pale stone, charcoal steel, black iron, aged glass, worn wood, selective copper. Pale daylight filters through abundant train smoke and steam in broad soft shafts; readable midtones, restrained contrast.
+
+  RENDERING:
+  Authentic unstaged full-colour documentary photography captured directly on clean fine-grain 35 mm negative film. Tactile masonry, soot, iron, glass, localized mud, steam and cloth; believable distant adults; coherent light; modest dynamic range; gentle highlight roll-off; slight optical softness; restrained colour and clean low-amplitude grain. Historical reality, not concept art.
+
+  FINAL AUDIT:
+  Exactly five façade openings: train arch, train arch, rail-free central pedestrian concourse, train arch, train arch. Central concourse fully paved and contains no train or track. Exactly four tracks and four complete trains. All four locomotives visible at similar depth. All four chimneys emit abundant, broad, visibly connected dark smoke. Exactly three pale gowns at small middle-distance scale. Only Platform 3 is muddy and cluttered.
+
+  CRITICAL EXCLUSIONS:
+  no edit, no train in central doorway, no train under clock, no cut train, no sliced carriage, no cylindrical roof in central concourse, no rail in central concourse, no central track, no fifth train, no fifth track, no smoke-free locomotive, no tiny chimney wisp, no hidden locomotive, no isolated locomotive, no lone engine, no dead-end rail at wall, no smoke from glass, no smoke from window, no smoke from roof, no smoke from masonry, no floating plume, no oversized protagonist, no foreground trio, no prisoner line, no fourth pale gown, no dirt on every platform, no station-wide wet ground, no debris on rails, no curved rail, no wavy rail, no changing gauge, no switchwork, no rail through platform, no bent platform, no train straddling tracks, no short Suelex train, no modest depot, no modern train, no diesel, no catenary, no modern signs, no generic science fiction, no fantasy castle, no HDR, no bokeh, no text and no watermark.

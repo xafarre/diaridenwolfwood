@@ -4,9 +4,9 @@ type: character
 id: alessa
 title: "Alessa"
 summary: "La jove responsable del contingent que viatja cap a Suelex."
-image: /world/characters/alessa/reference-identity-turnaround-v3.png
-image_alt: "Full de referència d’Alessa, d’uns vint-i-cinc anys, amb una vista frontal i dos perfils de cos sencer."
-image_status: canonical-reference
+image: /world/characters/alessa/portrait-bar-v5.png
+image_alt: "Alessa asseguda endavant en una butaca de cuir d’un bar elegant, amb els colzes recolzats als genolls i una mirada desafiant."
+image_status: camera-ready
 icon: null
 order: 40
 memory_record_id: alessa
@@ -23,8 +23,3 @@ cintura encorsetada i una faldilla curta. El conjunt recorda l’elegància orna
 d’una maid, però els materials, els acabats i la manera de dur-lo indiquen diners
 i autoritat, no pas servei. És ella qui condueix els reclutes de la presó a
 l’estació, imposa les normes del viatge i els lliura la roba del contingent.
-
-<figure class="diary-illustration">
-  <img src="{{ '/world/characters/alessa/reference-identity-turnaround-v3.png' | relative_url }}" alt="Full de referència d’Alessa, d’uns vint-i-cinc anys, amb una vista frontal i dos perfils de cos sencer." loading="lazy">
-  <figcaption>Referència canònica: frontal i perfils.</figcaption>
-</figure>

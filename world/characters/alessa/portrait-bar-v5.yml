@@ -1,0 +1,46 @@
+---
+schema: image-sidecar/v1
+id: alessa-portrait-bar-v5
+image_path: world/characters/alessa/portrait-bar-v5.png
+created: '2026-09-03'
+mode: fresh-generation
+tool: built-in-imagegen
+prompt_status: exact
+image_status: camera-ready
+references:
+  - path: world/characters/alessa/reference-identity-turnaround-v3.png
+    role: canonical-identity-and-upper-costume-reference
+  - path: assets/images/diary/proleg-placa-del-coure-v8.png
+    role: active-documentary-35mm-rendering-style-reference
+supersedes: []
+prompt: |-
+  Use case: historical-scene.
+  Asset type: fresh experimental formal character portrait for Alessa’s public page, vertical composition.
+
+  REFERENCES:
+  Image 1 fixes Alessa’s canonical identity and upper clothing. Preserve the same original fictional adult woman, approximately twenty-five, short and slim, with a mature expressive face, blonde twin ponytails, strong brows and red lips. Preserve the ivory high-collared lace blouse and black structured waist. For this experimental seated portrait only, replace the layered skirt and stockings with fitted formal black riding trousers and sturdy black ankle boots. Do not copy the turnaround layout or studio.
+  Image 2 fixes only the project’s natural fine-grain 35 mm photographic response. Do not copy its scene or camera.
+
+  SETTING:
+  An exclusive industrial-era bar with dark polished wood, oxblood leather, reddish brick, restrained brass details, etched glass and warm lamps. Shelves behind Alessa are filled with expensive cut-glass decanters and varied amber, green and clear bottles. Labels remain indistinct. No other people.
+
+  POSTURE:
+  Alessa sits at the front of a substantial oxblood leather armchair like a formidable negotiator. Both boots are planted firmly and separately on the floor in a broad balanced stance. Each elbow is visibly supported by its corresponding knee. Her forearms angle toward the centre and her relaxed hands hang close together without interlocking. Her torso leans forward, back long, shoulders low and steady. All contact points are clear: boots on floor, elbows on knees, body at the front edge of the chair. The pose communicates direct authority and readiness.
+
+  CLOTHING:
+  Ivory high-collared blouse with refined lace and restrained black piping, structured black waist, tailored formal black riding trousers of heavy matte cloth, and sturdy practical polished black ankle boots. Expensive workmanship, restrained steampunk detail, no uniform insignia.
+
+  EXPRESSION:
+  Alessa’s chin is slightly lowered. She looks straight toward the camera from under level brows with a severe, calm, evaluating gaze. Her red lips are just slightly open as though she is about to state a condition. No smile.
+
+  CAMERA:
+  A frontal camera at approximately seat height, mildly below her face, using a natural 45 mm portrait lens. Frame the full armchair, complete boots, supported elbows, hands, torso and head. The two boots anchor the lower corners; the forearms create inward diagonals leading to her face. Strong chair and bar symmetry with a subtle natural turn in her head. Straight shelves and realistic proportions.
+
+  LIGHT AND MEDIUM:
+  Warm amber practical light with cooler soft shadow fill. Broad restrained reflections in bottles and leather. Authentic full-colour documentary photography captured on fine-grain 35 mm negative film. Natural adult skin, tactile lace and cloth, worn leather, dark wood, brushed brass and heavy glass; modest dynamic range, restrained colour, gentle highlight roll-off and slight optical softness.
+
+  REQUIRED:
+  same adult Alessa as Image 1; formal blouse and structured waist; black riding trousers; two boots planted separately; broad grounded stance; exactly one elbow supported on each knee; relaxed hands near the centre; torso leaning forward; direct serious gaze; lips slightly open; bottle-lined luxury bar.
+
+  AVOID:
+  skirt, stockings, celebrity likeness, teenage appearance, anime, doll face, smile, comic expression, crossed legs, floating elbows, clenched fists, merged hands, malformed or duplicated fingers or limbs, missing footwear, mismatched boot scale, warped chair, fisheye, Dutch angle, other people, bartender, glass in her hand, cigarette, weapon, text, readable labels, watermark, HDR, vignette, sepia, glitter, coarse grain.

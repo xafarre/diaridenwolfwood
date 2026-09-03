@@ -1,6 +1,10 @@
 ---
 layout: world_index
-title: "Campaign world"
+title: "Món de la campanya"
 ---
 
-No public world entries have been created yet.
+La informació pública i sense espòilers sobre les persones i els llocs que ja
+han aparegut a la campanya.
+
+- [Personatges]({{ '/world/characters/' | relative_url }})
+- [Llocs]({{ '/world/places/' | relative_url }})

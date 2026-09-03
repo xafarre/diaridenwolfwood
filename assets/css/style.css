@@ -662,6 +662,48 @@ img {
   max-height: none;
 }
 
+.world-gallery {
+  margin-top: 3rem;
+}
+
+.world-gallery__intro {
+  color: #4d453b;
+  font-style: italic;
+}
+
+.world-gallery__grid {
+  columns: 2 20rem;
+  column-gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.world-gallery__item {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 0.48rem;
+  break-inside: avoid;
+  background: #292a28;
+  border: 1px solid #060708;
+  box-shadow: 0 10px 22px rgba(30, 22, 16, 0.28);
+}
+
+.world-gallery__item img {
+  width: 100%;
+  background: #111315;
+  border: 1px solid rgba(214, 160, 100, 0.42);
+}
+
+.world-gallery__item figcaption {
+  padding: 0.65rem 0.45rem 0.28rem;
+  color: var(--paper-light);
+  font-family: var(--utility);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  line-height: 1.45;
+}
+
 .entry-footer {
   padding: 2.5rem 0 0;
   text-align: center;

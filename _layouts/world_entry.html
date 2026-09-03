@@ -25,7 +25,7 @@ layout: default
 
   <div class="prose">
     {% if page.image %}
-      <figure class="diary-illustration diary-illustration--portrait">
+      <figure class="diary-illustration{% if page.type == "character" %} diary-illustration--portrait{% endif %}">
         <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">
       </figure>
     {% endif %}

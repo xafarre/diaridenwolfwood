@@ -31,6 +31,7 @@ source_ids:
   - user-accept-obaric-turnaround-v20-v1
   - user-acte-2-illustration-review-v1
   - user-accept-tesla-structure-v20-v1
+  - user-accept-tesla-structure-v21-and-moceria-gallery-v1
   - user-accept-cartigo-v2-and-reality-pov-ruling-v1
   - user-accept-ballard-v2-v1
 consulted_record_ids:
@@ -95,15 +96,15 @@ images:
       Vista picada obliqua de la petita estació àrida, amb una sola andana,
       dues vies rectes i operaris que carreguen un llarg comboi que continua
       més enllà dels dos extrems de la fotografia.
-  - id: acte-2-estructura-tren-tesla-v20
-    path: /assets/images/diary/acte-2-estructura-tren-tesla-v20.png
-    prompt_path: /assets/images/diary/acte-2-estructura-tren-tesla-v20.yml
+  - id: acte-2-estructura-tren-tesla-v21
+    path: /assets/images/diary/acte-2-estructura-tren-tesla-v21.png
+    prompt_path: /assets/images/diary/acte-2-estructura-tren-tesla-v21.yml
     status: camera-ready
     visual_canon: false
     alt: >-
       Vista des d’un tren en moviment de dues estructures en U d’un futur tren
-      Tesla, amb una canonada recta, un transformador lateral, bastides i molts
-      operaris diminuts treballant en el paisatge àrid.
+      Tesla, envoltades de bastides, operaris, materials, fang, ferralla i pols,
+      amb una canonada recta i un transformador lateral.
   - id: acte-2-cartigo-finestra-v2
     path: /assets/images/diary/acte-2-cartigo-finestra-v2.png
     prompt_path: /assets/images/diary/acte-2-cartigo-finestra-v2.yml
@@ -287,7 +288,7 @@ Fora, la feina de càrrega continua. El poble és petit i nosaltres no tenim din
 Més enllà de la finestra apareixen els pilars d’un tren Tesla en construcció. Les grans U es repeteixen sobre el terreny i dibuixen el corredor per on haurà de circular el comboi magnètic. L’obra encara és incompleta, però ja s’hi veuen arcs elèctrics: descàrregues breus que retallen la forma de l’estructura. Des del nostre vagó de vapor, aquella successió de suports sembla desmesurada fins i tot per a un tren.
 
 <figure class="diary-illustration">
-  <img src="{{ '/assets/images/diary/acte-2-estructura-tren-tesla-v20.png' | relative_url }}" alt="Vista des d’un tren en moviment de dues estructures en U d’un futur tren Tesla, amb una canonada recta, un transformador lateral, bastides i molts operaris diminuts treballant en el paisatge àrid." loading="lazy">
+  <img src="{{ '/assets/images/diary/acte-2-estructura-tren-tesla-v21.png' | relative_url }}" alt="Vista des d’un tren en moviment de dues estructures en U d’un futur tren Tesla, envoltades de bastides, operaris, materials, fang, ferralla i pols, amb una canonada recta i un transformador lateral." loading="lazy">
 </figure>
 
 Obaric s’inclina cap al vidre.

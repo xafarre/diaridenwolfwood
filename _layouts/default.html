@@ -1,34 +1,57 @@
+{% assign current_language = page.language | default: site.lang | default: 'ca' %}
+{% assign ui = site.data.i18n[current_language] %}
+{% if current_language == 'ca' %}
+  {% assign language_root = '' %}
+{% else %}
+  {% capture language_root %}/{{ current_language }}{% endcapture %}
+{% endif %}
+{% assign translations = site.pages | where: "translation_key", page.translation_key %}
+{% assign ca_page = translations | where: "language", "ca" | first %}
+{% assign es_page = translations | where: "language", "es" | first %}
+{% assign en_page = translations | where: "language", "en" | first %}
 <!doctype html>
-<html lang="{{ site.lang | default: 'ca' }}">
+<html lang="{{ current_language }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#202429">
-    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.summary | default: site.description | strip_html | normalize_whitespace | escape }}">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ ui.site_title }}</title>
+    <meta name="description" content="{{ page.summary | default: ui.site_description | strip_html | normalize_whitespace | escape }}">
+    {% for translated_page in translations %}
+      <link rel="alternate" hreflang="{{ translated_page.language }}" href="{{ translated_page.url | absolute_url }}">
+    {% endfor %}
+    {% if ca_page %}<link rel="alternate" hreflang="x-default" href="{{ ca_page.url | absolute_url }}">{% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body class="layout-{{ page.layout | default: 'default' }}">
-    <a class="skip-link" href="#contingut">Ves al contingut</a>
+    <a class="skip-link" href="#contingut">{{ ui.skip_to_content }}</a>
 
     <header class="site-header">
       <div class="site-header-inner">
-        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — portada">
+        <a class="site-brand" href="{{ language_root | append: '/' | relative_url }}" aria-label="{{ ui.site_title }} — {{ ui.home_label }}">
           <span class="brand-medallion" aria-hidden="true">W</span>
           <span class="brand-copy">
-            <small>Diari d’en</small>
-            <strong>Wolfwood</strong>
+            <small>{{ ui.brand_prefix }}</small>
+            <strong>{{ ui.brand_name }}</strong>
           </span>
         </a>
 
-        <nav class="site-nav" aria-label="Navegació principal">
-          <a{% if page.url contains '/diary/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/diary/' | relative_url }}">Diari</a>
-          <a{% if page.url contains '/world/characters/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/world/characters/' | relative_url }}">Personatges</a>
-          <a{% if page.url == '/world/' or page.url contains '/world/places/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/world/' | relative_url }}">Món</a>
-        </nav>
+        <div class="header-navigation">
+          <nav class="site-nav" aria-label="{{ ui.primary_navigation }}">
+            <a{% if page.section == 'diary' %} class="is-current" aria-current="page"{% endif %} href="{{ language_root | append: '/diary/' | relative_url }}">{{ ui.diary }}</a>
+            <a{% if page.section == 'characters' %} class="is-current" aria-current="page"{% endif %} href="{{ language_root | append: '/world/characters/' | relative_url }}">{{ ui.characters }}</a>
+            <a{% if page.section == 'world' %} class="is-current" aria-current="page"{% endif %} href="{{ language_root | append: '/world/' | relative_url }}">{{ ui.world }}</a>
+          </nav>
+
+          <nav class="language-switcher" aria-label="{{ ui.language_selector }}">
+            {% if ca_page %}<a lang="ca" hreflang="ca"{% if current_language == 'ca' %} class="is-current" aria-current="page"{% endif %} href="{{ ca_page.url | relative_url }}" aria-label="{{ ui.language_ca }}">CA</a>{% endif %}
+            {% if es_page %}<a lang="es" hreflang="es"{% if current_language == 'es' %} class="is-current" aria-current="page"{% endif %} href="{{ es_page.url | relative_url }}" aria-label="{{ ui.language_es }}">ES</a>{% endif %}
+            {% if en_page %}<a lang="en" hreflang="en"{% if current_language == 'en' %} class="is-current" aria-current="page"{% endif %} href="{{ en_page.url | relative_url }}" aria-label="{{ ui.language_en }}">EN</a>{% endif %}
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -39,7 +62,7 @@
     <footer class="site-footer">
       <div class="site-footer-inner">
         <span class="footer-rule" aria-hidden="true"></span>
-        <p>Arxiu de campanya · Cròniques de Nicholas D. Wolfwood</p>
+        <p>{{ ui.footer }}</p>
       </div>
     </footer>
   </body>

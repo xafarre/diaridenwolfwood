@@ -2,16 +2,20 @@
 layout: default
 ---
 
+{% assign current_language = page.language | default: site.lang | default: 'ca' %}
+{% assign ui = site.data.i18n[current_language] %}
+{% if current_language == 'ca' %}{% assign language_root = '' %}{% else %}{% capture language_root %}/{{ current_language }}{% endcapture %}{% endif %}
+
 {% if page.type == "character" %}
-  {% assign entry_label = "Personatge" %}
-  {% assign parent_url = "/world/characters/" %}
-  {% assign parent_label = "Torna a personatges" %}
-  {% assign footer_label = "Fitxa de personatge" %}
+  {% assign entry_label = ui.character %}
+  {% assign parent_url = language_root | append: "/world/characters/" %}
+  {% assign parent_label = ui.back_to_characters %}
+  {% assign footer_label = ui.character_sheet %}
 {% else %}
-  {% assign entry_label = page.label | default: "Món" %}
-  {% assign parent_url = "/world/" %}
-  {% assign parent_label = "Torna al món" %}
-  {% assign footer_label = "Fitxa del món" %}
+  {% assign entry_label = page.label | default: ui.world %}
+  {% assign parent_url = language_root | append: "/world/" %}
+  {% assign parent_label = ui.back_to_world %}
+  {% assign footer_label = ui.world_sheet %}
 {% endif %}
 
 <article class="journal-entry" id="fitxa-inici">
@@ -38,7 +42,7 @@ layout: default
   </footer>
 </article>
 
-<nav class="floating-nav" aria-label="Navegació de la fitxa">
+<nav class="floating-nav" aria-label="{{ ui.profile_navigation }}">
   <a class="floating-nav-button" href="{{ parent_url | relative_url }}" aria-label="{{ parent_label }}" title="{{ parent_label }}">←</a>
-  <a class="floating-nav-button" href="#fitxa-inici" aria-label="Torna a dalt" title="Torna a dalt">↑</a>
+  <a class="floating-nav-button" href="#fitxa-inici" aria-label="{{ ui.back_to_top }}" title="{{ ui.back_to_top }}">↑</a>
 </nav>

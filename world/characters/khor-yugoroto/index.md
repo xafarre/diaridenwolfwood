@@ -9,6 +9,12 @@ image_alt: "Khor Yugoroto, un humanoide pantera negra vestit amb una imitació d
 icon: null
 order: 20
 memory_record_id: khor-yugoroto
+language: ca
+translation_key: character-khor-yugoroto
+section: characters
+language: ca
+translation_key: character-khor-yugoroto
+section: characters
 ---
 
 Khor Yugoroto és un jove mutant amb forma de pantera negra, d’uns vint anys i

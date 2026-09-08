@@ -11,6 +11,9 @@ image_status: camera-ready
 icon: null
 order: 10
 memory_record_id: moceria
+language: ca
+translation_key: place-moceria
+section: world
 ---
 
 Moceria és una gran ciutat industrial de Baustra i el punt d’inici de la

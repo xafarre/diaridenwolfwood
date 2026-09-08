@@ -2,17 +2,20 @@
 layout: default
 ---
 
+{% assign current_language = page.language | default: site.lang | default: 'ca' %}
+{% assign ui = site.data.i18n[current_language] %}
+
 {% if page.status == "published" %}
 <article>
-  <p class="eyebrow">Chapter {{ page.order }}</p>
+  <p class="eyebrow">{{ ui.chapter }} {{ page.order }}</p>
   <h1>{{ page.title }}</h1>
   {{ content }}
 
-  {% assign acts = site.pages | where: "type", "act" | where: "chapter", page.slug | sort: "order" %}
+  {% assign acts = site.pages | where: "type", "act" | where: "chapter", page.slug | where: "language", current_language | sort: "order" %}
   {% for act in acts %}
     {% if act.status == "published" %}
       <section class="prose">
-        <p class="eyebrow">{{ act.label | default: "Act" }}</p>
+        <p class="eyebrow">{{ act.label | default: ui.act }}</p>
         <h2>{{ act.title }}</h2>
         {{ act.content }}
       </section>
@@ -20,5 +23,5 @@ layout: default
   {% endfor %}
 </article>
 {% else %}
-<article class="prose"><h1>Not published</h1></article>
+<article class="prose"><h1>{{ ui.not_published }}</h1></article>
 {% endif %}

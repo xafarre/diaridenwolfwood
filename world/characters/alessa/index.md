@@ -10,6 +10,12 @@ image_status: camera-ready
 icon: null
 order: 40
 memory_record_id: alessa
+language: ca
+translation_key: character-alessa
+section: characters
+language: ca
+translation_key: character-alessa
+section: characters
 ---
 
 Alessa ronda els vint-i-cinc anys, és baixa, prima i prou atractiva perquè els

@@ -9,6 +9,12 @@ image_alt: "Nicholas D. Wolfwood amb la seva roba sacerdotal fosca en un carrer 
 icon: null
 order: 10
 memory_record_id: nicholas-d-wolfwood
+language: ca
+translation_key: character-nicholas-d-wolfwood
+section: characters
+language: ca
+translation_key: character-nicholas-d-wolfwood
+section: characters
 ---
 
 Nicholas D. Wolfwood és un sacerdot prim d’uns quaranta anys, de faccions

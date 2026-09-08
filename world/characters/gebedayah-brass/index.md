@@ -9,6 +9,12 @@ image_alt: "Gebedayah Brass amb roba de treball i una gran maça dins una metal�
 icon: null
 order: 30
 memory_record_id: gebedayah-brass
+language: ca
+translation_key: character-gebedayah-brass
+section: characters
+language: ca
+translation_key: character-gebedayah-brass
+section: characters
 ---
 
 Gebedayah Brass fa dos metres i seixanta centímetres i converteix qualsevol

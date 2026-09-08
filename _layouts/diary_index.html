@@ -2,17 +2,19 @@
 layout: default
 ---
 
-{% assign diary_entries = site.pages | where: "type", "diary-entry" %}
-{% assign acts = site.pages | where: "type", "act" %}
+{% assign current_language = page.language | default: site.lang | default: 'ca' %}
+{% assign ui = site.data.i18n[current_language] %}
+{% assign diary_entries = site.pages | where: "type", "diary-entry" | where: "language", current_language %}
+{% assign acts = site.pages | where: "type", "act" | where: "language", current_language %}
 {% assign entries = diary_entries | concat: acts | sort: "order" %}
 
 <header class="archive-heading">
-  <p class="section-kicker">Arxiu personal</p>
+  <p class="section-kicker">{{ ui.personal_archive }}</p>
   <h1>{{ page.title }}</h1>
-  <p>Relats de Nicholas D. Wolfwood, sacerdot i viatger d’un món industrial.</p>
+  <p>{{ ui.diary_intro }}</p>
 </header>
 
-<section class="entry-grid entry-grid-archive" aria-label="Entrades del diari">
+<section class="entry-grid entry-grid-archive" aria-label="{{ ui.diary_entries }}">
   {% for entry in entries %}
     {% if entry.status == "published" or site.preview_drafts %}
       <article class="entry-card">
@@ -24,17 +26,17 @@ layout: default
           {% endif %}
           <div class="entry-card-body">
             <div class="entry-card-meta">
-              <p class="entry-number">{% if entry.type == 'act' %}{{ entry.label | default: "Acte" }}{% elsif entry.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ entry.order }}{% endif %}</p>
-              {% if entry.status == "draft" %}<span class="draft-chip">Esborrany</span>{% endif %}
+              <p class="entry-number">{% if entry.type == 'act' %}{{ entry.label | default: ui.act }}{% elsif entry.chapter == 'proleg' %}{{ ui.prologue }}{% else %}{{ ui.chapter }} {{ entry.order }}{% endif %}</p>
+              {% if entry.status == "draft" %}<span class="draft-chip">{{ ui.draft }}</span>{% endif %}
             </div>
-            <h2>{{ entry.title | remove: "Pròleg — " }}</h2>
+            <h2>{{ entry.display_title | default: entry.title }}</h2>
             {% if entry.summary %}<p>{{ entry.summary }}</p>{% endif %}
-            <span class="text-link">Obre el quadern <span aria-hidden="true">→</span></span>
+            <span class="text-link">{{ ui.open_notebook }} <span aria-hidden="true">→</span></span>
           </div>
         </a>
       </article>
     {% endif %}
   {% else %}
-    <p class="empty-state">Encara no hi ha cap entrada publicada.</p>
+    <p class="empty-state">{{ ui.no_published_entries }}</p>
   {% endfor %}
 </section>

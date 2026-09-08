@@ -2,8 +2,10 @@
 layout: default
 ---
 
-{% assign diary_pages = site.pages | where: "type", "diary-entry" %}
-{% assign acts = site.pages | where: "type", "act" %}
+{% assign current_language = page.language | default: site.lang | default: 'ca' %}
+{% assign ui = site.data.i18n[current_language] %}
+{% assign diary_pages = site.pages | where: "type", "diary-entry" | where: "language", current_language %}
+{% assign acts = site.pages | where: "type", "act" | where: "language", current_language %}
 {% assign diary_entries = diary_pages | concat: acts | sort: "order" | reverse %}
 {% assign featured_entry = nil %}
 {% for entry in diary_entries %}
@@ -16,19 +18,19 @@ layout: default
   <img class="landing-hero-image" src="{{ '/assets/images/diary/proleg-placa-del-coure-v8.png' | relative_url }}" alt="" fetchpriority="high">
   <div class="landing-hero-shade" aria-hidden="true"></div>
   <div class="landing-hero-content">
-    <p class="section-kicker">Cròniques d’un món industrial</p>
-    <h1 id="landing-title">Diari d’en<br><strong>Wolfwood</strong></h1>
-    <p class="landing-deck">El progrés té un preu. Algú sempre acaba pagant-lo.</p>
+    <p class="section-kicker">{{ ui.industrial_chronicles }}</p>
+    <h1 id="landing-title">{{ ui.brand_prefix }}<br><strong>{{ ui.brand_name }}</strong></h1>
+    <p class="landing-deck">{{ ui.landing_deck }}</p>
     {% if featured_entry %}
-      <a class="button-primary" href="{{ featured_entry.url | relative_url }}">Llegeix l’última entrada</a>
+      <a class="button-primary" href="{{ featured_entry.url | relative_url }}">{{ ui.read_latest }}</a>
     {% endif %}
   </div>
 </section>
 
 <section class="home-section" aria-labelledby="latest-title">
   <header class="section-heading">
-    <p class="section-kicker">Quadern de camp</p>
-    <h2 id="latest-title">Últimes entrades</h2>
+    <p class="section-kicker">{{ ui.field_notebook }}</p>
+    <h2 id="latest-title">{{ ui.latest_entries }}</h2>
   </header>
 
   <div class="entry-grid">
@@ -42,16 +44,16 @@ layout: default
               <img src="{{ entry.images.first.path | relative_url }}" alt="" loading="lazy">
             {% endif %}
             <div class="entry-card-body">
-              <p class="entry-number">{% if entry.type == 'act' %}{{ entry.label | default: "Acte" }}{% elsif entry.chapter == 'proleg' %}Pròleg{% else %}Capítol {{ entry.order }}{% endif %}</p>
-              <h3>{{ entry.title | remove: "Pròleg — " }}</h3>
+              <p class="entry-number">{% if entry.type == 'act' %}{{ entry.label | default: ui.act }}{% elsif entry.chapter == 'proleg' %}{{ ui.prologue }}{% else %}{{ ui.chapter }} {{ entry.order }}{% endif %}</p>
+              <h3>{{ entry.display_title | default: entry.title }}</h3>
               {% if entry.summary %}<p>{{ entry.summary }}</p>{% endif %}
-              <span class="text-link">Llegir l’entrada <span aria-hidden="true">→</span></span>
+              <span class="text-link">{{ ui.read_entry }} <span aria-hidden="true">→</span></span>
             </div>
           </a>
         </article>
       {% endif %}
     {% else %}
-      <p class="empty-state">Encara no hi ha entrades disponibles.</p>
+      <p class="empty-state">{{ ui.no_entries }}</p>
     {% endfor %}
   </div>
 </section>

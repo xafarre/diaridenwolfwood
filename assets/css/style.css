@@ -169,6 +169,45 @@ img {
   text-transform: uppercase;
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.85rem;
+}
+
+.language-switcher {
+  display: inline-flex;
+  padding: 0.2rem;
+  border: 1px solid rgba(188, 125, 70, 0.5);
+  background: rgba(9, 11, 13, 0.55);
+  font-family: var(--utility);
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.language-switcher a {
+  display: grid;
+  min-width: 2.25rem;
+  min-height: 2rem;
+  place-items: center;
+  color: var(--paper-muted);
+  text-decoration: none;
+}
+
+.language-switcher a:hover,
+.language-switcher a:focus-visible {
+  color: var(--paper-light);
+  outline: 2px solid var(--electrical);
+  outline-offset: -2px;
+}
+
+.language-switcher a.is-current {
+  color: var(--coal-950);
+  background: var(--copper-light);
+}
+
 .site-nav a {
   position: relative;
   display: inline-flex;
@@ -878,6 +917,11 @@ img {
 
   .site-nav {
     justify-content: center;
+  }
+
+  .header-navigation {
+    flex-direction: column;
+    gap: 0.35rem;
   }
 
   .landing-hero {

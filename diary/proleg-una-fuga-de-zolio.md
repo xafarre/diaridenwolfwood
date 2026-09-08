@@ -3,6 +3,7 @@ layout: diary_entry
 type: diary-entry
 id: proleg-una-fuga-de-zolio
 title: "Pròleg — Una fuga de Zolio"
+display_title: "Una fuga de Zolio"
 summary: >-
   Una presentació industrial al casino acaba en una fuita de Zolio, una plaça
   ocupada per la policia i una quarantena disfressada de trasllat.
@@ -12,6 +13,8 @@ narrator_public_identity: nicholas-d-wolfwood
 session_ids: [session-001]
 status: published
 language: ca
+translation_key: diary-prologue-zolio-leak
+section: diary
 illustrations:
   - id: casino-presentation-hall-entry-v8
     path: /assets/images/diary/proleg-entrada-sala-presentacio-v8.png

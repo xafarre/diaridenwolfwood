@@ -4,6 +4,7 @@ type: act
 id: acte-1-tres-nits-per-triar
 chapter: null
 title: "Dilema"
+display_title: "Dilema"
 summary: >-
   Durant tres nits de quarantena, Nicholas coneix Khor i Gebedayah i ha de
   triar entre quedar lligat al tractament de Contart o buscar entre els perills
@@ -30,6 +31,8 @@ consulted_record_ids:
   - zolio-exposure-disease
 status: published
 language: ca
+translation_key: diary-act-1-dilemma
+section: diary
 images:
   - id: acte-1-cella-ingres-v5
     path: /assets/images/diary/acte-1-cella-ingres-v5.png

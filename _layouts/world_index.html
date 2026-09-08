@@ -2,11 +2,13 @@
 layout: default
 ---
 
+{% assign current_language = page.language | default: site.lang | default: 'ca' %}
+
 <h1>{{ page.title }}</h1>
 {{ content }}
 
 {% if page.item_type %}
-  {% assign entries = site.pages | where: "type", page.item_type | sort: "order" %}
+  {% assign entries = site.pages | where: "type", page.item_type | where: "language", current_language | sort: "order" %}
   {% if entries.size > 0 %}
     <ul class="card-grid{% if page.item_type == 'character' or page.item_type == 'place' %} card-grid--illustrated{% endif %}">
       {% for entry in entries %}

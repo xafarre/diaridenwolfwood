@@ -4,6 +4,7 @@ type: act
 id: acte-2-catorze-dies-de-ferro
 chapter: null
 title: "Catorze dies de ferro"
+display_title: "Catorze dies de ferro"
 summary: >-
   Nicholas, Khor i Gebedayah reben la primera dosi del tractament i emprenen
   el viatge cap a Suelex entre reclutes, portes blindades i paisatges que
@@ -53,6 +54,8 @@ consulted_record_ids:
   - ballard
 status: published
 language: ca
+translation_key: diary-act-2-fourteen-days-of-iron
+section: diary
 images:
   - id: acte-2-alessa-porta-modul-v4
     path: /assets/images/diary/acte-2-alessa-porta-modul-v4.png

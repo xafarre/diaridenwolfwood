@@ -1,10 +1,7 @@
 ---
 layout: world_index
-title: "Món de la campanya"
+title: "Món"
+item_type: place
 ---
 
-La informació pública i sense espòilers sobre les persones i els llocs que ja
-han aparegut a la campanya.
-
-- [Personatges]({{ '/world/characters/' | relative_url }})
-- [Llocs]({{ '/world/places/' | relative_url }})
+Ciutats, territoris i punts de pas que ja han aparegut durant la campanya.

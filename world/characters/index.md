@@ -1,6 +1,6 @@
 ---
 layout: world_index
-title: "Characters"
+title: "Personatges"
 item_type: character
 ---
 

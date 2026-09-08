@@ -27,7 +27,7 @@
         <nav class="site-nav" aria-label="Navegació principal">
           <a{% if page.url contains '/diary/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/diary/' | relative_url }}">Diari</a>
           <a{% if page.url contains '/world/characters/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/world/characters/' | relative_url }}">Personatges</a>
-          <a{% if page.url == '/world/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/world/' | relative_url }}">Món</a>
+          <a{% if page.url == '/world/' or page.url contains '/world/places/' %} class="is-current" aria-current="page"{% endif %} href="{{ '/world/' | relative_url }}">Món</a>
         </nav>
       </div>
     </header>

@@ -28,5 +28,3 @@ Les ofenses contra Electra no són simples desobediències: són actes que embru
 Creiem que qui acumula aquestes ofenses perd l’harmonia amb Electra. Pateix inquietud, tremolors, malsons, errors inexplicables i avaries al seu voltant. No afirmem que cada accident sigui un càstig diví, però sí que una vida construïda contra el Corrent acaba generant soroll i destrucció. Els reincidents poden ser apartats dels rituals i, en els casos més greus, expulsats de l’orde.
 
 Els fidels no esperem immunitat contra els llamps ni miracles constants. Demanem claredat mental, fermesa a les mans, resistència davant el dolor i lucidesa per comprendre cossos i màquines. Quan arriba un miracle, diem que Electra no ens ha premiat: simplement ha trobat en nosaltres un camí net per on circular.
-
-Això encaixa especialment bé amb Nicholas: el seu deure mèdic és doctrina central, mentre que matar continua essent una contaminació moral encara que consideri que l’objectiu ho mereix. El seu codi no l’absol; l’obliga a carregar conscientment amb cada mort.

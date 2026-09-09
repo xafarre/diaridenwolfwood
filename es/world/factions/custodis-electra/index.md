@@ -28,5 +28,3 @@ Las ofensas contra Electra no son simples desobediencias: son actos que ensucian
 Creemos que quien acumula estas ofensas pierde la armonía con Electra. Sufre inquietud, temblores, pesadillas, errores inexplicables y averías a su alrededor. No afirmamos que cada accidente sea un castigo divino, pero sí que una vida construida contra la Corriente acaba generando ruido y destrucción. Los reincidentes pueden ser apartados de los rituales y, en los casos más graves, expulsados de la orden.
 
 Los fieles no esperamos inmunidad contra los rayos ni milagros constantes. Pedimos claridad mental, firmeza en las manos, resistencia ante el dolor y lucidez para comprender cuerpos y máquinas. Cuando llega un milagro, decimos que Electra no nos ha premiado: simplemente ha encontrado en nosotros un camino limpio por el que circular.
-
-Esto encaja especialmente bien con Nicholas: su deber médico es doctrina central, mientras que matar sigue siendo una contaminación moral aunque considere que el objetivo lo merece. Su código no lo absuelve; le obliga a cargar conscientemente con cada muerte.

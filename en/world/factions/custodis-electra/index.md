@@ -28,5 +28,3 @@ Offences against Electra are not simple disobedience: they are acts that soil or
 We believe that those who accumulate such offences lose harmony with Electra. They suffer unease, trembling, nightmares, inexplicable errors and breakdowns around them. We do not claim that every accident is divine punishment, but a life built against the Current eventually creates noise and destruction. Repeat offenders may be barred from rituals and, in the gravest cases, expelled from the order.
 
 The faithful do not expect immunity from lightning or constant miracles. We ask for clarity of mind, steadiness in the hands, endurance in the face of pain and the insight to understand bodies and machines. When a miracle comes, we say Electra has not rewarded us: she has simply found a clean path through us.
-
-This fits Nicholas especially well: his medical duty is central doctrine, while killing remains a moral contamination even when he believes the target deserves it. His code does not absolve him; it obliges him to carry the weight of every death consciously.

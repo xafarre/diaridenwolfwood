@@ -19,7 +19,7 @@ world_sections:
         summary: "Ordre religiosa dedicada a Electra, la divinitat de l’electricitat. El seu emblema és un mitsudomoe de tres tomoe de coure sobre negre."
         image: /assets/images/world/electrical-order-mitsudomoe-logo-v4.png
         image_alt: "Emblema circular dels Custodis d’Electra: tres tomoe de coure sobre un camp negre, envoltats per un cercle de coure."
-        url: /assets/images/world/electrical-order-mitsudomoe-logo-v4.png
+        url: /world/factions/custodis-electra/
       - title: "Consell"
         summary: "Consell opac que governa una societat molt productiva, desigual i sotmesa a un control totalitari."
 ---

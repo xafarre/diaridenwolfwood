@@ -19,7 +19,7 @@ world_sections:
         summary: "A religious order devoted to Electra, the deity of electricity. Its emblem is a three-tomoe copper mitsudomoe on black."
         image: /assets/images/world/electrical-order-mitsudomoe-logo-v4.png
         image_alt: "Circular emblem of the Custodians of Electra: three copper tomoe on a black field, enclosed by a copper circle."
-        url: /assets/images/world/electrical-order-mitsudomoe-logo-v4.png
+        url: /en/world/factions/custodis-electra/
       - title: "Council"
         summary: "An opaque council governing a highly productive, unequal society under totalitarian control."
 ---

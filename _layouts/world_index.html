@@ -6,12 +6,49 @@ layout: default
 {% assign ui = site.data.i18n[current_language] %}
 
 <header class="archive-heading">
-  <p class="section-kicker">{% if page.item_type == 'character' %}{{ ui.character_archive }}{% else %}{{ ui.place_archive }}{% endif %}</p>
+  <p class="section-kicker">{% if page.item_type == 'character' %}{{ ui.character_archive }}{% elsif page.world_sections %}{{ ui.world_archive }}{% else %}{{ ui.place_archive }}{% endif %}</p>
   <h1>{{ page.title }}</h1>
   {{ content }}
 </header>
 
-{% if page.item_type %}
+{% if page.world_sections %}
+  <div class="world-atlas">
+    {% for section in page.world_sections %}
+      <section class="world-atlas-section" aria-labelledby="world-section-{{ section.key }}-{{ current_language }}">
+        <header class="section-heading">
+          <h2 id="world-section-{{ section.key }}-{{ current_language }}">{{ section.title }}</h2>
+          {% if section.intro %}<p>{{ section.intro }}</p>{% endif %}
+        </header>
+
+        {% if section.item_type %}
+          {% assign entries = site.pages | where: "type", section.item_type | where: "language", current_language | sort: "order" %}
+        {% else %}
+          {% assign entries = section.entries %}
+        {% endif %}
+
+        {% if entries.size > 0 %}
+          <ul class="card-grid world-atlas-grid{% if section.item_type == 'place' or section.item_type == 'character' %} card-grid--illustrated{% endif %}">
+            {% for entry in entries %}
+              <li>
+                {% if entry.url %}<a href="{{ entry.url | relative_url }}">{% else %}<div class="world-card-static">{% endif %}
+                  {% if entry.image %}
+                    <span class="card-grid-thumbnail">
+                      <img src="{{ entry.image | relative_url }}" alt="{{ entry.image_alt | default: entry.title | escape }}">
+                    </span>
+                  {% endif %}
+                  <span class="card-grid-copy">
+                    <strong>{{ entry.title }}</strong>
+                    {% if entry.summary %}<span>{{ entry.summary }}</span>{% endif %}
+                  </span>
+                {% if entry.url %}</a>{% else %}</div>{% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </section>
+    {% endfor %}
+  </div>
+{% elsif page.item_type %}
   {% assign entries = site.pages | where: "type", page.item_type | where: "language", current_language | sort: "order" %}
   {% if entries.size > 0 %}
     <ul class="card-grid world-index-grid{% if page.item_type == 'character' or page.item_type == 'place' %} card-grid--illustrated{% endif %}">

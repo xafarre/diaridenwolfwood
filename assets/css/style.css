@@ -548,6 +548,49 @@ img {
   padding: 2.5rem 0 5rem;
 }
 
+.world-atlas {
+  width: min(74rem, calc(100% - 2.5rem));
+  margin-inline: auto;
+  padding: 2.5rem 0 5rem;
+}
+
+.world-atlas-section + .world-atlas-section {
+  margin-top: 4rem;
+}
+
+.world-atlas-section .section-heading {
+  margin-bottom: 1.4rem;
+}
+
+.world-atlas-section .section-heading h2 {
+  margin: 0;
+  color: var(--paper-light);
+  font-family: var(--display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+}
+
+.world-atlas-section .section-heading p {
+  max-width: 42rem;
+  margin: 0.65rem 0 0;
+  color: var(--paper-muted);
+}
+
+.world-atlas-grid {
+  margin: 0;
+}
+
+.world-card-static {
+  display: grid;
+  min-height: 10rem;
+  align-content: end;
+  gap: 0.4rem;
+  padding: 1.4rem;
+  border: 1px solid var(--line-copper);
+  background: linear-gradient(145deg, rgba(55, 42, 32, 0.86), rgba(24, 28, 31, 0.94));
+  box-shadow: var(--shadow);
+}
+
 .draft-chip {
   display: inline-flex;
   flex: 0 0 auto;

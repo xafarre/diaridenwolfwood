@@ -173,30 +173,25 @@ img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0;
+  gap: 0.85rem;
   white-space: nowrap;
 }
 
 .language-switcher {
   display: inline-flex;
   align-items: center;
+  padding: 0.2rem;
+  background: rgba(9, 11, 13, 0.55);
+  border: 1px solid rgba(188, 125, 70, 0.5);
   font-family: var(--utility);
   font-weight: 800;
   text-transform: uppercase;
 }
 
-.navigation-separator {
-  margin: 0 0.7rem 0 0.45rem;
-  color: var(--copper);
-  font-family: var(--utility);
-  font-size: 0.8rem;
-  font-weight: 500;
-}
-
 .language-switcher a {
   display: inline-flex;
-  min-width: 1.85rem;
-  min-height: 42px;
+  min-width: 2.25rem;
+  min-height: 2rem;
   align-items: center;
   justify-content: center;
   color: var(--paper-muted);
@@ -212,15 +207,13 @@ img {
 .language-switcher a:hover,
 .language-switcher a:focus-visible {
   color: var(--paper-light);
-  outline: 2px solid var(--electrical);
+  outline: 2px solid var(--electric);
   outline-offset: -2px;
 }
 
 .language-switcher a.is-current {
-  color: var(--copper-light);
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 0.36rem;
+  color: var(--coal-950);
+  background: var(--copper-light);
 }
 
 .site-nav a {
@@ -543,6 +536,12 @@ img {
   padding: 2.5rem 0 5rem;
 }
 
+.world-index-grid {
+  width: min(74rem, calc(100% - 2.5rem));
+  margin-inline: auto;
+  padding: 2.5rem 0 5rem;
+}
+
 .draft-chip {
   display: inline-flex;
   flex: 0 0 auto;
@@ -843,6 +842,10 @@ img {
   text-align: center;
 }
 
+.card-grid--illustrated.world-index-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .card-grid-thumbnail {
   display: grid;
   width: clamp(8.5rem, 14vw, 10.5rem);
@@ -940,6 +943,10 @@ img {
     justify-content: center;
   }
 
+  .card-grid--illustrated.world-index-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .landing-hero {
     min-height: 620px;
     place-items: end start;
@@ -991,13 +998,8 @@ img {
     padding-inline: 0.3rem;
   }
 
-  .navigation-separator {
-    margin-right: 0.3rem;
-    margin-left: 0.25rem;
-  }
-
   .language-switcher a {
-    min-width: 1.45rem;
+    min-width: 1.8rem;
     font-size: 0.56rem;
     letter-spacing: 0.05em;
   }

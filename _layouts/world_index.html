@@ -3,14 +3,18 @@ layout: default
 ---
 
 {% assign current_language = page.language | default: site.lang | default: 'ca' %}
+{% assign ui = site.data.i18n[current_language] %}
 
-<h1>{{ page.title }}</h1>
-{{ content }}
+<header class="archive-heading">
+  <p class="section-kicker">{% if page.item_type == 'character' %}{{ ui.character_archive }}{% else %}{{ ui.place_archive }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</header>
 
 {% if page.item_type %}
   {% assign entries = site.pages | where: "type", page.item_type | where: "language", current_language | sort: "order" %}
   {% if entries.size > 0 %}
-    <ul class="card-grid{% if page.item_type == 'character' or page.item_type == 'place' %} card-grid--illustrated{% endif %}">
+    <ul class="card-grid world-index-grid{% if page.item_type == 'character' or page.item_type == 'place' %} card-grid--illustrated{% endif %}">
       {% for entry in entries %}
         <li>
           <a href="{{ entry.url | relative_url }}">

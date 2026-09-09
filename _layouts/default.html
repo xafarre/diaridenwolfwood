@@ -46,7 +46,6 @@
             <a{% if page.section == 'world' %} class="is-current" aria-current="page"{% endif %} href="{{ language_root | append: '/world/' | relative_url }}">{{ ui.world }}</a>
           </nav>
 
-          <span class="navigation-separator" aria-hidden="true">|</span>
           <nav class="language-switcher" aria-label="{{ ui.language_selector }}">
             {% if ca_page %}<a lang="ca" hreflang="ca"{% if current_language == 'ca' %} class="is-current" aria-current="page"{% endif %} href="{{ ca_page.url | relative_url }}" aria-label="{{ ui.language_ca }}">CA</a>{% endif %}
             {% if es_page %}<a lang="es" hreflang="es"{% if current_language == 'es' %} class="is-current" aria-current="page"{% endif %} href="{{ es_page.url | relative_url }}" aria-label="{{ ui.language_es }}">ES</a>{% endif %}

@@ -19,7 +19,7 @@ layout: default
   <div class="landing-hero-shade" aria-hidden="true"></div>
   <div class="landing-hero-content">
     <p class="section-kicker">{{ ui.campaign_diary }}</p>
-    <h1 id="landing-title">{{ ui.brand_prefix }}<br><strong>{{ ui.brand_name }}</strong></h1>
+    <h1 id="landing-title"><span>{{ ui.brand_prefix }}</span><span><strong>{{ ui.brand_name }}</strong></span></h1>
     <p class="landing-deck">{{ ui.landing_deck }}</p>
     {% if featured_entry %}
       <a class="button-primary" href="{{ featured_entry.url | relative_url }}">{{ ui.read_latest }}</a>

@@ -325,7 +325,7 @@ img {
 }
 
 .landing-hero h1 {
-  max-width: 9ch;
+  max-width: none;
   margin: 0;
   color: var(--paper-light);
   font-family: var(--display);
@@ -336,6 +336,11 @@ img {
   text-shadow: 0 8px 30px rgba(0, 0, 0, 0.68);
 }
 
+.landing-hero h1 > span {
+  display: block;
+  white-space: nowrap;
+}
+
 .landing-hero h1 strong {
   color: var(--copper-light);
   font-size: 0.74em;
@@ -344,11 +349,12 @@ img {
 }
 
 .landing-deck {
-  max-width: 31rem;
+  max-width: 48rem;
   margin: 2rem 0 1.6rem;
   color: var(--paper);
   font-size: clamp(1.05rem, 2vw, 1.32rem);
   font-style: italic;
+  white-space: nowrap;
 }
 
 .button-primary {
@@ -964,6 +970,11 @@ img {
 
   .landing-hero h1 {
     font-size: clamp(3rem, 17vw, 5rem);
+  }
+
+  .landing-deck {
+    max-width: 38rem;
+    white-space: normal;
   }
 
   .journal-entry {

@@ -1,8 +1,8 @@
 ca:
-  site_title: "Cròniques d’un món industrial"
+  site_title: "Cròniques d’un Món Industrial"
   site_description: "Diari de campanya de rol i referència del seu món."
   brand_prefix: "Cròniques d’un"
-  brand_name: "món industrial"
+  brand_name: "Món Industrial"
   home_label: "portada"
   skip_to_content: "Ves al contingut"
   primary_navigation: "Navegació principal"
@@ -50,10 +50,10 @@ ca:
   not_published: "No publicat"
 
 es:
-  site_title: "Crónicas de un mundo industrial"
+  site_title: "Crónicas de un Mundo Industrial"
   site_description: "Diario de campaña de rol y referencia de su mundo."
   brand_prefix: "Crónicas de un"
-  brand_name: "mundo industrial"
+  brand_name: "Mundo Industrial"
   home_label: "portada"
   skip_to_content: "Ir al contenido"
   primary_navigation: "Navegación principal"

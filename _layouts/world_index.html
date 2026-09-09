@@ -27,7 +27,7 @@ layout: default
         {% endif %}
 
         {% if entries.size > 0 %}
-          <ul class="card-grid world-atlas-grid{% if section.item_type == 'place' or section.item_type == 'character' %} card-grid--illustrated{% endif %}">
+          <ul class="card-grid world-atlas-grid{% if section.illustrated or section.item_type == 'place' or section.item_type == 'character' %} card-grid--illustrated{% endif %}">
             {% for entry in entries %}
               <li>
                 {% if entry.url %}<a href="{{ entry.url | relative_url }}">{% else %}<div class="world-card-static">{% endif %}

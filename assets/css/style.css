@@ -580,6 +580,10 @@ img {
   margin: 0;
 }
 
+.world-atlas-grid.card-grid--illustrated {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .world-card-static {
   display: grid;
   min-height: 10rem;
@@ -589,6 +593,14 @@ img {
   border: 1px solid var(--line-copper);
   background: linear-gradient(145deg, rgba(55, 42, 32, 0.86), rgba(24, 28, 31, 0.94));
   box-shadow: var(--shadow);
+}
+
+.card-grid--illustrated .world-card-static {
+  min-height: 22rem;
+  align-content: center;
+  justify-items: center;
+  gap: 1.2rem;
+  text-align: center;
 }
 
 .draft-chip {
@@ -993,6 +1005,10 @@ img {
   }
 
   .card-grid--illustrated.world-index-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .world-atlas-grid.card-grid--illustrated {
     grid-template-columns: minmax(0, 1fr);
   }
 

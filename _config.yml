@@ -4,7 +4,7 @@ lang: ca
 baseurl: "/diaridenwolfwood"
 url: ""
 preview_drafts: false
-asset_version: "20260909-2"
+asset_version: "20260909-3"
 
 markdown: kramdown
 kramdown:

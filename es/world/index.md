@@ -1,7 +1,7 @@
 ---
 layout: world_index
 title: "Mundo"
-summary: "Lugares, organizaciones y creencias del mundo de la campaña."
+summary: "Lugares y organizaciones del mundo de la campaña."
 language: es
 translation_key: world-index
 section: world
@@ -13,16 +13,13 @@ world_sections:
   - key: organizations
     title: "Organizaciones"
     intro: "Instituciones y estructuras de poder que dan forma al mundo industrial."
+    illustrated: true
     entries:
       - title: "Orden de los Custodios de la Corriente Sagrada de Electra"
-        summary: "Orden religiosa dedicada a la divinidad de la electricidad, conocida popularmente como los Custodios de Electra."
-      - title: "Consejo designado"
+        summary: "Orden religiosa dedicada a Electra, la divinidad de la electricidad. Su emblema es un mitsudomoe de tres tomoe de cobre sobre negro."
+        image: /assets/images/world/electrical-order-mitsudomoe-logo-v4.png
+        image_alt: "Emblema circular de los Custodios de Electra: tres tomoe de cobre sobre un campo negro, rodeados por un círculo de cobre."
+      - title: "Consejo"
         summary: "Consejo opaco que gobierna una sociedad muy productiva, desigual y sometida a un control totalitario."
-  - key: beliefs
-    title: "Creencias"
-    intro: "La fe y las ideas sobre la energía que conviven con el progreso industrial."
-    entries:
-      - title: "Los dioses de la energía"
-        summary: "Deidades asociadas a energías y fuerzas del mundo: el viento, el agua, el fuego, la electricidad y el vapor."
 ---
-El atlas crecerá a medida que el diario revele nuevos lugares, instituciones y formas de entender el mundo.
+El atlas crecerá a medida que el diario revele nuevos lugares e instituciones.

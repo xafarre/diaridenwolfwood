@@ -1,7 +1,7 @@
 ---
 layout: world_index
 title: "World"
-summary: "Places, organisations and beliefs from the campaign world."
+summary: "Places and organisations from the campaign world."
 language: en
 translation_key: world-index
 section: world
@@ -13,16 +13,13 @@ world_sections:
   - key: organizations
     title: "Organisations"
     intro: "Institutions and power structures that shape the industrial world."
+    illustrated: true
     entries:
       - title: "Order of the Custodians of Electra’s Sacred Current"
-        summary: "A religious order devoted to the deity of electricity, commonly known as the Custodians of Electra."
-      - title: "Appointed council"
+        summary: "A religious order devoted to Electra, the deity of electricity. Its emblem is a three-tomoe copper mitsudomoe on black."
+        image: /assets/images/world/electrical-order-mitsudomoe-logo-v4.png
+        image_alt: "Circular emblem of the Custodians of Electra: three copper tomoe on a black field, enclosed by a copper circle."
+      - title: "Council"
         summary: "An opaque council governing a highly productive, unequal society under totalitarian control."
-  - key: beliefs
-    title: "Beliefs"
-    intro: "Faith and ideas about energy that coexist with industrial progress."
-    entries:
-      - title: "The gods of energy"
-        summary: "Deities associated with the world’s energies and forces: wind, water, fire, electricity and steam."
 ---
-The atlas will grow as the diary reveals new places, institutions and ways of understanding the world.
+The atlas will grow as the diary reveals new places and institutions.

@@ -3,8 +3,8 @@ layout: act
 type: act
 id: act-3-under-water
 chapter: null
-title: Under Water
-display_title: Under Water
+title: Recruitment at Ballard
+display_title: Recruitment at Ballard
 summary: At Ballard, Nicholas meets the people charged with reclaiming Suelex and
   discovers the price of selection.
 label: Act III

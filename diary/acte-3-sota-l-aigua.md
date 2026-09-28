@@ -3,8 +3,8 @@ layout: act
 type: act
 id: acte-3-sota-l-aigua
 chapter: null
-title: Sota l’aigua
-display_title: Sota l’aigua
+title: Reclutament a Ballard
+display_title: Reclutament a Ballard
 summary: A Ballard, Nicholas coneix els responsables de recuperar Suelex i descobreix
   el preu de la selecció.
 label: Acte III

@@ -3,8 +3,8 @@ layout: act
 type: act
 id: acto-3-bajo-el-agua
 chapter: null
-title: Bajo el agua
-display_title: Bajo el agua
+title: Reclutamiento en Ballard
+display_title: Reclutamiento en Ballard
 summary: En Ballard, Nicholas conoce a los responsables de recuperar Suelex y descubre
   el precio de la selección.
 label: Acto III

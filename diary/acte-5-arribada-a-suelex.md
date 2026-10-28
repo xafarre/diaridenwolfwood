@@ -78,9 +78,3 @@ Els seus companys ens parlen d’una altra noia que ha desaparegut.
 —Se l’han endut amunt. Els animals l’han arrossegada.
 
 Miro les escales. Les criatures són ferotges, però em costa atribuir-los la força necessària per endur-se una persona. La diferència entre el que he vist i el que m’expliquen em deixa intranquil.
-
-Proposo anar a buscar-la. Toni s’hi nega. Mònica, espantada, també diu que prefereix complir les ordres; no sé si pesa més això o la por. L’altre grup segueix Toni.
-
-—Doncs crideu reforços —demano.
-
-Khor i Gebedayah estan disposats a pujar. Anem tots tres, seguint els rastres de sang.

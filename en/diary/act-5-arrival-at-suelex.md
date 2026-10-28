@@ -79,9 +79,3 @@ Her companions tell us about another young woman who has disappeared.
 “They took her upstairs. The animals dragged her away.”
 
 I look at the stairs. The creatures are ferocious, but I struggle to credit them with the strength to carry off a person. The gap between what I have seen and what I am being told leaves me uneasy.
-
-I suggest going after her. Toni refuses. Mònica, frightened, also says she would rather follow orders; I cannot tell whether that or fear weighs more heavily. The other group sides with Toni.
-
-“Then call for reinforcements,” I tell them.
-
-Khor and Gebedayah are willing to go up. The three of us follow the trails of blood.

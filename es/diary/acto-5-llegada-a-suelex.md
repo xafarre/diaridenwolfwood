@@ -80,9 +80,3 @@ Sus compañeros nos hablan de otra joven que ha desaparecido.
 —Se la han llevado arriba. Los animales la han arrastrado.
 
 Miro las escaleras. Las criaturas son feroces, pero me cuesta atribuirles la fuerza necesaria para llevarse a una persona. La diferencia entre lo que he visto y lo que me cuentan me deja intranquilo.
-
-Propongo ir a buscarla. Toni se niega. Mònica, asustada, también dice que prefiere cumplir las órdenes; no sé si pesa más eso o el miedo. El otro grupo sigue a Toni.
-
-—Pues pedid refuerzos —les digo.
-
-Khor y Gebedayah están dispuestos a subir. Vamos los tres, siguiendo los rastros de sangre.

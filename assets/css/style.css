@@ -1086,3 +1086,20 @@ img {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* An explicitly attributed voice within the diary. */
+.prose .pov-insert {
+  margin: 2.5rem 0;
+  padding: clamp(1rem, 3vw, 2rem);
+  border-block: 1px solid #917354;
+  border-inline-start: 4px solid #917354;
+  background: rgba(116, 89, 57, 0.09);
+}
+.prose .pov-insert h2 { margin-top: 0; }
+.prose .pov-insert__voice {
+  font-size: .85em;
+  font-weight: 600;
+  letter-spacing: .05em;
+  margin-bottom: 1.5rem;
+}
+.prose .pov-insert > :last-child { margin-bottom: 0; }

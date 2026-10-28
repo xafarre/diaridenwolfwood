@@ -1103,3 +1103,5 @@ img {
   margin-bottom: 1.5rem;
 }
 .prose .pov-insert > :last-child { margin-bottom: 0; }
+
+.prose .pov-insert--continuous > p { font-style: italic; }

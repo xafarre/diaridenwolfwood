@@ -38,7 +38,9 @@ layout: default
       {% if entry.status == "published" or site.preview_drafts %}
         <article class="entry-card">
           <a href="{{ entry.url | relative_url }}">
-            {% if entry.illustrations.first.path %}
+            {% if entry.cover_image %}
+            <img src="{{ entry.cover_image | relative_url }}" alt="" loading="lazy">
+          {% elsif entry.illustrations.first.path %}
               <img src="{{ entry.illustrations.first.path | relative_url }}" alt="" loading="lazy">
             {% elsif entry.images.first.path %}
               <img src="{{ entry.images.first.path | relative_url }}" alt="" loading="lazy">

@@ -18,6 +18,7 @@ language: en
 translation_key: diary-act-1-dilemma
 translation_of: /diary/acte-1-tres-nits-per-triar.md
 section: diary
+cover_image: /assets/images/diary/acte-1-reflexio-cella.png
 images:
   - id: acte-1-cella-ingres-v5
     path: /assets/images/diary/acte-1-cella-ingres-v5.png

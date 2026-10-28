@@ -33,6 +33,7 @@ status: published
 language: ca
 translation_key: diary-act-1-dilemma
 section: diary
+cover_image: /assets/images/diary/acte-1-reflexio-cella.png
 images:
   - id: acte-1-cella-ingres-v5
     path: /assets/images/diary/acte-1-cella-ingres-v5.png

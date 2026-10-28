@@ -13,6 +13,7 @@ status: published
 language: en
 translation_key: diary-act-6-violin
 section: diary
+cover_image: /assets/images/diary/acte-6/bestia-violi/bestia-violi.png
 images:
 - path: /assets/images/diary/acte-6/horda-passarella/horda-passarella.png
   alt: The first horde attacks the group on the walkway beside the ventilation grilles.
@@ -113,9 +114,7 @@ Khor and Gebedayah look at me in surprise. There is no time to say anything. A s
 
 I never see where the next will come from.
 
-<aside class="pov-insert" markdown="1" aria-labelledby="the-rescue">
-
-## The rescue
+<aside class="pov-insert pov-insert--continuous" markdown="1">
 
 Nicholas falls unconscious. Khor asks Gebedayah to hold the beast back while he prepares to carry his companion. He looks for a way to get him out, but before he can escape a blow sends him down beside Nicholas.
 

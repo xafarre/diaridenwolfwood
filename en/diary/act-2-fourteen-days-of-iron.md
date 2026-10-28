@@ -18,6 +18,7 @@ language: en
 translation_key: diary-act-2-fourteen-days-of-iron
 translation_of: /diary/acte-2-catorze-dies-de-ferro.md
 section: diary
+cover_image: /assets/images/diary/acte-2-estacio-moceria.png
 images:
   - id: acte-2-alessa-porta-modul-v4
     path: /assets/images/diary/acte-2-alessa-porta-modul-v4.png

@@ -13,6 +13,7 @@ status: published
 language: es
 translation_key: diary-act-6-violin
 section: diary
+cover_image: /assets/images/diary/acte-6/bestia-violi/bestia-violi.png
 images:
 - path: /assets/images/diary/acte-6/horda-passarella/horda-passarella.png
   alt: La primera horda de bestias ataca al grupo en la pasarela, entre las rejillas de ventilación.
@@ -115,9 +116,7 @@ Khor y Gebedayah me miran, sorprendidos. No tenemos tiempo de decir nada. Una se
 
 No llego a ver de dónde vendrá el siguiente.
 
-<aside class="pov-insert" markdown="1" aria-labelledby="el-rescate">
-
-## El rescate
+<aside class="pov-insert pov-insert--continuous" markdown="1">
 
 Nicholas cae inconsciente. Khor le pide a Gebedayah que contenga a la bestia mientras se dispone a cargar con su compañero. Busca por dónde sacarlo, pero antes de poder emprender la huida recibe un golpe y cae a su lado.
 

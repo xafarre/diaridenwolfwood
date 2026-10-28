@@ -13,6 +13,7 @@ status: published
 language: ca
 translation_key: diary-act-6-violin
 section: diary
+cover_image: /assets/images/diary/acte-6/bestia-violi/bestia-violi.png
 images:
 - path: /assets/images/diary/acte-6/horda-passarella/horda-passarella.png
   alt: La primera horda de bèsties ataca el grup a la passarel·la, entre les reixes de ventilació.
@@ -114,9 +115,7 @@ Khor i Gebedayah em miren, sorpresos. No tenim temps de dir res. Una segona cria
 
 No arribo a veure d’on vindrà el següent.
 
-<aside class="pov-insert" markdown="1" aria-labelledby="el-rescat">
-
-## El rescat
+<aside class="pov-insert pov-insert--continuous" markdown="1">
 
 Nicholas cau inconscient. Khor demana a Gebedayah que aguanti la bèstia mentre es disposa a carregar el company. Busca per on treure’l, però abans que pugui emprendre la fugida rep un cop i cau al seu costat.
 
